@@ -2275,6 +2275,78 @@
      "Grande 40×45"
     ]
    }
+  },
+  {
+   "id": "paso-de-leopardo",
+   "nombre": "Paso de Leopardo",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/paso-de-leopardo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Paso de Leopardo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "pisada-felina",
+   "nombre": "Pisada Felina",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pisada-felina.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pisada Felina», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "huella-de-gol",
+   "nombre": "Huella de Gol",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/huella-de-gol.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Huella de Gol», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
   }
  ]
 }

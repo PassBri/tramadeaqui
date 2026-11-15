@@ -607,3 +607,21 @@ body::after { display: none; }                 /* quita las chispitas y el grano
 
 /* la etiqueta "Nuevo/Destacado" sobre el lienzo, no encima del arte */
 .grid .card .media .tag { left: 8px; top: 8px; box-shadow: 0 6px 14px -6px rgba(47,42,34,.4); }
+
+/* --- efecto hover de marca: "costura" que avanza sobre la lona (trama + lona cosida) --- */
+.grid .card .media { position: relative; }
+.grid .card .seam { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; overflow: visible; }
+.grid .card .seam rect {
+  fill: none; stroke: var(--peach); stroke-width: 1.6; stroke-dasharray: 4 5;
+  stroke-linecap: round; opacity: 0; transition: opacity .3s ease;
+}
+.grid .card:hover .seam rect { opacity: .85; animation: costura 2.4s linear infinite; }
+@keyframes costura { to { stroke-dashoffset: -18; } }
+@media (prefers-reduced-motion: reduce) { .grid .card:hover .seam rect { animation: none; } }
+/* el nombre se subraya con un hilo al pasar el cursor */
+.grid .card h3 { position: relative; display: inline-block; }
+.grid .card h3::after {
+  content: ""; position: absolute; left: 0; right: 100%; bottom: -3px; height: 1.5px;
+  background: var(--mint); transition: right .35s ease;
+}
+.grid .card:hover h3::after { right: 0; }

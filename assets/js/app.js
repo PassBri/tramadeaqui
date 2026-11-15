@@ -153,8 +153,8 @@
   };
   const catName = (id) => (DATA.categorias.find((c) => c.id === id) || {}).nombre || id;
 
-  // chispitas al pasar el cursor
-  const SPARK = '<svg class="claw" viewBox="0 0 100 100" aria-hidden="true"><path d="M22 20 l0 14 M15 27 l14 0 M18 23 l8 8 M26 23 l-8 8"/><path d="M74 30 l0 10 M69 35 l10 0"/><path d="M60 62 l0 12 M54 68 l12 0 M57 64 l6 6 M63 64 l-6 6"/></svg>';
+  // costura de marca: al pasar el cursor se "cose" el borde de la lona (trama)
+  const SPARK = '<svg class="seam" viewBox="0 0 100 176" preserveAspectRatio="none" aria-hidden="true"><rect x="3" y="3" width="94" height="170" rx="8" vector-effect="non-scaling-stroke"/></svg>';
   const nubes = (n) => (n ? `<span class="arisquez" role="img" aria-label="Suavidad ${n} de 5">${[1, 2, 3, 4, 5].map((i) => `<i${i <= n ? ' class="on"' : ''}></i>`).join('')}</span>` : '');
   const AL_AGREGAR = ['Agregado al carrito', 'Listo, buena elección.', 'Ya está en tu carrito.', 'Añadido · ¡lleva tu tierra contigo!'];
   const azar = (arr) => arr[Math.floor(Math.random() * arr.length)];
