@@ -153,10 +153,12 @@ main { flex: 1; padding-bottom: 96px; }
 .main-nav a:hover, .main-nav a[aria-current="page"] { border-color: var(--mint); color: var(--night); }
 .header-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; }
 .search {
-  display: none; align-items: center; gap: 8px; height: 46px; padding: 0 16px; border-radius: 999px;
+  display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border-radius: 999px;
   background: rgba(255, 255, 255, 0.88); border: 1px solid var(--line);
+  flex: 1 1 200px; min-width: 0; max-width: 460px; margin-left: auto;
 }
-.search input { border: 0; background: transparent; outline: none; width: 170px; font-size: 15px; }
+.search svg { flex: none; color: var(--mint-text); }
+.search input { border: 0; background: transparent; outline: none; width: 100%; min-width: 0; font-size: 15px; }
 .icon-btn {
   position: relative; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.82); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: var(--night); text-decoration: none;
@@ -169,7 +171,13 @@ main { flex: 1; padding-bottom: 96px; }
 }
 .badge.on { display: inline-flex; }
 @media (min-width: 900px) {
-  .main-nav, .search { display: flex; }
+  .main-nav { display: flex; }
+}
+/* en móvil: liberar espacio para el buscador del header */
+@media (max-width: 719px) {
+  .site-header .brand .brand-name { display: none; }
+  .header-actions .icon-btn[href="panel.html"] { display: none; }
+  .site-header .wrap { gap: 10px; }
 }
 
 /* ---------- navegación inferior (móvil) ---------- */
@@ -731,3 +739,9 @@ body::after {
 .testi .quien small { color: var(--muted); font-size: 12.5px; }
 .testi.plantilla { border: 1.5px dashed var(--mint-line); background: rgba(255,255,255,0.5); }
 .testi.plantilla::before { content: "Ejemplo · reemplázalo por uno real"; font-family: var(--font-body); font-weight: 700; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--peach-text); }
+
+/* misión y visión (página historia) */
+.mv { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.mv-card { padding: 28px; }
+.mv-card p:last-child { margin: 8px 0 0; color: var(--text-2); line-height: 1.7; }
+.mv-card.panel-night p:last-child { color: #CBDBCF; }
