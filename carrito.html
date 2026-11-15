@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carrito · Trama de Aquí</title>
+<meta name="description" content="Tu carrito de compras en Trama de Aquí.">
+<meta name="theme-color" content="#F7F1E8">
+<link rel="icon" href="assets/img/marca/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carrito · Trama de Aquí">
+<meta property="og:description" content="Tu carrito de compras en Trama de Aquí.">
+<meta property="og:image" content="https://passbri.github.io/trama-de-aqui/assets/img/marca/og-trama.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css?v=1">
+</head>
+<body data-page="carrito">
+<a class="sr-only" href="#main">Saltar al contenido</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+<section class="wrap page-head">
+  <p class="eyebrow">Tu pedido</p>
+  <h1 class="h-display">Carrito</h1>
+</section>
+<div class="wrap cart-layout">
+  <div class="panel brackets" style="padding:8px 18px" id="cart-list"></div>
+  <aside class="panel brackets cart-summary" id="cart-summary" style="padding:24px" hidden>
+    <h2 class="h-section" style="font-size:21px;margin:0 0 12px">Resumen</h2>
+    <div class="summary-row"><span>Subtotal</span><span id="s-subtotal"></span></div>
+    <div class="summary-row" id="s-desc-row" hidden><span>Código de descuento</span><span id="s-desc" style="color:var(--mint-text)"></span></div>
+    <div class="summary-row"><span>Envío</span><span id="s-envio"></span></div>
+    <div class="summary-row total"><span>Total</span><span id="s-total"></span></div>
+    <p class="alert alert-mint" style="margin:12px 0 18px"><span class="dot"></span><span id="s-free"></span></p>
+    <form id="checkout" novalidate>
+      <div class="field"><label for="ref">Código de descuento (opcional)</label><input id="ref" name="ref" autocomplete="off" placeholder="Ej. BEBE10"></div>
+      <div class="field"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" required autocomplete="name"></div>
+      <div class="two">
+        <div class="field"><label for="telefono">Celular</label><input id="telefono" name="telefono" type="tel" required autocomplete="tel" inputmode="tel"></div>
+        <div class="field"><label for="ciudad">Ciudad</label><input id="ciudad" name="ciudad" required autocomplete="address-level2"></div>
+      </div>
+      <div class="field"><label for="direccion">Dirección de entrega</label><input id="direccion" name="direccion" required autocomplete="street-address"></div>
+      <div class="gift-check" style="margin-bottom:12px">
+        <input type="checkbox" id="es-regalo" name="es-regalo">
+        <label for="es-regalo">Es un regalo 🎁<small>Lo empacamos con una tarjeta y tu mensaje. Sin costo extra.</small></label>
+      </div>
+      <div class="field" id="caja-regalo" hidden><label for="regalo">Mensaje para la tarjeta</label><textarea id="regalo" name="regalo" rows="2" maxlength="300" placeholder="Ej. Para que lleves San Gil contigo. ¡Feliz cumple!"></textarea></div>
+      <div class="field"><label for="notas">Notas del pedido (opcional)</label><textarea id="notas" name="notas" rows="2"></textarea></div>
+      <div class="pago-nequi"><img src="assets/img/pago/nequi.svg" alt="" width="34" height="34"><div><b>Pagas con Nequi</b><span>Al continuar verás el valor exacto, el número y la referencia de tu pedido.</span></div></div>
+      <button class="btn btn-primary" type="submit" style="width:100%">Continuar al pago con Nequi</button>
+      <p class="note" style="margin:12px 0 0">Despachamos apenas confirmemos tu pago.</p>
+    </form>
+  </aside>
+</div>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<nav class="bottom-nav" id="bottom-nav" aria-label="Navegación inferior"></nav>
+<script src="assets/js/config.js?v=1"></script>
+<script src="assets/js/nido.js?v=1"></script>
+<script src="assets/js/app.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Panel · Trama de Aquí</title>
+<meta name="description" content="Panel de control de la tienda Trama de Aquí.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F7F1E8">
+<link rel="icon" href="assets/img/marca/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css?v=1">
+<link rel="stylesheet" href="assets/css/panel.css?v=1">
+</head>
+<body data-page="panel">
+<main class="panel-wrap">
+  <!-- pantalla de acceso -->
+  <section class="panel brackets acceso" id="acceso">
+    <div id="acceso-mascota"></div>
+    <h1>Panel de Trama de Aquí</h1>
+    <p>Escribe la clave para entrar.</p>
+    <form id="form-acceso">
+      <div class="field"><input id="pin" name="pin" type="password" inputmode="numeric" autocomplete="off" maxlength="12" required placeholder="····"></div>
+      <button class="btn btn-primary" type="submit" style="width:100%">Entrar</button>
+      <p class="alert alert-amber" id="pin-mal" hidden style="margin-top:12px"><span class="dot"></span>Clave incorrecta.</p>
+    </form>
+    <p class="note" style="margin-top:16px"><a href="index.html">← Volver a la tienda</a></p>
+  </section>
+
+  <!-- tablero -->
+  <div id="tablero" hidden>
+    <div class="panel-top">
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/img/marca/logo.svg" alt=""><span class="brand-name">Trama de Aquí</span></a>
+      <div class="right">
+        <span class="estado-conexion" id="estado"></span>
+        <button class="btn btn-ghost btn-sm" id="recargar">Actualizar</button>
+        <button class="btn btn-ghost btn-sm" id="salir">Salir</button>
+      </div>
+    </div>
+
+    <div class="kpis" id="kpis"></div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="pedidos" aria-selected="true">Pedidos</button>
+      <button class="tab" role="tab" data-tab="mensajes" aria-selected="false">Mensajes</button>
+      <button class="tab" role="tab" data-tab="inventario" aria-selected="false">Inventario</button>
+      <button class="tab" role="tab" data-tab="ajustes" aria-selected="false">Ajustes</button>
+    </div>
+
+    <section id="vista"></section>
+  </div>
+</main>
+<script src="assets/js/config.js?v=1"></script>
+<script src="assets/js/nido.js?v=1"></script>
+<script src="assets/js/panel.js?v=1"></script>
+</body>
+</html>

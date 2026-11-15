@@ -1,0 +1,15 @@
+{
+  "name": "Trama de Aquí",
+  "short_name": "Trama de Aquí",
+  "description": "Bolsos de lona con diseños de Santander. Lleva tu tierra contigo.",
+  "lang": "es-CO",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3ECDD",
+  "theme_color": "#2E4A30",
+  "icons": [
+    { "src": "assets/img/marca/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/marca/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

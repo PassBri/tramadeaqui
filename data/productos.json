@@ -1,0 +1,2316 @@
+{
+ "categorias": [
+  {
+   "id": "pueblos",
+   "nombre": "Pueblos y lugares",
+   "detalle": "Calles, plazas y municipios",
+   "imagen": "los-caracoles"
+  },
+  {
+   "id": "naturaleza",
+   "nombre": "Naturaleza",
+   "detalle": "Cañones, cascadas, cuevas y páramos",
+   "imagen": "canon-del-chicamocha"
+  },
+  {
+   "id": "sabores",
+   "nombre": "Sabores",
+   "detalle": "Cacao, café, arepa y más",
+   "imagen": "floridablanca-ciudad-dulce"
+  },
+  {
+   "id": "fe",
+   "nombre": "Fe y santuarios",
+   "detalle": "Capillas, cruces y santuarios",
+   "imagen": "cerro-de-la-cruz-san-gil"
+  },
+  {
+   "id": "cultura",
+   "nombre": "Cultura e historia",
+   "detalle": "Comuneros, música y legado",
+   "imagen": "rebelion-de-los-comuneros"
+  },
+  {
+   "id": "aventura",
+   "nombre": "Aventura",
+   "detalle": "Rafting, ciclismo y torrentismo",
+   "imagen": "san-gil"
+  },
+  {
+   "id": "fauna",
+   "nombre": "Fauna",
+   "detalle": "Animales de Santander",
+   "imagen": "el-leopardo"
+  },
+  {
+   "id": "fortaleza",
+   "nombre": "Hinchada",
+   "detalle": "Fortaleza Leoparda Sur",
+   "imagen": "fortaleza-leoparda-sur-noche-de-estadio"
+  },
+  {
+   "id": "artesania",
+   "nombre": "Artesanía",
+   "detalle": "Fique, tejido y cerámica",
+   "imagen": "artesanias-en-fique"
+  }
+ ],
+ "productos": [
+  {
+   "id": "los-caracoles",
+   "nombre": "Los Caracoles",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/los-caracoles.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Los Caracoles», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "barichara",
+   "nombre": "Barichara",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/barichara.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barichara», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "fortaleza-leoparda-sur-noche-de-estadio",
+   "nombre": "Fortaleza Leoparda Sur · Noche de Estadio",
+   "categoria": "fortaleza",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/fortaleza-leoparda-sur-noche-de-estadio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fortaleza Leoparda Sur · Noche de Estadio», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "artesanias-en-fique",
+   "nombre": "Artesanías en Fique",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/artesanias-en-fique.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Artesanías en Fique», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "floridablanca-ciudad-dulce",
+   "nombre": "Floridablanca · Ciudad Dulce",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/floridablanca-ciudad-dulce.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Floridablanca · Ciudad Dulce», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "rionegro-cacao",
+   "nombre": "Rionegro · Cacao",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/rionegro-cacao.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rionegro · Cacao», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cabrito-santandereano",
+   "nombre": "Cabrito Santandereano",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cabrito-santandereano.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cabrito Santandereano», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cerro-de-la-cruz-san-gil",
+   "nombre": "Cerro de la Cruz · San Gil",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cerro-de-la-cruz-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerro de la Cruz · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cerro-de-la-gruta",
+   "nombre": "Cerro de la Gruta",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cerro-de-la-gruta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerro de la Gruta», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "canon-del-chicamocha",
+   "nombre": "Cañón del Chicamocha",
+   "categoria": "naturaleza",
+   "precio": 49000,
+   "stock": 20,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/canon-del-chicamocha.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cañón del Chicamocha», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "arepa-santandereana",
+   "nombre": "Arepa Santandereana",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/arepa-santandereana.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Arepa Santandereana», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "lebrija-capital-pinera",
+   "nombre": "Lebrija · Capital Piñera",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/lebrija-capital-pinera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Lebrija · Capital Piñera», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "rebelion-de-los-comuneros",
+   "nombre": "Rebelión de los Comuneros",
+   "categoria": "cultura",
+   "precio": 49000,
+   "stock": 12,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/rebelion-de-los-comuneros.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rebelión de los Comuneros», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-gallineral-san-gil",
+   "nombre": "El Gallineral · San Gil",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-gallineral-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Gallineral · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "panachi",
+   "nombre": "Panachi",
+   "categoria": "naturaleza",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/panachi.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Panachi», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "hormigas-culonas",
+   "nombre": "Hormigas Culonas",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/hormigas-culonas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Hormigas Culonas», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "san-gil",
+   "nombre": "San Gil",
+   "categoria": "aventura",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "morrorico-bucaramanga",
+   "nombre": "Morrorico · Bucaramanga",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/morrorico-bucaramanga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Morrorico · Bucaramanga», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cacao-santandereano",
+   "nombre": "Cacao Santandereano",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cacao-santandereano.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cacao Santandereano», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cascadas-de-juan-curi",
+   "nombre": "Cascadas de Juan Curí",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cascadas-de-juan-curi.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cascadas de Juan Curí», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cafe-de-santander",
+   "nombre": "Café de Santander",
+   "categoria": "sabores",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cafe-de-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Café de Santander», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mesa-de-los-santos-mercado-campesino",
+   "nombre": "Mesa de los Santos · Mercado Campesino",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/mesa-de-los-santos-mercado-campesino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mesa de los Santos · Mercado Campesino», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "fortaleza-leoparda-sur-el-bombo",
+   "nombre": "Fortaleza Leoparda Sur · El Bombo",
+   "categoria": "fortaleza",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/fortaleza-leoparda-sur-el-bombo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fortaleza Leoparda Sur · El Bombo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "fortaleza-leoparda-sur-canto-de-tribuna",
+   "nombre": "Fortaleza Leoparda Sur · Canto de Tribuna",
+   "categoria": "fortaleza",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/fortaleza-leoparda-sur-canto-de-tribuna.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fortaleza Leoparda Sur · Canto de Tribuna», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cabrito-santandereano-ii",
+   "nombre": "Cabrito Santandereano II",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cabrito-santandereano-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cabrito Santandereano II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "piedecuesta",
+   "nombre": "Piedecuesta",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/piedecuesta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Piedecuesta», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "catedral-de-la-santa-cruz",
+   "nombre": "Catedral de la Santa Cruz",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/catedral-de-la-santa-cruz.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Catedral de la Santa Cruz», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "los-caracoles-san-gil",
+   "nombre": "Los Caracoles · San Gil",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/los-caracoles-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Los Caracoles · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "arepa-santandereana-ii",
+   "nombre": "Arepa Santandereana II",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/arepa-santandereana-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Arepa Santandereana II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mute-santandereano",
+   "nombre": "Mute Santandereano",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/mute-santandereano.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mute Santandereano», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "barichara-ii",
+   "nombre": "Barichara II",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/barichara-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barichara II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "california-santurban",
+   "nombre": "California · Santurbán",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/california-santurban.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «California · Santurbán», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-santisimo",
+   "nombre": "El Santísimo",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-santisimo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Santísimo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "paramo",
+   "nombre": "Páramo",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/paramo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Páramo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "parque-la-libertad-san-gil",
+   "nombre": "Parque La Libertad · San Gil",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/parque-la-libertad-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Parque La Libertad · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "fortaleza-leoparda-sur-bucaramanga",
+   "nombre": "Fortaleza Leoparda Sur · Bucaramanga",
+   "categoria": "fortaleza",
+   "precio": 49000,
+   "stock": 9,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/fortaleza-leoparda-sur-bucaramanga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fortaleza Leoparda Sur · Bucaramanga», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "pozo-azul",
+   "nombre": "Pozo Azul",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/pozo-azul.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pozo Azul», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "barichara-iii",
+   "nombre": "Barichara III",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/barichara-iii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barichara III», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "la-joya-bucaramanga",
+   "nombre": "La Joya · Bucaramanga",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/la-joya-bucaramanga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Joya · Bucaramanga», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "santa-barbara-laguna-de-tutos",
+   "nombre": "Santa Bárbara · Laguna de Tutos",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/santa-barbara-laguna-de-tutos.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Santa Bárbara · Laguna de Tutos», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "socorro",
+   "nombre": "Socorro",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/socorro.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Socorro», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-picacho",
+   "nombre": "El Picacho",
+   "categoria": "aventura",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-picacho.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Picacho», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-leopardo",
+   "nombre": "El Leopardo",
+   "categoria": "fauna",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-leopardo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Leopardo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-leopardo-ii",
+   "nombre": "El Leopardo II",
+   "categoria": "fauna",
+   "precio": 49000,
+   "stock": 15,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-leopardo-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Leopardo II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "bucaramanga-ciudad-de-los-parques",
+   "nombre": "Bucaramanga · Ciudad de los Parques",
+   "categoria": "pueblos",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/bucaramanga-ciudad-de-los-parques.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bucaramanga · Ciudad de los Parques», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "chicamocha-panoramico",
+   "nombre": "Chicamocha Panorámico",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/chicamocha-panoramico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chicamocha Panorámico», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "giron",
+   "nombre": "Girón",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/giron.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Girón», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "bocadillo-veleno",
+   "nombre": "Bocadillo Veleño",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/bocadillo-veleno.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bocadillo Veleño», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mesa-de-los-santos-mercado-campesino-ii",
+   "nombre": "Mesa de los Santos · Mercado Campesino II",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/mesa-de-los-santos-mercado-campesino-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mesa de los Santos · Mercado Campesino II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cueva-del-indio",
+   "nombre": "Cueva del Indio",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cueva-del-indio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cueva del Indio», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "hormigas-culonas-ii",
+   "nombre": "Hormigas Culonas II",
+   "categoria": "sabores",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/hormigas-culonas-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Hormigas Culonas II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "panachi-ii",
+   "nombre": "Panachi II",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/panachi-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Panachi II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cafe-madrid-bucaramanga",
+   "nombre": "Café Madrid · Bucaramanga",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cafe-madrid-bucaramanga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Café Madrid · Bucaramanga», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "san-gil-ii",
+   "nombre": "San Gil II",
+   "categoria": "aventura",
+   "precio": 49000,
+   "stock": 9,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/san-gil-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Gil II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "parque-de-ragonessi",
+   "nombre": "Parque de Ragonessi",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/parque-de-ragonessi.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Parque de Ragonessi», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "barichara-iv",
+   "nombre": "Barichara IV",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/barichara-iv.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barichara IV», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cascadas-de-juan-curi-ii",
+   "nombre": "Cascadas de Juan Curí II",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cascadas-de-juan-curi-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cascadas de Juan Curí II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "san-gil-aventura",
+   "nombre": "San Gil · Aventura",
+   "categoria": "aventura",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/san-gil-aventura.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Gil · Aventura», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "catedral-de-la-santa-cruz-san-gil",
+   "nombre": "Catedral de la Santa Cruz · San Gil",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/catedral-de-la-santa-cruz-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Catedral de la Santa Cruz · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "san-vicente-de-chucuri-cacao",
+   "nombre": "San Vicente de Chucurí · Cacao",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/san-vicente-de-chucuri-cacao.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Vicente de Chucurí · Cacao», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "curiti-pozos-de-pescaderito",
+   "nombre": "Curití · Pozos de Pescaderito",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/curiti-pozos-de-pescaderito.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Curití · Pozos de Pescaderito», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cacao-santandereano-ii",
+   "nombre": "Cacao Santandereano II",
+   "categoria": "sabores",
+   "precio": 49000,
+   "stock": 15,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cacao-santandereano-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cacao Santandereano II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "artesanias-de-santander",
+   "nombre": "Artesanías de Santander",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/artesanias-de-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Artesanías de Santander», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cueva-la-antigua",
+   "nombre": "Cueva La Antigua",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cueva-la-antigua.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cueva La Antigua», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "salto-del-mico",
+   "nombre": "Salto del Mico",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/salto-del-mico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Salto del Mico», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "pozo-azul-san-gil",
+   "nombre": "Pozo Azul · San Gil",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/pozo-azul-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pozo Azul · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cerro-de-la-gruta-virgen-de-lourdes",
+   "nombre": "Cerro de la Gruta · Virgen de Lourdes",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cerro-de-la-gruta-virgen-de-lourdes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerro de la Gruta · Virgen de Lourdes», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cascadas-de-juan-curi-iii",
+   "nombre": "Cascadas de Juan Curí III",
+   "categoria": "naturaleza",
+   "precio": 49000,
+   "stock": 15,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cascadas-de-juan-curi-iii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cascadas de Juan Curí III», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "barichara-v",
+   "nombre": "Barichara V",
+   "categoria": "pueblos",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/barichara-v.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barichara V», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "guane",
+   "nombre": "Guane",
+   "categoria": "pueblos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/guane.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guane», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "artesanias-en-fique-curiti",
+   "nombre": "Artesanías en Fique · Curití",
+   "categoria": "artesania",
+   "precio": 49000,
+   "stock": 24,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/artesanias-en-fique-curiti.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Artesanías en Fique · Curití», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "berlin-tona",
+   "nombre": "Berlín / Tona",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/berlin-tona.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Berlín / Tona», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "fortaleza-leoparda-sur-la-bandera",
+   "nombre": "Fortaleza Leoparda Sur · La Bandera",
+   "categoria": "fortaleza",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/fortaleza-leoparda-sur-la-bandera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fortaleza Leoparda Sur · La Bandera», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cueva-de-la-vaca-curiti",
+   "nombre": "Cueva de la Vaca · Curití",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cueva-de-la-vaca-curiti.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cueva de la Vaca · Curití», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "sabores-de-santander",
+   "nombre": "Sabores de Santander",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/sabores-de-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sabores de Santander», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "juan-curi-torrentismo",
+   "nombre": "Juan Curí · Torrentismo",
+   "categoria": "aventura",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/juan-curi-torrentismo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Juan Curí · Torrentismo», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "rebelion-de-los-comuneros-ii",
+   "nombre": "Rebelión de los Comuneros II",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/rebelion-de-los-comuneros-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rebelión de los Comuneros II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "chicamocha",
+   "nombre": "Chicamocha",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/chicamocha.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chicamocha», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cerro-de-la-gruta-virgen-de-lourdes-ii",
+   "nombre": "Cerro de la Gruta · Virgen de Lourdes II",
+   "categoria": "fe",
+   "precio": 49000,
+   "stock": 12,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/cerro-de-la-gruta-virgen-de-lourdes-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerro de la Gruta · Virgen de Lourdes II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "chicamocha-ii",
+   "nombre": "Chicamocha II",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/chicamocha-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chicamocha II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "san-gil-rio-fonce",
+   "nombre": "San Gil · Río Fonce",
+   "categoria": "aventura",
+   "precio": 49000,
+   "stock": 18,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/san-gil-rio-fonce.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Gil · Río Fonce», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-santisimo-ii",
+   "nombre": "El Santísimo II",
+   "categoria": "fe",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-santisimo-ii.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Santísimo II», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "la-milagrosa",
+   "nombre": "La Milagrosa",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/la-milagrosa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Milagrosa», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "el-gallineral",
+   "nombre": "El Gallineral",
+   "categoria": "naturaleza",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/el-gallineral.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Gallineral», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "velez-guabina-y-tiple",
+   "nombre": "Vélez · Guabina y Tiple",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/velez-guabina-y-tiple.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Vélez · Guabina y Tiple», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "paramo-de-santurban",
+   "nombre": "Páramo de Santurbán",
+   "categoria": "naturaleza",
+   "precio": 49000,
+   "stock": 15,
+   "destacado": true,
+   "nuevo": false,
+   "imagen": "assets/img/productos/paramo-de-santurban.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Páramo de Santurbán», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "rio-fonce-san-gil",
+   "nombre": "Río Fonce · San Gil",
+   "categoria": "aventura",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/rio-fonce-san-gil.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Río Fonce · San Gil», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "sabores-de-santander-cafe",
+   "nombre": "Sabores de Santander · Café",
+   "categoria": "sabores",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": false,
+   "imagen": "assets/img/productos/sabores-de-santander-cafe.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sabores de Santander · Café», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "tejido-guane-algodon",
+   "nombre": "Tejido Guane · Algodón",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/tejido-guane-algodon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tejido Guane · Algodón», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ceramica-guane",
+   "nombre": "Cerámica Guane",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ceramica-guane.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerámica Guane», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "piedra-del-sol",
+   "nombre": "Piedra del Sol",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/piedra-del-sol.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Piedra del Sol», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "manta-de-la-mesa-tejido-guane",
+   "nombre": "Manta de la Mesa · Tejido Guane",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/manta-de-la-mesa-tejido-guane.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Manta de la Mesa · Tejido Guane», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "hilo-de-los-santos-huso-guane",
+   "nombre": "Hilo de los Santos · Huso Guane",
+   "categoria": "artesania",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/hilo-de-los-santos-huso-guane.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Hilo de los Santos · Huso Guane», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "huellas-del-carare",
+   "nombre": "Huellas del Carare",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/huellas-del-carare.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Huellas del Carare», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  }
+ ]
+}
