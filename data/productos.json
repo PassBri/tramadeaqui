@@ -2347,6 +2347,78 @@
      "Grande 40×45"
     ]
    }
+  },
+  {
+   "id": "dos-huellas-una-cancha",
+   "nombre": "Dos huellas, una cancha",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dos-huellas-una-cancha.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Dos huellas, una cancha», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "deja-huella-en-la-cancha",
+   "nombre": "Deja huella en la cancha",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/deja-huella-en-la-cancha.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Deja huella en la cancha», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "la-cancha-tiene-garra",
+   "nombre": "La cancha tiene garra",
+   "categoria": "cultura",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/la-cancha-tiene-garra.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La cancha tiene garra», estampado a una cara. Resistente, lavable y con asas reforzadas — perfecto para el mercado, la universidad o para llevar tu tierra contigo.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
   }
  ]
 }
