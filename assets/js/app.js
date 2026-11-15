@@ -64,10 +64,6 @@
           ${NAV.map(([href, label]) => `<a href="${href}"${isCur(href) ? ' aria-current="page"' : ''}>${label}</a>`).join('')}
         </nav>
         <div class="header-actions">
-          <form class="search" action="index.html" role="search">
-            ${I.search}<label class="sr-only" for="q-top">Buscar en la tienda</label>
-            <input id="q-top" name="q" type="search" placeholder="Buscar">
-          </form>
           <a class="icon-btn" href="panel.html" aria-label="Acceso administración" title="Acceso administración">${I.user}</a>
           <a class="icon-btn" href="carrito.html" aria-label="Carrito">${I.bag}<span class="badge" data-cart-count></span></a>
         </div>
