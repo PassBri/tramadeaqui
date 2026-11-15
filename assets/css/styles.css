@@ -651,19 +651,16 @@ body::before {
 /* textura de lona tejida, muy sutil, en lento movimiento */
 body::after {
   display: block !important;
-  background-image:
-    url("../img/marca/santander-watermark.svg"),
-    repeating-linear-gradient(0deg,  rgba(46,74,48,0.03) 0 1.5px, transparent 1.5px 10px),
-    repeating-linear-gradient(90deg, rgba(46,74,48,0.022) 0 1.5px, transparent 1.5px 10px);
-  background-size: 460px 460px, 10px 10px, 10px 10px;
-  background-position: 0 0, 0 0, 0 0;
-  background-repeat: repeat, repeat, repeat;
-  opacity: 0.1;
-  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.55) 100%);
-  mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.55) 100%);
-  animation: trama 120s linear infinite;
+  background-image: url("../img/marca/santander-watermark.svg?v=2");
+  background-size: 340px 340px;
+  background-position: 0 0;
+  background-repeat: repeat;
+  opacity: 0.11;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 100%);
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 100%);
+  animation: trama 160s linear infinite;
 }
-@keyframes trama { to { background-position: 460px 460px, 100px 100px, -100px 100px; } }
+@keyframes trama { to { background-position: 340px 340px; } }
 
 /* un solo momento orquestado: el hero entra al cargar */
 .shop-hero .eyebrow, .shop-hero h1, .shop-hero .shop-search, .shop-hero .shop-trust {
