@@ -71,6 +71,12 @@
    "nombre": "Fiestas",
    "detalle": "Carnavales y tradiciones",
    "imagen": "co-silleteros"
+  },
+  {
+   "id": "municipios",
+   "nombre": "Municipios",
+   "detalle": "Los pueblos de Santander",
+   "imagen": "muni-velez"
   }
  ],
  "productos": [
@@ -2552,7 +2558,7 @@
   {
    "id": "muni-velez",
    "nombre": "Vélez",
-   "categoria": "sabores",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 20,
@@ -2577,7 +2583,7 @@
   {
    "id": "muni-barichara",
    "nombre": "Barichara",
-   "categoria": "pueblos",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 24,
@@ -2602,7 +2608,7 @@
   {
    "id": "muni-curiti",
    "nombre": "Curití",
-   "categoria": "artesania",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 9,
@@ -2627,7 +2633,7 @@
   {
    "id": "muni-floridablanca",
    "nombre": "Floridablanca",
-   "categoria": "sabores",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 12,
@@ -2652,7 +2658,7 @@
   {
    "id": "muni-guadalupe",
    "nombre": "Guadalupe",
-   "categoria": "naturaleza",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 15,
@@ -2677,7 +2683,7 @@
   {
    "id": "muni-los-santos",
    "nombre": "Los Santos",
-   "categoria": "naturaleza",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 18,
@@ -2702,7 +2708,7 @@
   {
    "id": "muni-oiba",
    "nombre": "Oiba",
-   "categoria": "artesania",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 20,
@@ -2727,7 +2733,7 @@
   {
    "id": "muni-san-gil",
    "nombre": "San Gil",
-   "categoria": "aventura",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 24,
@@ -2752,7 +2758,7 @@
   {
    "id": "muni-san-vicente-de-chucuri",
    "nombre": "San Vicente de Chucurí",
-   "categoria": "sabores",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 9,
@@ -2777,7 +2783,7 @@
   {
    "id": "muni-socorro",
    "nombre": "Socorro",
-   "categoria": "cultura",
+   "categoria": "municipios",
    "seccion": "municipios",
    "precio": 45000,
    "stock": 12,
@@ -2800,12 +2806,1937 @@
    }
   },
   {
+   "id": "muni-cimitarra",
+   "nombre": "Cimitarra",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-cimitarra.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cimitarra», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-aguada",
+   "nombre": "Aguada",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-aguada.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Aguada», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-albania",
+   "nombre": "Albania",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-albania.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Albania», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-aratoca",
+   "nombre": "Aratoca",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-aratoca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Aratoca», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-barbosa",
+   "nombre": "Barbosa",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-barbosa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barbosa», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-barrancabermeja",
+   "nombre": "Barrancabermeja",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-barrancabermeja.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Barrancabermeja», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-betulia",
+   "nombre": "Betulia",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-betulia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Betulia», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-bolivar",
+   "nombre": "Bolívar",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-bolivar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bolívar», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-bucaramanga",
+   "nombre": "Bucaramanga",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-bucaramanga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bucaramanga», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-cabrera",
+   "nombre": "Cabrera",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-cabrera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cabrera», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-california",
+   "nombre": "California",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-california.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «California», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-capitanejo",
+   "nombre": "Capitanejo",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-capitanejo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Capitanejo», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-carcasi",
+   "nombre": "Carcasí",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-carcasi.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Carcasí», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-cepita",
+   "nombre": "Cepitá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-cepita.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cepitá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-cerrito",
+   "nombre": "Cerrito",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-cerrito.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cerrito», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-charala",
+   "nombre": "Charalá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-charala.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Charalá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-charta",
+   "nombre": "Charta",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-charta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Charta», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-chima",
+   "nombre": "Chimá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-chima.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chimá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-chipata",
+   "nombre": "Chipatá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-chipata.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chipatá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-guavata",
+   "nombre": "Guavatá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-guavata.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guavatá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-concepcion",
+   "nombre": "Concepción",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-concepcion.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Concepción», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-confines",
+   "nombre": "Confines",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-confines.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Confines», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-contratacion",
+   "nombre": "Contratación",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-contratacion.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Contratación», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-coromoro",
+   "nombre": "Coromoro",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-coromoro.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Coromoro», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-el-carmen-de-chucuri",
+   "nombre": "El Carmen de Chucurí",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-el-carmen-de-chucuri.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Carmen de Chucurí», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-el-guacamayo",
+   "nombre": "El Guacamayo",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-el-guacamayo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Guacamayo», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-el-penon",
+   "nombre": "El Peñón",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-el-penon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Peñón», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-el-playon",
+   "nombre": "El Playón",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-el-playon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Playón», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-encino",
+   "nombre": "Encino",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-encino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Encino», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-enciso",
+   "nombre": "Enciso",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-enciso.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Enciso», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-florian",
+   "nombre": "Florián",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-florian.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Florián», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-galan",
+   "nombre": "Galán",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-galan.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Galán», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-gambita",
+   "nombre": "Gámbita",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-gambita.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Gámbita», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-giron",
+   "nombre": "Girón",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-giron.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Girón», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-guaca",
+   "nombre": "Guaca",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-guaca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guaca», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-guapota",
+   "nombre": "Guapotá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-guapota.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guapotá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-pinchote",
+   "nombre": "Pinchote",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-pinchote.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pinchote», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-hato",
+   "nombre": "Hato",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-hato.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Hato», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-jesus-maria",
+   "nombre": "Jesús María",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-jesus-maria.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Jesús María», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-jordan",
+   "nombre": "Jordán",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-jordan.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Jordán», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-la-belleza",
+   "nombre": "La Belleza",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-la-belleza.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Belleza», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-la-paz",
+   "nombre": "La Paz",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-la-paz.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Paz», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-lebrija",
+   "nombre": "Lebrija",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-lebrija.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Lebrija», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-macaravita",
+   "nombre": "Macaravita",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-macaravita.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Macaravita», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-malaga",
+   "nombre": "Málaga",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-malaga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Málaga», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-matanza",
+   "nombre": "Matanza",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-matanza.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Matanza», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-mogotes",
+   "nombre": "Mogotes",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-mogotes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mogotes», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-molagavita",
+   "nombre": "Molagavita",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-molagavita.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Molagavita», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-ocamonte",
+   "nombre": "Ocamonte",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-ocamonte.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Ocamonte», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-onzaga",
+   "nombre": "Onzaga",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-onzaga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Onzaga», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-palmar",
+   "nombre": "Palmar",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-palmar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Palmar», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-palmas-del-socorro",
+   "nombre": "Palmas del Socorro",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-palmas-del-socorro.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Palmas del Socorro», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-paramo",
+   "nombre": "Páramo",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-paramo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Páramo», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-piedecuesta",
+   "nombre": "Piedecuesta",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-piedecuesta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Piedecuesta», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-tona",
+   "nombre": "Tona",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-tona.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tona», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-puente-nacional",
+   "nombre": "Puente Nacional",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-puente-nacional.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Puente Nacional», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-puerto-parra",
+   "nombre": "Puerto Parra",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-puerto-parra.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Puerto Parra», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-puerto-wilches",
+   "nombre": "Puerto Wilches",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-puerto-wilches.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Puerto Wilches», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-rionegro",
+   "nombre": "Rionegro",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-rionegro.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rionegro», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-sabana-de-torres",
+   "nombre": "Sabana de Torres",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-sabana-de-torres.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sabana de Torres», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-san-andres",
+   "nombre": "San Andrés",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-san-andres.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Andrés», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-san-benito",
+   "nombre": "San Benito",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-san-benito.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Benito», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-san-joaquin",
+   "nombre": "San Joaquín",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-san-joaquin.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Joaquín», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-san-jose-de-miranda",
+   "nombre": "San José de Miranda",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-san-jose-de-miranda.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San José de Miranda», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-san-miguel",
+   "nombre": "San Miguel",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-san-miguel.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Miguel», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-santa-barbara",
+   "nombre": "Santa Bárbara",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-santa-barbara.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Santa Bárbara», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-santa-helena-del-opon",
+   "nombre": "Santa Helena del Opón",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-santa-helena-del-opon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Santa Helena del Opón», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-simacota",
+   "nombre": "Simacota",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-simacota.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Simacota», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-suaita",
+   "nombre": "Suaita",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-suaita.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Suaita», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-sucre",
+   "nombre": "Sucre",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-sucre.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sucre», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-surata",
+   "nombre": "Suratá",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-surata.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Suratá», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-landazuri",
+   "nombre": "Landázuri",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-landazuri.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Landázuri», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-valle-de-san-jose",
+   "nombre": "Valle de San José",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-valle-de-san-jose.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Valle de San José», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-vetas",
+   "nombre": "Vetas",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-vetas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Vetas», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-villanueva",
+   "nombre": "Villanueva",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-villanueva.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Villanueva», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-zapatoca",
+   "nombre": "Zapatoca",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-zapatoca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Zapatoca», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "muni-guepsa",
+   "nombre": "Güepsa",
+   "categoria": "municipios",
+   "seccion": "municipios",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/muni-guepsa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Güepsa», estampado a una cara. Un municipio de Santander. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
    "id": "co-silleteros",
    "nombre": "Silleteros",
    "categoria": "fiestas",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 15,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-silleteros.jpg",
@@ -2830,7 +4761,7 @@
    "categoria": "musica",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 18,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-joropo-llanero.jpg",
@@ -2855,7 +4786,7 @@
    "categoria": "sabores",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 20,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-cafe-de-colombia.jpg",
@@ -2880,7 +4811,7 @@
    "categoria": "musica",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 24,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-cumbia-colombiana.jpg",
@@ -2905,7 +4836,7 @@
    "categoria": "artesania",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 9,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-sombrero-vueltiao.jpg",
@@ -2930,7 +4861,7 @@
    "categoria": "fiestas",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 12,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-cielo-de-cometas.jpg",
@@ -2955,7 +4886,7 @@
    "categoria": "sabores",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 15,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-arepas-de-colombia.jpg",
@@ -2980,7 +4911,7 @@
    "categoria": "musica",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 18,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-parranda-vallenata.jpg",
@@ -3005,7 +4936,7 @@
    "categoria": "fiestas",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 20,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-carnaval-de-barranquilla.jpg",
@@ -3030,7 +4961,7 @@
    "categoria": "musica",
    "seccion": "cultura-co",
    "precio": 45000,
-   "stock": 24,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/co-marimba-del-pacifico.jpg",
@@ -3055,7 +4986,7 @@
    "categoria": "cultura",
    "seccion": "departamentos",
    "precio": 45000,
-   "stock": 9,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/depto-santander.jpg",

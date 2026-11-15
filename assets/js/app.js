@@ -232,7 +232,9 @@
       return [{ id: 'todo', nombre: 'Todo' }].concat(D.categorias.filter((c) => ids.has(c.id)));
     }
     function drawChips() {
-      chips.innerHTML = catsFor().map((c) => `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${esc(c.nombre)}</button>`).join('');
+      const cs = catsFor();
+      // Si la sección tiene una sola categoría (p. ej. Municipios), el filtro es redundante: se oculta.
+      chips.innerHTML = cs.length <= 2 ? '' : cs.map((c) => `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${esc(c.nombre)}</button>`).join('');
     }
     function render() {
       const term = norm(q.value.trim());
