@@ -745,3 +745,15 @@ body::after {
 .mv-card { padding: 28px; }
 .mv-card p:last-child { margin: 8px 0 0; color: var(--text-2); line-height: 1.7; }
 .mv-card.panel-night p:last-child { color: #CBDBCF; }
+
+/* selector de secciones (Santander · Municipios · Cultura colombiana · …) */
+.secciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.secciones .seg {
+  font-family: var(--font-body); font-weight: 800; font-size: 14px; cursor: pointer;
+  padding: 9px 16px; border-radius: 999px; border: 1.5px solid var(--night);
+  background: transparent; color: var(--night); transition: background .15s, color .15s;
+}
+.secciones .seg[aria-pressed="true"] { background: var(--night); color: #F3ECDD; }
+.secciones .seg:hover { background: var(--sage-container); }
+.secciones .seg[aria-pressed="true"]:hover { background: var(--night); }
+@media (max-width: 560px) { .secciones .seg { font-size: 13px; padding: 8px 13px; } }

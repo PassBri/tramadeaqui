@@ -215,25 +215,45 @@
 
   async function tienda() {
     const D = await data();
-    const chips = $('#chips'), grid = $('#grid'), q = $('#q'), sort = $('#sort'), count = $('#count');
+    const secWrap = $('#secciones'), chips = $('#chips'), grid = $('#grid'), q = $('#q'), sort = $('#sort'), count = $('#count');
+    const SECS = D.secciones || [];
+    let sec = params.get('sec') || 'todo';
     let cat = params.get('cat') || 'todo';
     q.value = params.get('q') || '';
-    const opts = [{ id: 'todo', nombre: 'Todo' }].concat(D.categorias);
-    chips.innerHTML = opts.map((c) => `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${esc(c.nombre)}</button>`).join('');
+    // pastillas de sección (Santander · Municipios · Cultura colombiana · …)
+    if (secWrap && SECS.length > 1) {
+      const sopts = [{ id: 'todo', nombre: 'Todo' }].concat(SECS);
+      secWrap.innerHTML = sopts.map((s) => `<button type="button" class="seg" data-sec="${s.id}" aria-pressed="${s.id === sec}">${esc(s.nombre)}</button>`).join('');
+    }
     const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const inSec = (p) => sec === 'todo' || p.seccion === sec || (!p.seccion && sec === 'santander');
+    function catsFor() {
+      const ids = new Set(D.productos.filter(inSec).map((p) => p.categoria));
+      return [{ id: 'todo', nombre: 'Todo' }].concat(D.categorias.filter((c) => ids.has(c.id)));
+    }
+    function drawChips() {
+      chips.innerHTML = catsFor().map((c) => `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${esc(c.nombre)}</button>`).join('');
+    }
     function render() {
       const term = norm(q.value.trim());
-      let list = D.productos.filter((p) => (cat === 'todo' || p.categoria === cat) && (!term || norm(p.nombre + ' ' + p.descripcion + ' ' + catName(p.categoria)).includes(term)));
+      let list = D.productos.filter((p) => inSec(p) && (cat === 'todo' || p.categoria === cat) && (!term || norm(p.nombre + ' ' + p.descripcion + ' ' + catName(p.categoria)).includes(term)));
       if (sort.value === 'menor') list.sort((a, b) => a.precio - b.precio);
       else if (sort.value === 'mayor') list.sort((a, b) => b.precio - a.precio);
       else list.sort((a, b) => (b.stock > 0) - (a.stock > 0) || (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
       grid.innerHTML = list.length ? list.map(card).join('') : `<div class="empty" style="grid-column:1/-1">${window.nidoSVG ? nidoSVG('grande') : ''}<p>No encontramos nada con esa palabra. Prueba con otra.</p></div>`;
       count.textContent = list.length + (list.length === 1 ? ' producto' : ' productos');
       const u = new URL(location.href);
+      sec === 'todo' ? u.searchParams.delete('sec') : u.searchParams.set('sec', sec);
       cat === 'todo' ? u.searchParams.delete('cat') : u.searchParams.set('cat', cat);
       q.value ? u.searchParams.set('q', q.value) : u.searchParams.delete('q');
       history.replaceState(null, '', u);
     }
+    if (secWrap) secWrap.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-sec]'); if (!b) return;
+      sec = b.dataset.sec; cat = 'todo';
+      $$('.seg', secWrap).forEach((x) => x.setAttribute('aria-pressed', x === b));
+      drawChips(); render();
+    });
     chips.addEventListener('click', (e) => {
       const b = e.target.closest('[data-cat]'); if (!b) return;
       cat = b.dataset.cat; $$('.chip', chips).forEach((c) => c.setAttribute('aria-pressed', c === b));
@@ -241,7 +261,7 @@
     });
     q.addEventListener('input', render); sort.addEventListener('change', render);
     const qForm = q.closest('form'); if (qForm) qForm.addEventListener('submit', (e) => e.preventDefault());
-    render();
+    drawChips(); render();
   }
 
   async function producto() {
