@@ -1,145 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
   <g fill="none" stroke="#2E4A30" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
-    <!-- fila 1 -->
-    <!-- cañón del Chicamocha -->
-    <g transform="translate(20,34)">
-      <circle cx="78" cy="10" r="9" fill="#2E4A30" stroke="none"/>
-      <path d="M0 52 L28 26 L50 44 L78 16 L104 50 L120 36"/>
-      <path d="M8 52 Q60 70 120 52"/>
-    </g>
     <!-- taza de café -->
-    <g transform="translate(176,20)">
-      <path d="M0 14 L34 14 L31 36 Q17 46 3 36 Z"/>
-      <path d="M34 18 Q46 18 46 26 Q46 34 34 32"/>
-      <path d="M-3 42 L40 42"/>
-      <path d="M10 4 Q15 -3 10 -10 M22 4 Q27 -3 22 -10"/>
+    <g transform="translate(44,52) rotate(-8)">
+      <path d="M0 14 L32 14 L29 34 Q16 43 3 34 Z"/><path d="M32 18 Q44 18 44 26 Q44 33 32 31"/>
+      <path d="M-3 40 L38 40"/><path d="M9 4 Q14 -3 9 -10 M21 4 Q26 -3 21 -10"/>
+    </g>
+    <!-- GUANE espiral (petroglifo) -->
+    <g transform="translate(168,30)">
+      <path d="M2 0 C2 -7 -7 -7 -7 0 C-7 10 9 10 9 -2 C9 -16 -14 -16 -14 2 C-14 24 17 24 17 -7"/>
     </g>
     <!-- teleférico -->
-    <g transform="translate(300,24)">
-      <path d="M-18 -8 L70 20"/>
-      <path d="M16 4 L22 14"/>
-      <rect x="9" y="14" width="26" height="15" rx="2.5"/>
-      <path d="M9 21 L35 21"/>
+    <g transform="translate(262,78) rotate(6)">
+      <path d="M-18 -8 L68 18"/><rect x="9" y="12" width="24" height="14" rx="2.5"/><path d="M15 2 L21 12"/><path d="M9 19 L33 19"/>
+    </g>
+    <!-- GUANE greca / meandro -->
+    <g transform="translate(372,36)">
+      <path d="M0 20 V0 H20 V14 H8 V8 M20 0 H30 V20 H12 V12"/>
     </g>
     <!-- hormiga culona -->
-    <g transform="translate(442,30) rotate(14)">
-      <ellipse cx="0" cy="0" rx="8" ry="6"/>
-      <ellipse cx="13" cy="0" rx="5" ry="4"/>
-      <ellipse cx="28" cy="0" rx="15" ry="11"/>
-      <path d="M-5 3 L-12 11 M-1 5 L-5 15 M12 4 L10 15 M16 4 L20 15 M39 3 L47 10 M41 1 L50 5"/>
-      <path d="M-6 -4 L-14 -12 M-3 -5 L-8 -15"/>
+    <g transform="translate(486,58) rotate(16)">
+      <ellipse cx="0" cy="0" rx="8" ry="6"/><ellipse cx="13" cy="0" rx="5" ry="4"/><ellipse cx="28" cy="0" rx="15" ry="11"/>
+      <path d="M-5 3 L-12 11 M12 4 L10 15 M39 3 L47 10 M-6 -4 L-14 -12"/>
     </g>
 
-    <!-- fila 2 -->
-    <!-- guacamaya / loro -->
-    <g transform="translate(40,150) rotate(-8)">
-      <path d="M0 0 Q22 -16 40 6 Q24 2 20 26 Q6 18 0 0 Z"/>
-      <circle cx="8" cy="6" r="2" fill="#2E4A30" stroke="none"/>
-      <path d="M-4 2 Q-12 2 -14 10"/>
+    <!-- Piedra del Sol (concéntricos) -->
+    <g transform="translate(548,152)">
+      <circle cx="0" cy="0" r="4" fill="#2E4A30" stroke="none"/><circle r="9"/><circle r="15"/><circle r="21"/>
     </g>
-    <!-- capilla / iglesia -->
-    <g transform="translate(150,135)">
-      <path d="M0 44 L0 14 L36 14 L36 44"/>
-      <path d="M-5 14 L18 -5 L41 14"/>
-      <path d="M18 -7 L18 -18 M13 -13 L23 -13"/>
-      <rect x="13" y="26" width="10" height="18"/>
+    <!-- cañón del Chicamocha -->
+    <g transform="translate(58,150) rotate(-4)">
+      <circle cx="78" cy="8" r="8" fill="#2E4A30" stroke="none"/><path d="M0 50 L28 24 L50 42 L78 14 L104 48 L120 34"/><path d="M8 50 Q60 68 120 50"/>
+    </g>
+    <!-- GUANE pintadera (rodillo de sello) -->
+    <g transform="translate(192,168) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="4.5" ry="12"/><path d="M0 -12 L30 -12 M0 12 L30 12"/><ellipse cx="30" cy="0" rx="4.5" ry="12"/>
+      <path d="M8 -7 L8 7 L16 0 L16 -7 M22 7 L22 -7"/>
     </g>
     <!-- grano de café -->
-    <g transform="translate(262,150) rotate(20)">
-      <ellipse cx="0" cy="0" rx="12" ry="17"/>
-      <path d="M0 -15 Q6 0 0 15"/>
+    <g transform="translate(312,158) rotate(22)">
+      <ellipse cx="0" cy="0" rx="11" ry="16"/><path d="M0 -14 Q6 0 0 14"/>
     </g>
-    <!-- sombrero vueltiao / campesino -->
-    <g transform="translate(330,150)">
-      <path d="M-2 10 Q22 20 46 10"/>
-      <path d="M8 10 Q10 -6 22 -6 Q34 -6 36 10"/>
-    </g>
-    <!-- patrón guane (grecas) -->
-    <g transform="translate(430,140)">
-      <path d="M0 0 H16 V10 H8 V5 M20 16 H4 V6 M24 0 H40 V16 H28 V8"/>
+    <!-- capilla -->
+    <g transform="translate(408,150)">
+      <path d="M0 42 L0 14 L34 14 L34 42"/><path d="M-5 14 L17 -5 L39 14"/><path d="M17 -7 L17 -17 M12 -12 L22 -12"/><rect x="12" y="26" width="10" height="16"/>
     </g>
 
-    <!-- fila 3 -->
-    <!-- olas / rafting Río Fonce -->
-    <g transform="translate(30,250)">
-      <path d="M0 10 Q10 0 20 10 T40 10 T60 10"/>
-      <path d="M0 20 Q10 10 20 20 T40 20 T60 20"/>
+    <!-- GUANE cadena de rombos -->
+    <g transform="translate(96,268) rotate(-6)">
+      <path d="M0 0 L9 -9 L18 0 L9 9 Z M18 0 L27 -9 L36 0 L27 9 Z"/><circle cx="9" cy="0" r="2" fill="#2E4A30" stroke="none"/><circle cx="27" cy="0" r="2" fill="#2E4A30" stroke="none"/>
     </g>
     <!-- vasija de barro -->
-    <g transform="translate(140,240)">
-      <path d="M0 2 Q15 -6 30 2"/>
-      <path d="M2 2 Q-9 24 2 40 Q15 52 28 40 Q39 24 28 2"/>
+    <g transform="translate(214,284) rotate(8)">
+      <path d="M0 2 Q15 -6 30 2"/><path d="M2 2 Q-9 24 2 40 Q15 52 28 40 Q39 24 28 2"/>
     </g>
-    <!-- cacao (mazorca) -->
-    <g transform="translate(236,246) rotate(-18)">
-      <path d="M0 0 Q-10 22 0 40 Q10 22 0 0 Z"/>
-      <path d="M0 2 L0 38 M-5 10 L-5 32 M5 10 L5 32"/>
+    <!-- GUANE figura antropomorfa (petroglifo) -->
+    <g transform="translate(332,256)">
+      <circle cx="0" cy="-16" r="5"/><path d="M0 -11 V8 M-9 -5 L9 -5 M0 8 L-8 22 M0 8 L8 22"/>
+      <path d="M-3 -2 C-3 -5 3 -5 3 -1 C3 4 -6 4 -6 -2"/>
     </g>
     <!-- flor (bugambilia) -->
-    <g transform="translate(320,256)">
-      <circle cx="0" cy="-8" r="6"/><circle cx="8" cy="2" r="6"/><circle cx="-8" cy="2" r="6"/><circle cx="4" cy="10" r="6"/><circle cx="-4" cy="10" r="6"/>
-      <circle cx="0" cy="2" r="3" fill="#2E4A30" stroke="none"/>
+    <g transform="translate(456,276) rotate(-8)">
+      <circle cx="0" cy="-8" r="6"/><circle cx="8" cy="2" r="6"/><circle cx="-8" cy="2" r="6"/><circle cx="4" cy="10" r="6"/><circle cx="-4" cy="10" r="6"/><circle cx="0" cy="2" r="3" fill="#2E4A30" stroke="none"/>
     </g>
-    <!-- sol de los pozos -->
-    <g transform="translate(430,254)">
-      <circle cx="0" cy="0" r="10"/>
-      <path d="M0 -18 L0 -13 M0 13 L0 18 M-18 0 L-13 0 M13 0 L18 0 M-13 -13 L-9 -9 M13 13 L9 9 M-13 13 L-9 9 M13 -13 L9 -9"/>
+    <!-- GUANE zigzag -->
+    <g transform="translate(540,300)">
+      <path d="M0 0 L8 -8 L16 0 L24 -8 L32 0 M0 8 L8 0 L16 8 L24 0 L32 8"/>
     </g>
 
-    <!-- fila 4 -->
-    <!-- arepa santandereana -->
-    <g transform="translate(40,350)">
-      <circle cx="16" cy="16" r="17"/>
-      <path d="M-1 16 L33 16"/>
+    <!-- arepa -->
+    <g transform="translate(44,366)">
+      <circle cx="16" cy="16" r="16"/><path d="M0 16 L32 16"/>
     </g>
-    <!-- bocadillo veleño -->
-    <g transform="translate(130,352)">
-      <rect x="0" y="0" width="30" height="30" rx="3"/>
-      <path d="M8 0 L8 30 M22 0 L22 30"/>
+    <!-- sombrero campesino -->
+    <g transform="translate(148,388) rotate(6)">
+      <path d="M-2 10 Q22 20 46 10"/><path d="M8 10 Q10 -6 22 -6 Q34 -6 36 10"/>
     </g>
-    <!-- montañas pequeñas -->
-    <g transform="translate(220,360)">
-      <path d="M0 24 L18 2 L30 16 L46 -2 L64 24 Z"/>
+    <!-- GUANE greca 2 -->
+    <g transform="translate(276,360) rotate(4)">
+      <path d="M0 0 H14 V12 H26 M6 6 H20 V18"/>
     </g>
     <!-- hoja de tabaco/café -->
-    <g transform="translate(330,352) rotate(12)">
-      <path d="M0 40 Q24 20 30 -8 Q6 2 0 40 Z"/>
-      <path d="M8 26 L24 6"/>
+    <g transform="translate(386,372) rotate(-14)">
+      <path d="M0 40 Q24 20 30 -8 Q6 2 0 40 Z"/><path d="M8 26 L24 6"/>
     </g>
-    <!-- hormiga 2 -->
-    <g transform="translate(440,360) rotate(-20)">
-      <ellipse cx="0" cy="0" rx="7" ry="5"/>
-      <ellipse cx="11" cy="0" rx="4.5" ry="3.5"/>
-      <ellipse cx="24" cy="0" rx="13" ry="10"/>
-      <path d="M-4 3 L-10 10 M11 4 L9 14 M34 3 L41 9"/>
+    <!-- GUANE espiral 2 -->
+    <g transform="translate(498,382) rotate(10)">
+      <path d="M2 0 C2 -6 -6 -6 -6 0 C-6 9 8 9 8 -2 C8 -15 -13 -15 -13 2 C-13 21 15 21 15 -6"/>
     </g>
 
-    <!-- fila 5 -->
     <!-- teleférico 2 -->
-    <g transform="translate(36,452) rotate(6)">
-      <path d="M-14 -6 L60 16"/>
-      <rect x="10" y="12" width="22" height="13" rx="2.5"/>
-      <path d="M14 2 L19 12"/>
+    <g transform="translate(60,476) rotate(8)">
+      <path d="M-14 -6 L58 16"/><rect x="10" y="12" width="22" height="13" rx="2.5"/><path d="M14 2 L19 12"/>
     </g>
-    <!-- iglesia 2 pequeña / cruz -->
-    <g transform="translate(150,470)">
-      <path d="M8 0 L8 28 M0 8 L16 8"/>
+    <!-- bocadillo veleño -->
+    <g transform="translate(182,492) rotate(-6)">
+      <rect x="0" y="0" width="28" height="28" rx="3"/><path d="M8 0 L8 28 M20 0 L20 28"/>
     </g>
-    <!-- café cup 2 -->
-    <g transform="translate(230,456)">
-      <path d="M0 12 L28 12 L26 30 Q14 38 2 30 Z"/>
-      <path d="M28 15 Q38 15 38 22 Q38 28 28 27"/>
-      <path d="M8 4 Q12 -2 8 -8"/>
+    <!-- Piedra del Sol 2 -->
+    <g transform="translate(306,474)">
+      <circle cx="0" cy="0" r="3" fill="#2E4A30" stroke="none"/><circle r="8"/><circle r="14"/>
     </g>
-    <!-- vasija 2 -->
-    <g transform="translate(320,452)">
-      <path d="M0 2 Q12 -5 24 2"/>
-      <path d="M2 2 Q-7 20 2 34 Q12 44 22 34 Q31 20 22 2"/>
+    <!-- guacamaya -->
+    <g transform="translate(406,486) rotate(-6)">
+      <path d="M0 0 Q22 -16 40 6 Q24 2 20 26 Q6 18 0 0 Z"/><circle cx="8" cy="6" r="2" fill="#2E4A30" stroke="none"/><path d="M-4 2 Q-12 2 -14 10"/>
     </g>
-    <!-- cañón 2 -->
-    <g transform="translate(416,456)">
-      <path d="M0 40 L24 16 L44 34 L68 10 L92 40"/>
-      <path d="M6 40 Q48 56 92 40"/>
+    <!-- GUANE cadena de rombos 2 -->
+    <g transform="translate(508,500) rotate(12)">
+      <path d="M0 0 L8 -8 L16 0 L8 8 Z M16 0 L24 -8 L32 0 L24 8 Z"/>
+    </g>
+    <!-- café cup 3 (relleno de esquina) -->
+    <g transform="translate(560,40) rotate(10)">
+      <path d="M0 12 L24 12 L22 28 Q12 35 2 28 Z"/><path d="M24 15 Q33 15 33 21 Q33 27 24 26"/>
+    </g>
+    <!-- GUANE greca esquina inferior -->
+    <g transform="translate(20,560)">
+      <path d="M0 0 H16 V14 H30 M6 6 H22"/>
     </g>
   </g>
 </svg>

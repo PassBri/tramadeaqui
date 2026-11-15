@@ -651,8 +651,8 @@ body::before {
 /* textura de lona tejida, muy sutil, en lento movimiento */
 body::after {
   display: block !important;
-  background-image: url("../img/marca/santander-watermark.svg?v=2");
-  background-size: 340px 340px;
+  background-image: url("../img/marca/santander-watermark.svg?v=3");
+  background-size: 380px 380px;
   background-position: 0 0;
   background-repeat: repeat;
   opacity: 0.11;
