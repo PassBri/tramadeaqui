@@ -145,7 +145,7 @@ main { flex: 1; padding-bottom: 96px; }
 }
 .site-header .wrap { display: flex; align-items: center; gap: 16px; min-height: var(--header-h); }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; flex: none; color: var(--night); }
-.brand .brand-icon { width: 40px; height: 40px; }
+.brand .brand-icon { width: 46px; height: auto; object-fit: contain; }
 .brand .brand-name { font-family: var(--font-display); font-weight: 500; font-size: 24px; letter-spacing: -0.01em; color: var(--night); }
 .brand:hover { color: var(--night); }
 .main-nav { display: none; gap: 24px; margin-left: 14px; }
@@ -625,3 +625,62 @@ body::after { display: none; }                 /* quita las chispitas y el grano
   background: var(--mint); transition: right .35s ease;
 }
 .grid .card:hover h3::after { right: 0; }
+
+/* --- fix: el símbolo de marca es 2:1, no debe aplastarse en cuadros/avatares --- */
+.regalo-cta-ava img, .hero-chip-ava img { width: 70%; height: auto; object-fit: contain; }
+.site-footer .foot-brand .brand-icon { width: 46px; height: auto; object-fit: contain; }
+.brand-icon { object-fit: contain; }
+
+/* =========================================================
+   Fondo vivo · aurora cálida que respira + textura de lona
+   (trama) que se desplaza. On-brand y llamativo, con gusto.
+   ========================================================= */
+body::before {
+  background:
+    radial-gradient(1200px 700px at 85% -12%, rgba(79,125,85,0.28), transparent 60%),
+    radial-gradient(1000px 620px at -10% 8%, rgba(192,106,56,0.20), transparent 60%),
+    radial-gradient(820px 520px at 52% 116%, rgba(215,154,78,0.16), transparent 60%),
+    linear-gradient(180deg, #F7F0E2 0%, #F1E8D7 55%, #EADFCB 100%);
+  animation: deriva 34s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes deriva {
+  from { transform: translate3d(-2%, -1%, 0) scale(1.08); }
+  to   { transform: translate3d(2%, 1.6%, 0) scale(1.13); }
+}
+/* textura de lona tejida, muy sutil, en lento movimiento */
+body::after {
+  display: block !important;
+  background-image:
+    repeating-linear-gradient(0deg,  rgba(46,74,48,0.045) 0 1.5px, transparent 1.5px 9px),
+    repeating-linear-gradient(90deg, rgba(46,74,48,0.035) 0 1.5px, transparent 1.5px 9px);
+  background-size: 9px 9px, 9px 9px;
+  background-position: 0 0, 0 0;
+  opacity: 0.6;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.45) 100%);
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.45) 100%);
+  animation: trama 70s linear infinite;
+}
+@keyframes trama { to { background-position: 90px 90px, -90px 90px; } }
+
+/* un solo momento orquestado: el hero entra al cargar */
+.shop-hero .eyebrow, .shop-hero h1, .shop-hero .shop-search, .shop-hero .shop-trust {
+  animation: subeHero .7s cubic-bezier(.2,.7,.2,1) both;
+}
+.shop-hero h1 { animation-delay: .06s; }
+.shop-hero .shop-search { animation-delay: .12s; }
+.shop-hero .shop-trust { animation-delay: .18s; }
+@keyframes subeHero { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+
+/* el buscador late suavemente para invitar a tocarlo */
+.shop-search { position: relative; }
+.shop-search::after {
+  content: ""; position: absolute; inset: -2px; border-radius: 999px; pointer-events: none;
+  box-shadow: 0 0 0 0 rgba(79,125,85,0.35); animation: latir 3.2s ease-out infinite;
+}
+@keyframes latir { 0% { box-shadow: 0 0 0 0 rgba(79,125,85,0.30); } 70%,100% { box-shadow: 0 0 0 14px rgba(79,125,85,0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  body::before, body::after, .shop-hero .eyebrow, .shop-hero h1, .shop-hero .shop-search,
+  .shop-hero .shop-trust, .shop-search::after { animation: none !important; }
+}

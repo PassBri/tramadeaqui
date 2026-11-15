@@ -9,7 +9,8 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const money = (n) => '$ ' + Math.round(n).toLocaleString('es-CO');
   const img = (id) => `assets/img/productos/${id}.svg`;
-  const foto = (p) => esc(p.imagen || img(p.id));
+  const IMGV = '4';  // sube este número cuando cambien las imágenes (evita caché vieja)
+  const foto = (p) => esc((p.imagen || img(p.id)) + '?v=' + IMGV);
   const SIN_FOTO = `onerror="this.onerror=null;this.src='assets/img/marca/mark.png'"`;
 
   /* ---------- logo (símbolo de marca) ---------- */
@@ -81,7 +82,7 @@
       <div class="wrap">
         <div style="display:flex;flex-direction:column;gap:10px;max-width:360px">
           <span class="foot-brand">${LOGO}<span class="brand-name">${esc(MARCA)}</span></span>
-          <span>${esc(CFG.lema || '')}. Ropa, accesorios y regalos para bebé. Envíos a toda Colombia.</span>
+          <span>${esc(CFG.lema || '')}. Bolsos de lona con diseños de los pueblos, paisajes y sabores de Santander. Envíos a toda Colombia.</span>
         </div>
         <nav aria-label="Pie de página">
           <a href="tienda.html">Tienda</a>
