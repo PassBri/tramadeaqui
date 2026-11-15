@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contacto · Trama de Aquí</title>
+<meta name="description" content="Escríbenos a Trama de Aquí: pedidos, mayoristas, diseños personalizados o dudas. Estamos en Santander y enviamos a toda Colombia.">
+<meta name="theme-color" content="#F3ECDD">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/marca/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css?v=8">
+</head>
+<body data-page="contacto">
+<a class="sr-only" href="#main">Saltar al contenido</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+<section class="wrap page-head">
+  <p class="eyebrow">Hablemos</p>
+  <h1 class="h-display">Contacto</h1>
+  <p class="lead" style="margin-top:14px">¿Un pedido, un diseño especial, precios por mayor o una duda? Escríbenos y te respondemos lo antes posible.</p>
+</section>
+
+<section class="wrap section" style="padding-top:8px">
+  <div class="contacto">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div class="panel valor"><span class="emoji">💬</span><h3>WhatsApp</h3><p>La forma más rápida. <a href="#" data-wa="Hola, Trama de Aquí. Tengo una consulta.">Escríbenos aquí</a>.</p></div>
+      <div class="panel valor"><span class="emoji">✉️</span><h3>Correo</h3><p><a href="mailto:hola@tramadeaqui.co">hola@tramadeaqui.co</a></p></div>
+      <div class="panel valor"><span class="emoji">📸</span><h3>Instagram</h3><p><a data-ig href="#" rel="noopener">Síguenos y escríbenos por DM</a></p></div>
+      <div class="panel valor"><span class="emoji">📍</span><h3>Dónde estamos</h3><p>Santander, Colombia · envíos a todo el país.</p></div>
+    </div>
+
+    <form class="panel brackets form-contacto" id="form-contacto" novalidate>
+      <h2 class="h-section" style="font-size:20px;margin:0 0 6px">Escríbenos</h2>
+      <p class="nota-contacto" style="margin:0 0 14px">Cuéntanos qué necesitas y cómo ubicarte.</p>
+      <div class="field"><label for="c-nombre">Tu nombre</label><input id="c-nombre" name="nombre" required></div>
+      <div class="field"><label for="c-contacto">Celular o correo</label><input id="c-contacto" name="contacto" required></div>
+      <div class="field"><label for="c-tipo">¿Sobre qué?</label>
+        <select id="c-tipo" name="tipo">
+          <option>Un pedido</option>
+          <option>Diseño personalizado</option>
+          <option>Precios por mayor</option>
+          <option>Cambio o devolución</option>
+          <option>Otra cosa</option>
+        </select>
+      </div>
+      <div class="field"><label for="c-mensaje">Mensaje</label><textarea id="c-mensaje" name="mensaje" rows="4" required></textarea></div>
+      <input type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+      <button type="submit" class="btn btn-primary" style="width:100%">Enviar mensaje</button>
+      <p class="alert alert-mint" id="contacto-ok" hidden style="margin-top:12px"><span class="dot"></span>¡Gracias! Recibimos tu mensaje y te escribimos pronto.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<nav class="bottom-nav" id="bottom-nav" aria-label="Navegación inferior"></nav>
+<script src="assets/js/config.js?v=8"></script>
+<script src="assets/js/nido.js?v=8"></script>
+<script src="assets/js/app.js?v=8"></script>
+</body>
+</html>

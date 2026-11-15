@@ -8,9 +8,14 @@
   const $$ = (sel, el = document) => Array.from(el.querySelectorAll(sel));
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const money = (n) => '$ ' + Math.round(n).toLocaleString('es-CO');
+  // precio según el tamaño elegido (Grande suma el recargo; Mediana = precio base)
+  const precioDe = (p, v) => Math.round((p.precio || 0) + (/grande/i.test(v || '') ? (CFG.recargoGrande || 0) : 0));
   const img = (id) => `assets/img/productos/${id}.svg`;
   const IMGV = '4';  // sube este número cuando cambien las imágenes (evita caché vieja)
   const foto = (p) => esc((p.imagen || img(p.id)) + '?v=' + IMGV);
+  // miniatura WebP liviana para la vitrina y el carrito (cae a la imagen grande si falta)
+  const thumb = (p) => esc('assets/img/productos/thumb/' + p.id + '.webp?v=' + IMGV);
+  const FALLBACK = (p) => `onerror="this.onerror=null;this.src='assets/img/productos/${esc(p.id)}.jpg?v=${IMGV}'"`;
   const SIN_FOTO = `onerror="this.onerror=null;this.src='assets/img/marca/mark.png'"`;
 
   /* ---------- logo (símbolo de marca) ---------- */
@@ -87,8 +92,12 @@
         <nav aria-label="Pie de página">
           <a href="tienda.html">Tienda</a>
           <a href="regalos.html">Regalos</a>
+          <a href="historia.html">Nuestra historia</a>
+          <a href="envios.html">Envíos y devoluciones</a>
+          <a href="privacidad.html">Tratamiento de datos</a>
+          <a href="contacto.html">Contacto</a>
           <a href="https://wa.me/${CFG.whatsapp}" rel="noopener">WhatsApp</a>
-          <a href="index.html#contacto">Contacto</a>
+          ${CFG.instagram ? `<a href="${esc(CFG.instagram)}" rel="noopener">Instagram</a>` : ''}
           <a href="panel.html">Acceso</a>
         </nav>
       </div>`;
@@ -161,17 +170,15 @@
   const azar = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
   function card(p) {
-    const out = p.stock <= 0;
     let tag = '';
-    if (out) tag = '<span class="tag tag-night">Agotado</span>';
-    else if (p.stock <= 4) tag = `<span class="tag tag-amber">¡Quedan ${p.stock}!</span>`;
-    else if (p.preventa) tag = '<span class="tag tag-peach">Preventa</span>';
+    if (p.preventa) tag = '<span class="tag tag-peach">Preventa</span>';
     else if (p.nuevo) tag = '<span class="tag tag-mint">Nuevo</span>';
-    return `<a class="panel brackets card${out ? ' is-out' : ''}" href="producto.html?id=${encodeURIComponent(p.id)}">
-      <div class="media">${tag}${SPARK}<img src="${foto(p)}" ${SIN_FOTO} alt="${esc(p.nombre)}" loading="lazy" width="160" height="160"></div>
+    const desde = p.variantes ? '<small class="desde">desde</small> ' : '';
+    return `<a class="panel brackets card" href="producto.html?id=${encodeURIComponent(p.id)}">
+      <div class="media">${tag}${SPARK}<img src="${thumb(p)}" ${FALLBACK(p)} alt="${esc(p.nombre)}" loading="lazy" width="420" height="741"></div>
       <span class="cat-label">${esc(catName(p.categoria))}${p.linea ? ' · ' + esc(p.linea) : ''}</span>
       <h3>${esc(p.nombre)}</h3>
-      <div class="meta"><span class="price">${money(p.precio)}${p.precioAntes ? `<s>${money(p.precioAntes)}</s>` : ''}</span>${nubes(p.suavidad)}</div>
+      <div class="meta"><span class="price">${desde}${money(p.precio)}${p.precioAntes ? `<s>${money(p.precioAntes)}</s>` : ''}</span>${nubes(p.suavidad)}</div>
     </a>`;
   }
 
@@ -242,6 +249,19 @@
     const root = $('#producto');
     if (!p) { root.innerHTML = `<div class="empty">${window.nidoSVG ? nidoSVG('grande') : ''}<p>No encontramos este bolso.</p><a class="btn btn-primary" href="tienda.html">Volver a la tienda</a></div>`; return; }
     document.title = p.nombre + ' · ' + MARCA;
+    // SEO por producto: descripción, Open Graph y datos estructurados (Product)
+    (function seo() {
+      const absImg = new URL((p.imagen || img(p.id)), location.href).href;
+      const desc = (p.descripcion || '').slice(0, 160);
+      const setMeta = (sel, attr, val) => { let m = document.head.querySelector(sel); if (!m) { m = document.createElement('meta'); const [k, v] = sel.replace(/[\[\]]/g, '').split('='); m.setAttribute(k, v.replace(/"/g, '')); document.head.appendChild(m); } m.setAttribute(attr, val); };
+      setMeta('meta[name="description"]', 'content', desc);
+      setMeta('meta[property="og:title"]', 'content', p.nombre + ' · ' + MARCA);
+      setMeta('meta[property="og:description"]', 'content', desc);
+      setMeta('meta[property="og:image"]', 'content', absImg);
+      setMeta('meta[property="og:url"]', 'content', location.href);
+      const ld = { '@context': 'https://schema.org', '@type': 'Product', name: p.nombre, image: [absImg], description: p.descripcion || '', brand: { '@type': 'Brand', name: MARCA }, category: catName(p.categoria), offers: { '@type': 'Offer', priceCurrency: 'COP', price: p.precio, availability: 'https://schema.org/InStock', url: location.href } };
+      const s = document.createElement('script'); s.type = 'application/ld+json'; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
+    })();
     let variante = p.variantes ? p.variantes.opciones[0] : '';
     let qty = 1;
     const out = p.stock <= 0;
@@ -254,17 +274,17 @@
       <div style="display:flex;flex-direction:column;gap:18px">
         <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}</p>
         <h1 class="h-display" style="font-size:clamp(32px,5vw,50px)">${esc(p.nombre)}</h1>
-        <div class="price" style="font-size:26px">${money(p.precio)}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
+        <div class="price" id="p-precio" style="font-size:26px">${money(precioDe(p, variante))}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
         ${p.humor ? `<blockquote class="humor"><span>Nota de ${esc(MARCA)}</span>${esc(p.humor)}</blockquote>` : ''}
         <p style="margin:0;color:var(--text-2)">${esc(p.descripcion)}</p>
         ${p.suavidad ? `<div class="arisquez-box"><small>Suavidad</small>${nubes(p.suavidad)}<b>${p.suavidad}/5</b><em>${niveles[p.suavidad]}</em></div>` : ''}
         ${p.limitado ? `<span class="tag tag-peach" style="align-self:flex-start">${esc(p.limitado)}</span>` : ''}
         <div class="specs">${Object.entries(p.atributos || {}).map(([k, v]) => `<div class="spec"><small>${esc(k)}</small><b>${esc(v)}</b></div>`).join('')}</div>
         ${p.variantes ? `<div><p class="eyebrow" id="var-label" style="margin-bottom:8px">${esc(p.variantes.nombre)}</p>
-          <div class="segmented" role="radiogroup" aria-labelledby="var-label">${p.variantes.opciones.map((o, i) => `<button type="button" role="radio" aria-checked="${i === 0}" data-v="${esc(o)}">${esc(o)}</button>`).join('')}</div></div>` : ''}
+          <div class="segmented" role="radiogroup" aria-labelledby="var-label">${p.variantes.opciones.map((o, i) => `<button type="button" role="radio" aria-checked="${i === 0}" data-v="${esc(o)}">${esc(o)} · ${money(precioDe(p, o))}</button>`).join('')}</div></div>` : ''}
         ${out ? '<div class="alert alert-amber"><span class="dot"></span>Agotado por ahora. Escríbenos y te avisamos cuando vuelva.</div>'
-          : p.stock <= 4 ? `<div class="alert alert-amber"><span class="dot"></span>Solo quedan ${p.stock} unidades</div>`
-          : p.preventa ? `<div class="alert alert-peach"><span class="dot"></span>Preventa · ${esc(p.preventa)}</div>` : ''}
+          : p.preventa ? `<div class="alert alert-peach"><span class="dot"></span>Preventa · ${esc(p.preventa)}</div>`
+          : `<div class="alert alert-mint"><span class="dot"></span>Hecho bajo pedido · lo imprimimos para ti en ${esc(CFG.bajoPedidoDias || '3 a 5 días hábiles')}.</div>`}
         <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center">
           <div class="qty"><button type="button" data-q="-1" aria-label="Quitar uno">−</button><output aria-live="polite" id="qty">1</output><button type="button" data-q="1" aria-label="Agregar uno">+</button></div>
           ${out ? `<a class="btn btn-ghost" href="https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent('Hola, avísenme cuando vuelva: ' + p.nombre)}" rel="noopener">Avísame cuando vuelva</a>`
@@ -272,11 +292,13 @@
         </div>
         <p class="note">Envío a toda Colombia · gratis desde ${money(CFG.envioGratisDesde)} · ¿es un regalo? lo empacamos con tarjeta.</p>
       </div>`;
+    const precioEl = $('#p-precio', root);
     $$('[data-v]', root).forEach((b) => b.addEventListener('click', () => {
       variante = b.dataset.v; $$('[data-v]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
+      if (precioEl) precioEl.innerHTML = money(precioDe(p, variante)) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
     }));
     $$('[data-q]', root).forEach((b) => b.addEventListener('click', () => {
-      qty = Math.max(1, Math.min(Math.max(1, p.stock), qty + Number(b.dataset.q))); $('#qty').textContent = qty;
+      qty = Math.max(1, qty + Number(b.dataset.q)); $('#qty').textContent = qty;
     }));
     const add = $('#add');
     if (add) add.addEventListener('click', () => { Cart.add(p.id, variante, qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
@@ -338,7 +360,7 @@
     }
     function totals() {
       const ls = lines();
-      const subtotal = ls.reduce((a, i) => a + i.p.precio * i.qty, 0);
+      const subtotal = ls.reduce((a, i) => a + precioDe(i.p, i.variante) * i.qty, 0);
       const ref = refInput.value.trim();
       const descuento = ref ? Math.round(subtotal * (CFG.descuentoEmbajador / 100)) : 0;
       const envioGratis = subtotal - descuento >= CFG.envioGratisDesde;
@@ -354,10 +376,10 @@
       sum.hidden = false;
       list.innerHTML = t.ls.map((i) => `
         <div class="cart-item">
-          <img src="${foto(i.p)}" ${SIN_FOTO} alt="" width="74" height="74">
+          <img src="${thumb(i.p)}" ${FALLBACK(i.p)} alt="" width="74" height="74">
           <div>
             <h3>${esc(i.p.nombre)}</h3>
-            <small>${esc(catName(i.p.categoria))}${i.variante ? ' · ' + esc(i.variante) : ''} · ${money(i.p.precio)}</small><br>
+            <small>${esc(catName(i.p.categoria))}${i.variante ? ' · ' + esc(i.variante) : ''} · ${money(precioDe(i.p, i.variante))}</small><br>
             <button type="button" class="remove" data-rm="${esc(i.key)}">Quitar</button>
           </div>
           <div class="qty"><button type="button" data-k="${esc(i.key)}" data-d="-1" aria-label="Quitar uno de ${esc(i.p.nombre)}">−</button><output>${i.qty}</output><button type="button" data-k="${esc(i.key)}" data-d="1" aria-label="Agregar uno de ${esc(i.p.nombre)}">+</button></div>
@@ -390,7 +412,7 @@
         referencia, nombre: f.get('nombre').trim(), telefono: f.get('telefono').trim(), ciudad: f.get('ciudad').trim(), direccion: f.get('direccion').trim(),
         nota: (f.get('notas') || '').trim() || null,
         regalo: (esRegalo && esRegalo.checked ? (f.get('regalo') || '').trim() : '') || null,
-        items: t.ls.map((i) => ({ producto_id: i.p.id, nombre: i.p.nombre, variante: i.variante || '', cant: i.qty, precio: i.p.precio })),
+        items: t.ls.map((i) => ({ producto_id: i.p.id, nombre: i.p.nombre, variante: i.variante || '', cant: i.qty, precio: precioDe(i.p, i.variante) })),
         subtotal: t.subtotal, descuento: t.descuento, envio: t.envio, total: t.total, codigo: t.ref || null,
       };
       const b = $('button[type=submit]', form); b.disabled = true; b.textContent = 'Guardando tu pedido…';
@@ -467,6 +489,7 @@
     if (window.nidoMontar) nidoMontar();
     const g404 = $('#nido-404'); if (g404 && window.nidoSVG) g404.innerHTML = nidoSVG('grande');
     $$('[data-wa]').forEach((a) => { a.href = `https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent(a.dataset.wa)}`; });
+    $$('[data-ig]').forEach((a) => { if (CFG.instagram) a.href = CFG.instagram; });
     updateBadges();
     countdown();
     const run = { inicio: tienda, tienda, producto, carrito }[page];

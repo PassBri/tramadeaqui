@@ -13,6 +13,12 @@ window.NIDITO = {
   envioGratisDesde: 150000,
   envioValor: 12000,
 
+  // Recargo del tamaño Grande (pesos). La Mediana usa el precio base del producto.
+  recargoGrande: 8000,
+
+  // Días hábiles para producir un pedido (se hace bajo pedido). Texto que ve el cliente.
+  bajoPedidoDias: '3 a 5 días hábiles',
+
   // Pago con Nequi: número que recibe los pagos, titular y (opcional) tu QR de Nequi Negocios.
   nequi: '3000000000',
   nequiTitular: 'Trama de Aquí',

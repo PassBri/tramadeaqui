@@ -692,3 +692,42 @@ body::after {
   background: linear-gradient(120deg, #F7F0E2 0%, #E7EFE0 42%, #F3E3D2 72%, #F0E6CC 100%);
 }
 @media (min-width: 900px) { .shop-hero { padding: 30px 0 26px; } }
+
+/* etiqueta "desde" en el precio de la vitrina */
+.price .desde { font-size: 11px; font-weight: 700; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+
+/* =========================================================
+   Páginas de contenido · historia, legales y testimonios
+   ========================================================= */
+.prose { max-width: 760px; }
+.prose h2 { font-family: var(--font-display); font-weight: 500; font-size: clamp(20px, 2.6vw, 26px); margin: 30px 0 10px; color: var(--night); }
+.prose h3 { font-family: var(--font-body); font-weight: 800; font-size: 16px; margin: 20px 0 6px; color: var(--night); }
+.prose p, .prose li { color: var(--text-2); line-height: 1.75; }
+.prose ul, .prose ol { padding-left: 20px; margin: 8px 0; }
+.prose li { margin: 4px 0; }
+.prose a { color: var(--mint-text); font-weight: 700; }
+.prose .actualizado { font-size: 13px; color: var(--muted); font-weight: 600; }
+.prose .rellenar { background: var(--amber); color: #4A3410; padding: 1px 7px; border-radius: 6px; font-weight: 700; font-size: 13px; }
+
+/* historia / quiénes somos */
+.historia { display: grid; gap: 28px; align-items: center; }
+@media (min-width: 900px) { .historia { grid-template-columns: 1.1fr 0.9fr; gap: 48px; } }
+.historia-img { border-radius: 24px; overflow: hidden; background: var(--sage-container); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow); }
+.historia-img img { width: 62%; height: auto; }
+.valores { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 8px; }
+.valor { padding: 22px; }
+.valor .emoji { font-size: 28px; }
+.valor h3 { font-family: var(--font-display); font-weight: 500; font-size: 18px; margin: 8px 0 4px; }
+.valor p { margin: 0; color: var(--text-2); font-size: 14px; }
+
+/* testimonios */
+.testis { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.testi { padding: 24px; display: flex; flex-direction: column; gap: 14px; }
+.testi .estrellas { color: var(--amber); letter-spacing: 2px; font-size: 15px; }
+.testi blockquote { margin: 0; font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: 18px; line-height: 1.5; color: var(--text); }
+.testi .quien { display: flex; align-items: center; gap: 10px; margin-top: auto; }
+.testi .ava { width: 40px; height: 40px; border-radius: 50%; background: var(--sage-container); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 600; color: var(--on-sage); flex: none; }
+.testi .quien b { display: block; font-family: var(--font-body); font-weight: 800; font-size: 14px; }
+.testi .quien small { color: var(--muted); font-size: 12.5px; }
+.testi.plantilla { border: 1.5px dashed var(--mint-line); background: rgba(255,255,255,0.5); }
+.testi.plantilla::before { content: "Ejemplo · reemplázalo por uno real"; font-family: var(--font-body); font-weight: 700; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--peach-text); }

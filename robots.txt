@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://passbri.github.io/tramadeaqui/sitemap.xml
