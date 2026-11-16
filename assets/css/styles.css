@@ -383,14 +383,19 @@ main { flex: 1; padding-bottom: 96px; }
 .paso-caja p { margin: 0; color: var(--text-2); font-size: 14px; }
 
 /* ---------- pie ---------- */
-.site-footer { background: var(--night); color: #CBDBCF; margin-top: 20px; position: relative; }
-.site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; padding: 44px 20px 120px; }
-@media (min-width: 900px) { .site-footer .wrap { padding-bottom: 44px; } }
+.site-footer { background: var(--night); color: #C3D4C7; margin-top: 20px; position: relative; }
+.site-footer .wrap { display: grid; grid-template-columns: 1.2fr 2fr; gap: 44px; padding: 48px 20px 120px; align-items: start; }
+@media (min-width: 900px) { .site-footer .wrap { padding-bottom: 48px; } }
+@media (max-width: 760px) { .site-footer .wrap { grid-template-columns: 1fr; gap: 30px; } }
 .site-footer .foot-brand { display: flex; align-items: center; gap: 10px; }
 .site-footer .foot-brand .brand-name { color: #fff; font-family: var(--font-display); font-weight: 500; font-size: 24px; }
-.site-footer a { color: #DDEDE2; }
-.site-footer nav { display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 14px; font-weight: 600; }
-.site-footer small { font-weight: 600; opacity: 0.8; }
+.foot-desc { color: #AEC2B2; font-size: 14.5px; line-height: 1.55; margin: 12px 0 0; max-width: 360px; }
+.foot-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 480px) { .foot-cols { grid-template-columns: repeat(2, 1fr); gap: 20px 14px; } }
+.foot-col h4 { font-family: var(--font-display); font-weight: 500; font-size: 15px; color: #fff; margin: 0 0 10px; }
+.site-footer a, .foot-col a { color: #DCEBE0; text-decoration: none; }
+.foot-col a { display: block; font-size: 14px; font-weight: 600; padding: 5px 0; }
+.foot-col a:hover { color: #fff; text-decoration: underline; }
 
 /* aviso flotante */
 .toast {
@@ -899,3 +904,16 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 @media (max-width: 760px){
   .hero-duo { max-width: 400px; margin: 0 auto; gap: 10px; }
 }
+
+/* Flechas laterales del hilo */
+.hilo-wrap { position: relative; }
+.hilo-flecha { position: absolute; top: calc(50% - 20px); transform: translateY(-50%); z-index: 4; width: 46px; height: 46px; border-radius: 50%; border: 1px solid #efe6d4; background: #fff; color: var(--night); font-size: 26px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(60,40,20,.20); transition: background .18s ease, transform .18s ease; }
+.hilo-flecha:hover { background: var(--mint-soft); transform: translateY(-50%) scale(1.06); }
+.hilo-flecha.izq { left: -8px; }
+.hilo-flecha.der { right: -8px; }
+.hilo-flecha[hidden] { display: none; }
+@media (max-width: 600px){ .hilo-flecha { width: 40px; height: 40px; font-size: 22px; } }
+
+/* Etiqueta del preview de reverso en la página de producto */
+.viewer-cap { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); background: rgba(46,74,48,.92); color: #fff; font-size: 12px; font-weight: 700; padding: 7px 14px; border-radius: 999px; white-space: nowrap; box-shadow: 0 4px 14px rgba(0,0,0,.18); z-index: 3; }
+.viewer-cap[hidden] { display: none; }

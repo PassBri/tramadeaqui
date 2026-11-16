@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=38">
+<link rel="stylesheet" href="assets/css/styles.css?v=40">
 </head>
 <body data-page="regalos">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -35,13 +35,17 @@
 
 <section class="wrap section" style="padding-top:16px">
   <div class="section-head"><div><p class="eyebrow">Por quién</p><h2 class="h-section">¿Para quién es?</h2></div></div>
-  <div class="hilo">
+  <div class="hilo-wrap">
+  <button class="hilo-flecha izq" type="button" aria-label="Ver anteriores" hidden>&#8249;</button>
+  <button class="hilo-flecha der" type="button" aria-label="Ver siguientes">&#8250;</button>
+  <div class="hilo" id="hilo-regalos">
     <a class="hilo-item" href="tienda.html?sec=municipios" aria-label="Para quien extraña su pueblo"><img loading="lazy" src="assets/img/productos/thumb/muni-barichara.webp" alt="Diseño de un municipio"><span class="cap">Para quien extraña su pueblo</span></a>
     <a class="hilo-item" href="tienda.html?sec=raices" aria-label="Para quien lleva sus raíces"><img loading="lazy" src="assets/img/productos/thumb/raiz-wayuu.webp" alt="Diseño de los pueblos y raíces"><span class="cap">Para quien lleva sus raíces</span></a>
     <a class="hilo-item" href="tienda.html?sec=mitos-leyendas" aria-label="Para el alma soñadora"><img loading="lazy" src="assets/img/productos/thumb/mito-la-madremonte.webp" alt="Diseño de mitos y leyendas"><span class="cap">Para el alma soñadora</span></a>
     <a class="hilo-item" href="tienda.html?sec=entre-lineas" aria-label="Para el amante de las letras"><img loading="lazy" src="assets/img/productos/thumb/linea-mariposas-amarillas.webp" alt="Diseño de literatura colombiana"><span class="cap">Para el amante de las letras</span></a>
     <a class="hilo-item" href="tienda.html?cat=sabores" aria-label="Para el goloso"><img loading="lazy" src="assets/img/productos/thumb/bocadillo-veleno.webp" alt="Diseño de sabores"><span class="cap">Para el goloso</span></a>
     <a class="hilo-item" href="tienda.html?cat=fe" aria-label="Para el devoto"><img loading="lazy" src="assets/img/productos/thumb/el-santisimo.webp" alt="Diseño de santuarios"><span class="cap">Para el devoto</span></a>
+  </div>
   </div>
 </section>
 
@@ -88,6 +92,24 @@
 <nav class="bottom-nav" id="bottom-nav" aria-label="Navegación inferior"></nav>
 <script src="assets/js/config.js?v=8"></script>
 <script src="assets/js/nido.js?v=8"></script>
-<script src="assets/js/app.js?v=17"></script>
+<script src="assets/js/app.js?v=19"></script>
+<script>
+/* Flechas para mover el hilo de "¿Para quién es?" */
+(function () {
+  var h = document.getElementById('hilo-regalos'); if (!h) return;
+  var wrap = h.closest('.hilo-wrap');
+  var izq = wrap.querySelector('.hilo-flecha.izq'), der = wrap.querySelector('.hilo-flecha.der');
+  function paso() { return Math.max(240, h.clientWidth * 0.8); }
+  izq.addEventListener('click', function () { h.scrollBy({ left: -paso(), behavior: 'smooth' }); });
+  der.addEventListener('click', function () { h.scrollBy({ left: paso(), behavior: 'smooth' }); });
+  function upd() {
+    izq.hidden = h.scrollLeft < 8;
+    der.hidden = h.scrollLeft > h.scrollWidth - h.clientWidth - 8;
+  }
+  h.addEventListener('scroll', upd, { passive: true });
+  window.addEventListener('resize', upd);
+  upd();
+})();
+</script>
 </body>
 </html>

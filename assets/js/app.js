@@ -9,7 +9,7 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const money = (n) => '$ ' + Math.round(n).toLocaleString('es-CO');
   // precio según el tamaño elegido (Grande suma el recargo; Mediana = precio base)
-  const precioDe = (p, v) => Math.round((p.precio || 0) + (/grande/i.test(v || '') ? (CFG.recargoGrande || 0) : 0));
+  const precioDe = (p, v) => Math.round((p.precio || 0) + (/grande/i.test(v || '') ? (CFG.recargoGrande || 0) : 0) + (/historia completa/i.test(v || '') ? (CFG.recargoReverso || 3000) : 0));
   const img = (id) => `assets/img/productos/${id}.svg`;
   const IMGV = '4';  // sube este número cuando cambien las imágenes (evita caché vieja)
   const foto = (p) => esc((p.imagen || img(p.id)) + '?v=' + IMGV);
@@ -87,20 +87,29 @@
     if (footer) {
       footer.innerHTML = `
       <div class="wrap">
-        <div style="display:flex;flex-direction:column;gap:10px;max-width:360px">
-          <span class="foot-brand">${LOGO}<span class="brand-name">${esc(MARCA)}</span></span>
-          <span>${esc(CFG.lema || '')}. Bolsos de lona con diseños de los pueblos, paisajes y sabores de Santander. Envíos a toda Colombia.</span>
+        <div class="foot-brand-col">
+          <span class="foot-brand"><img class="brand-icon" src="assets/img/marca/mark-light.png" alt="" width="46" height="24"><span class="brand-name">${esc(MARCA)}</span></span>
+          <p class="foot-desc">${esc(CFG.lema || '')}. Bolsos de lona con los pueblos, paisajes, raíces y cultura de Colombia. Envíos a todo el país.</p>
         </div>
-        <nav aria-label="Pie de página">
-          <a href="tienda.html">Tienda</a>
-          <a href="regalos.html">Regalos</a>
-          <a href="historia.html">Nuestra historia</a>
-          <a href="envios.html">Envíos y devoluciones</a>
-          <a href="privacidad.html">Tratamiento de datos</a>
-          <a href="contacto.html">Contacto</a>
-          <a href="https://wa.me/${CFG.whatsapp}" rel="noopener">WhatsApp</a>
-          ${CFG.instagram ? `<a href="${esc(CFG.instagram)}" rel="noopener">Instagram</a>` : ''}
-          <a href="panel.html">Acceso</a>
+        <nav class="foot-cols" aria-label="Pie de página">
+          <div class="foot-col">
+            <h4>Explora</h4>
+            <a href="tienda.html">Tienda</a>
+            <a href="regalos.html">Regalos</a>
+            <a href="historia.html">Nuestra historia</a>
+          </div>
+          <div class="foot-col">
+            <h4>Ayuda</h4>
+            <a href="envios.html">Envíos y devoluciones</a>
+            <a href="privacidad.html">Tratamiento de datos</a>
+            <a href="contacto.html">Contacto</a>
+          </div>
+          <div class="foot-col">
+            <h4>Síguenos</h4>
+            <a href="https://wa.me/${CFG.whatsapp}" rel="noopener">WhatsApp</a>
+            ${CFG.instagram ? `<a href="${esc(CFG.instagram)}" rel="noopener">Instagram</a>` : ''}
+            <a href="panel.html">Acceso</a>
+          </div>
         </nav>
       </div>`;
     }
@@ -310,8 +319,9 @@
     const REVDESC = {
       'Sin texto': 'Solo el diseño; la lona de atrás queda limpia.',
       'Minimal': 'Marca + «Lleva tu tierra contigo» atrás. El poema completo va en la tarjeta.',
-      'Historia completa': 'El manifiesto de Trama de Aquí, estampado en el reverso.'
+      'Historia completa': 'El manifiesto de Trama de Aquí, estampado en el reverso (+' + money(CFG.recargoReverso || 3000) + ').'
     };
+    const varFull = () => (variante ? variante + ' · ' : '') + 'Reverso: ' + reverso;
     let qty = 1;
     const out = p.stock <= 0;
     const niveles = ['', 'Suave', 'Muy suave', 'Suavísimo', 'Como una nube', 'Pura ternura'];
@@ -319,11 +329,12 @@
       <div class="panel brackets viewer" style="position:relative">
         <span class="ring a" aria-hidden="true"></span><span class="ring b" aria-hidden="true"></span><span class="ring c" aria-hidden="true"></span>
         <img src="${foto(p)}" ${SIN_FOTO} alt="${esc(p.nombre)}" width="300" height="300">
+        <span class="viewer-cap" id="viewer-cap" hidden></span>
       </div>
       <div style="display:flex;flex-direction:column;gap:18px">
         <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}</p>
         <h1 class="h-display" style="font-size:clamp(32px,5vw,50px)">${esc(p.nombre)}</h1>
-        <div class="price" id="p-precio" style="font-size:26px">${money(precioDe(p, variante))}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
+        <div class="price" id="p-precio" style="font-size:26px">${money(precioDe(p, varFull()))}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
         ${p.humor ? `<blockquote class="humor"><span>Nota de ${esc(MARCA)}</span>${esc(p.humor)}</blockquote>` : ''}
         <p style="margin:0;color:var(--text-2)">${esc(p.descripcion)}</p>
         ${p.suavidad ? `<div class="arisquez-box"><small>Suavidad</small>${nubes(p.suavidad)}<b>${p.suavidad}/5</b><em>${niveles[p.suavidad]}</em></div>` : ''}
@@ -332,7 +343,7 @@
         ${p.variantes ? `<div><p class="eyebrow" id="var-label" style="margin-bottom:8px">${esc(p.variantes.nombre)}</p>
           <div class="segmented" role="radiogroup" aria-labelledby="var-label">${p.variantes.opciones.map((o, i) => `<button type="button" role="radio" aria-checked="${i === 0}" data-v="${esc(o)}">${esc(o)} · ${money(precioDe(p, o))}</button>`).join('')}</div></div>` : ''}
         <div><p class="eyebrow" id="rev-label" style="margin-bottom:8px">Reverso del bolso</p>
-          <div class="segmented" role="radiogroup" aria-labelledby="rev-label">${['Sin texto','Minimal','Historia completa'].map((o) => `<button type="button" role="radio" aria-checked="${o === reverso}" data-r="${esc(o)}">${esc(o)}</button>`).join('')}</div>
+          <div class="segmented" role="radiogroup" aria-labelledby="rev-label">${['Sin texto','Minimal','Historia completa'].map((o) => `<button type="button" role="radio" aria-checked="${o === reverso}" data-r="${esc(o)}">${esc(o)}${o === 'Historia completa' ? ' · +' + money(CFG.recargoReverso || 3000) : ''}</button>`).join('')}</div>
           <p class="note" id="rev-desc" style="margin-top:6px">${REVDESC[reverso]}</p></div>
         ${out ? '<div class="alert alert-amber"><span class="dot"></span>Agotado por ahora. Escríbenos y te avisamos cuando vuelva.</div>'
           : p.preventa ? `<div class="alert alert-peach"><span class="dot"></span>Preventa · ${esc(p.preventa)}</div>`
@@ -345,19 +356,29 @@
         <p class="note">Envío a toda Colombia · gratis desde ${money(CFG.envioGratisDesde)} · ¿es un regalo? lo empacamos con tarjeta.</p>
       </div>`;
     const precioEl = $('#p-precio', root);
+    // Preview del reverso según la selección
+    const vimg = $('.viewer img', root);
+    const vcap = $('#viewer-cap', root);
+    const frontSrc = vimg ? vimg.src : '';
+    const backSrc = { 'Sin texto': 'assets/img/reverso/sin-texto.jpg', 'Minimal': 'assets/img/reverso/minimal.jpg', 'Historia completa': 'assets/img/reverso/historia.jpg' };
+    function verReverso() { if (!vimg) return; vimg.src = backSrc[reverso]; vimg.dataset.face = 'reverso'; if (vcap) { vcap.textContent = 'Reverso · ' + reverso + ' · toca para ver el frente'; vcap.hidden = false; } }
+    function verFrente() { if (!vimg) return; vimg.src = frontSrc; vimg.dataset.face = 'frente'; if (vcap) vcap.hidden = true; }
+    if (vimg) { vimg.style.cursor = 'pointer'; vimg.addEventListener('click', () => { vimg.dataset.face === 'reverso' ? verFrente() : verReverso(); }); }
     $$('[data-v]', root).forEach((b) => b.addEventListener('click', () => {
       variante = b.dataset.v; $$('[data-v]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
-      if (precioEl) precioEl.innerHTML = money(precioDe(p, variante)) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
+      if (precioEl) precioEl.innerHTML = money(precioDe(p, varFull())) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
     }));
     $$('[data-r]', root).forEach((b) => b.addEventListener('click', () => {
       reverso = b.dataset.r; $$('[data-r]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
       const rd = $('#rev-desc', root); if (rd) rd.textContent = REVDESC[reverso];
+      if (precioEl) precioEl.innerHTML = money(precioDe(p, varFull())) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
+      verReverso();   // muestra el reverso según la opción elegida
     }));
     $$('[data-q]', root).forEach((b) => b.addEventListener('click', () => {
       qty = Math.max(1, qty + Number(b.dataset.q)); $('#qty').textContent = qty;
     }));
     const add = $('#add');
-    if (add) add.addEventListener('click', () => { const varFull = (variante ? variante + ' · ' : '') + 'Reverso: ' + reverso; Cart.add(p.id, varFull, qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
+    if (add) add.addEventListener('click', () => { Cart.add(p.id, varFull(), qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
     const rel = $('#relacionados');
     if (rel) rel.innerHTML = D.productos.filter((x) => x.categoria === p.categoria && x.id !== p.id).slice(0, 4).map(card).join('');
   }
