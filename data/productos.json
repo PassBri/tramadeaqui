@@ -83,6 +83,12 @@
    "nombre": "Expresiones",
    "detalle": "Dichos y expresiones regionales",
    "imagen": "depto-magdalena"
+  },
+  {
+   "id": "danzas",
+   "nombre": "Danzas",
+   "detalle": "Danzas típicas por departamento",
+   "imagen": "depto-danza-huila"
   }
  ],
  "productos": [
@@ -5817,6 +5823,838 @@
     ]
    },
    "departamento": "Vichada"
+  },
+  {
+   "id": "depto-danza-huila",
+   "nombre": "Sanjuanero Huilense",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-huila.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sanjuanero Huilense», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Huila"
+  },
+  {
+   "id": "depto-danza-la-guajira",
+   "nombre": "Yonna Wayuu",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-la-guajira.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Yonna Wayuu», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "La Guajira"
+  },
+  {
+   "id": "depto-danza-magdalena",
+   "nombre": "Cumbia de El Banco",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-magdalena.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cumbia de El Banco», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Magdalena"
+  },
+  {
+   "id": "depto-danza-meta",
+   "nombre": "Joropo Llanero",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-meta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Joropo Llanero», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Meta"
+  },
+  {
+   "id": "depto-danza-amazonas",
+   "nombre": "Baile del Pescado",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-amazonas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Baile del Pescado», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Amazonas"
+  },
+  {
+   "id": "depto-danza-antioquia",
+   "nombre": "Vueltas Antioqueñas",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-antioquia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Vueltas Antioqueñas», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Antioquia"
+  },
+  {
+   "id": "depto-danza-arauca",
+   "nombre": "Joropo Tradicional",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-arauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Joropo Tradicional», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Arauca"
+  },
+  {
+   "id": "depto-danza-atlantico",
+   "nombre": "Mapalé",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-atlantico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mapalé», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Atlántico"
+  },
+  {
+   "id": "depto-danza-bolivar",
+   "nombre": "Bullerengue",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-bolivar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bullerengue», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Bolívar"
+  },
+  {
+   "id": "depto-danza-boyaca",
+   "nombre": "Torbellino Boyacense",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-boyaca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Torbellino Boyacense», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Boyacá"
+  },
+  {
+   "id": "depto-danza-caldas",
+   "nombre": "Pasillo Fiestero",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-caldas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pasillo Fiestero», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Caldas"
+  },
+  {
+   "id": "depto-danza-caqueta",
+   "nombre": "Sanjuanero Caqueteño",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-caqueta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sanjuanero Caqueteño», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Caquetá"
+  },
+  {
+   "id": "depto-danza-casanare",
+   "nombre": "Joropo Sabanero",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-casanare.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Joropo Sabanero», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Casanare"
+  },
+  {
+   "id": "depto-danza-cauca",
+   "nombre": "Bambuco Patiano",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-cauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bambuco Patiano», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cauca"
+  },
+  {
+   "id": "depto-danza-cesar",
+   "nombre": "Danza del Pilón",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-cesar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Danza del Pilón», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cesar"
+  },
+  {
+   "id": "depto-danza-choco",
+   "nombre": "Abozao",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-choco.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Abozao», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Chocó"
+  },
+  {
+   "id": "depto-danza-cordoba",
+   "nombre": "Porro Pelayero",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-cordoba.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Porro Pelayero», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Córdoba"
+  },
+  {
+   "id": "depto-danza-cundinamarca",
+   "nombre": "Rumba Criolla",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-cundinamarca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rumba Criolla», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cundinamarca"
+  },
+  {
+   "id": "depto-danza-guainia",
+   "nombre": "Danza y Yapurutú",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-guainia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Danza y Yapurutú», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Guainía"
+  },
+  {
+   "id": "depto-danza-guaviare",
+   "nombre": "Joropo de Encuentro",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-guaviare.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Joropo de Encuentro», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Guaviare"
+  },
+  {
+   "id": "depto-danza-vichada",
+   "nombre": "Joropo del Orinoco",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-vichada.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Joropo del Orinoco», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Vichada"
+  },
+  {
+   "id": "depto-danza-narino",
+   "nombre": "Son Sureño",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-narino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Son Sureño», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Nariño"
+  },
+  {
+   "id": "depto-danza-norte-de-santander",
+   "nombre": "Bambuco Andino",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-norte-de-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bambuco Andino», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Norte de Santander"
+  },
+  {
+   "id": "depto-danza-putumayo",
+   "nombre": "Bambuco Andino",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-putumayo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bambuco Andino», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Putumayo"
+  },
+  {
+   "id": "depto-danza-quindio",
+   "nombre": "Bambuco Campesino",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-quindio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bambuco Campesino», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Quindío"
+  },
+  {
+   "id": "depto-danza-risaralda",
+   "nombre": "Pasillo Andino",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-risaralda.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Pasillo Andino», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Risaralda"
+  },
+  {
+   "id": "depto-danza-san-andres-providencia-y-santa-catalina",
+   "nombre": "Cuadrilla Raizal",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-san-andres-providencia-y-santa-catalina.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cuadrilla Raizal», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "San Andrés, Providencia y Santa Catalina"
+  },
+  {
+   "id": "depto-danza-santander",
+   "nombre": "Torbellino Veleño",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Torbellino Veleño», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Santander"
+  },
+  {
+   "id": "depto-danza-sucre",
+   "nombre": "Fandango Sabanero",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-sucre.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fandango Sabanero», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Sucre"
+  },
+  {
+   "id": "depto-danza-tolima",
+   "nombre": "Bunde Tolimense",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-tolima.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bunde Tolimense», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Tolima"
+  },
+  {
+   "id": "depto-danza-valle-del-cauca",
+   "nombre": "Salsa Caleña",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-valle-del-cauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Salsa Caleña», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Valle del Cauca"
+  },
+  {
+   "id": "depto-danza-vaupes",
+   "nombre": "Danza del Carrizo",
+   "categoria": "danzas",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-danza-vaupes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Danza del Carrizo», estampado a una cara. Una danza tradicional de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Vaupés"
   }
  ]
 }
