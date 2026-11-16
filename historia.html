@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=37">
+<link rel="stylesheet" href="assets/css/styles.css?v=38">
 </head>
 <body data-page="historia">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -97,21 +97,32 @@
 <script src="assets/js/nido.js?v=8"></script>
 <script src="assets/js/app.js?v=16"></script>
 <script>
-/* Tapiz: todas las imágenes de las colecciones, barajadas, carga diferida */
+/* Tapiz: muestra curada; el total completa siempre la última fila según el ancho */
 (function () {
   var cont = document.getElementById('tapiz'); if (!cont) return;
   fetch('data/productos.json').then(function (r) { return r.json(); }).then(function (d) {
     var ps = (d.productos || []).slice();
     for (var k = ps.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = ps[k]; ps[k] = ps[j]; ps[j] = t; }
-    ps = ps.slice(0, 30);   // muestra curada, no las 360 (se veía sobrecargado)
-    var frag = document.createDocumentFragment();
-    ps.forEach(function (p) {
+    var imgs = ps.slice(0, 48).map(function (p) {
       var im = document.createElement('img');
       im.loading = 'lazy'; im.decoding = 'async'; im.alt = '';
       im.src = p.imagen.replace('/productos/', '/productos/art/').replace('.jpg', '.webp');
-      frag.appendChild(im);
+      return im;
     });
-    cont.appendChild(frag);
+    function cols() {
+      var g = getComputedStyle(cont).gridTemplateColumns;
+      return (g && g !== 'none') ? g.split(' ').length : 1;
+    }
+    function layout() {
+      cont.innerHTML = '';
+      imgs.forEach(function (im) { cont.appendChild(im); });   // todos, para medir columnas
+      var c = cols();
+      var rows = c >= 6 ? 3 : (c >= 4 ? 4 : 5);                // filas completas según ancho
+      var n = Math.min(imgs.length, c * rows);
+      while (cont.children.length > n) cont.removeChild(cont.lastChild);
+    }
+    layout();
+    var tid; window.addEventListener('resize', function () { clearTimeout(tid); tid = setTimeout(layout, 180); });
   }).catch(function () {});
 })();
 </script>
