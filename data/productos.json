@@ -77,6 +77,12 @@
    "nombre": "Municipios",
    "detalle": "Los pueblos de Santander",
    "imagen": "muni-velez"
+  },
+  {
+   "id": "expresiones",
+   "nombre": "Expresiones",
+   "detalle": "Dichos y expresiones regionales",
+   "imagen": "depto-magdalena"
   }
  ],
  "productos": [
@@ -4981,16 +4987,692 @@
    }
   },
   {
-   "id": "depto-santander",
-   "nombre": "Santander",
-   "categoria": "cultura",
+   "id": "depto-magdalena",
+   "nombre": "Magdalena",
+   "categoria": "expresiones",
    "seccion": "departamentos",
    "precio": 45000,
    "stock": 24,
    "destacado": false,
    "nuevo": true,
+   "imagen": "assets/img/productos/depto-magdalena.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Magdalena», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Magdalena"
+  },
+  {
+   "id": "depto-amazonas",
+   "nombre": "Amazonas",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-amazonas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Amazonas», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Amazonas"
+  },
+  {
+   "id": "depto-antioquia",
+   "nombre": "Antioquia",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-antioquia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Antioquia», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Antioquia"
+  },
+  {
+   "id": "depto-arauca",
+   "nombre": "Arauca",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-arauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Arauca», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Arauca"
+  },
+  {
+   "id": "depto-atlantico",
+   "nombre": "Atlántico",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-atlantico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Atlántico», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Atlántico"
+  },
+  {
+   "id": "depto-bolivar",
+   "nombre": "Bolívar",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-bolivar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bolívar», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Bolívar"
+  },
+  {
+   "id": "depto-boyaca",
+   "nombre": "Boyacá",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-boyaca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Boyacá», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Boyacá"
+  },
+  {
+   "id": "depto-caldas",
+   "nombre": "Caldas",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-caldas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Caldas», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Caldas"
+  },
+  {
+   "id": "depto-caqueta",
+   "nombre": "Caquetá",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-caqueta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Caquetá», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Caquetá"
+  },
+  {
+   "id": "depto-casanare",
+   "nombre": "Casanare",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-casanare.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Casanare», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Casanare"
+  },
+  {
+   "id": "depto-cauca",
+   "nombre": "Cauca",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-cauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cauca», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cauca"
+  },
+  {
+   "id": "depto-cesar",
+   "nombre": "Cesar",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-cesar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cesar», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cesar"
+  },
+  {
+   "id": "depto-choco",
+   "nombre": "Chocó",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-choco.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chocó», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Chocó"
+  },
+  {
+   "id": "depto-cordoba",
+   "nombre": "Córdoba",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-cordoba.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Córdoba», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Córdoba"
+  },
+  {
+   "id": "depto-cundinamarca",
+   "nombre": "Cundinamarca",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-cundinamarca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cundinamarca», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Cundinamarca"
+  },
+  {
+   "id": "depto-guainia",
+   "nombre": "Guainía",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-guainia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guainía», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Guainía"
+  },
+  {
+   "id": "depto-guaviare",
+   "nombre": "Guaviare",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-guaviare.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guaviare», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Guaviare"
+  },
+  {
+   "id": "depto-huila",
+   "nombre": "Huila",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-huila.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Huila», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Huila"
+  },
+  {
+   "id": "depto-la-guajira",
+   "nombre": "La Guajira",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-la-guajira.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Guajira», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "La Guajira"
+  },
+  {
+   "id": "depto-meta",
+   "nombre": "Meta",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-meta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Meta», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Meta"
+  },
+  {
+   "id": "depto-narino",
+   "nombre": "Nariño",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-narino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Nariño», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Nariño"
+  },
+  {
+   "id": "depto-norte-de-santander",
+   "nombre": "Norte de Santander",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-norte-de-santander.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Norte de Santander», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Norte de Santander"
+  },
+  {
+   "id": "depto-putumayo",
+   "nombre": "Putumayo",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-putumayo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Putumayo», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Putumayo"
+  },
+  {
+   "id": "depto-quindio",
+   "nombre": "Quindío",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-quindio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Quindío», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Quindío"
+  },
+  {
+   "id": "depto-risaralda",
+   "nombre": "Risaralda",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-risaralda.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Risaralda», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Risaralda"
+  },
+  {
+   "id": "depto-san-andres-providencia-y-santa-catalina",
+   "nombre": "San Andrés, Providencia y Santa Catalina",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-san-andres-providencia-y-santa-catalina.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Andrés, Providencia y Santa Catalina», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "San Andrés, Providencia y Santa Catalina"
+  },
+  {
+   "id": "depto-santander",
+   "nombre": "Santander",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
    "imagen": "assets/img/productos/depto-santander.jpg",
-   "descripcion": "Bolso de lona de algodón con el diseño «Santander», estampado a una cara. Lo representativo de este departamento: cultura y lugares turísticos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Bolso de lona de algodón con el diseño «Santander», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Material": "Lona de algodón",
     "Medidas": "38 × 42 cm",
@@ -5005,6 +5687,136 @@
     ]
    },
    "departamento": "Santander"
+  },
+  {
+   "id": "depto-sucre",
+   "nombre": "Sucre",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-sucre.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sucre», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Sucre"
+  },
+  {
+   "id": "depto-tolima",
+   "nombre": "Tolima",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-tolima.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tolima», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Tolima"
+  },
+  {
+   "id": "depto-valle-del-cauca",
+   "nombre": "Valle del Cauca",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-valle-del-cauca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Valle del Cauca», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Valle del Cauca"
+  },
+  {
+   "id": "depto-vaupes",
+   "nombre": "Vaupés",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-vaupes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Vaupés», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Vaupés"
+  },
+  {
+   "id": "depto-vichada",
+   "nombre": "Vichada",
+   "categoria": "expresiones",
+   "seccion": "departamentos",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/depto-vichada.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Vichada», estampado a una cara. Una expresión típica de este departamento de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "departamento": "Vichada"
   }
  ]
 }
