@@ -898,7 +898,7 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 
 /* Hero: dos bolsos compactos, lado a lado, que cambian de forma alterna */
 .hero-duo { display: flex; justify-content: center; align-items: stretch; gap: 14px; }
-.hero-duo .bolso { position: relative; flex: 1 1 0; min-width: 0; max-width: 310px; aspect-ratio: 68/116; border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 14px 32px rgba(60,40,20,.14); }
+.hero-duo .bolso { position: relative; flex: 1 1 0; min-width: 0; max-width: 400px; aspect-ratio: 68/116; border-radius: 16px; overflow: hidden; background: #fff; box-shadow: 0 16px 36px rgba(60,40,20,.16); }
 .hero-duo .bolso img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; opacity: 0; transition: opacity .8s ease; }
 .hero-duo .bolso img.activo { opacity: 1; }
 @media (max-width: 760px){
