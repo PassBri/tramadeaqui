@@ -315,7 +315,7 @@
       const s = document.createElement('script'); s.type = 'application/ld+json'; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
     })();
     let variante = p.variantes ? p.variantes.opciones[0] : '';
-    let reverso = 'Minimal';   // predeterminado
+    let reverso = 'Sin texto';   // predeterminado (precio = catálogo; Minimal/Historia suman)
     const REVDESC = {
       'Sin texto': 'Solo el diseño; la lona de atrás queda limpia.',
       'Minimal': 'Marca + «Lleva tu tierra contigo» atrás. El poema completo va en la tarjeta.',
