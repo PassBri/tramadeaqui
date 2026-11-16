@@ -15,6 +15,14 @@
   {
    "id": "departamentos",
    "nombre": "Por departamento"
+  },
+  {
+   "id": "riquezas",
+   "nombre": "Riquezas de Colombia"
+  },
+  {
+   "id": "flora-fauna",
+   "nombre": "Flora y fauna"
   }
  ],
  "categorias": [
@@ -89,6 +97,30 @@
    "nombre": "Danzas",
    "detalle": "Danzas típicas por departamento",
    "imagen": "depto-danza-huila"
+  },
+  {
+   "id": "orfebreria",
+   "nombre": "Orfebrería",
+   "detalle": "Oro prehispánico de Colombia",
+   "imagen": "riq-balsa-muisca"
+  },
+  {
+   "id": "esmeraldas",
+   "nombre": "Esmeraldas",
+   "detalle": "Las esmeraldas de Boyacá",
+   "imagen": "riq-esmeralda-trapiche"
+  },
+  {
+   "id": "fauna",
+   "nombre": "Fauna",
+   "detalle": "Animales emblemáticos de Colombia",
+   "imagen": "ff-jaguar"
+  },
+  {
+   "id": "flora",
+   "nombre": "Flora",
+   "detalle": "Plantas y flores de Colombia",
+   "imagen": "ff-palma-de-cera"
   }
  ],
  "productos": [
@@ -6655,6 +6687,506 @@
     ]
    },
    "departamento": "Vaupés"
+  },
+  {
+   "id": "riq-balsa-muisca",
+   "nombre": "Balsa Muisca",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-balsa-muisca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Balsa Muisca», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-poporo-quimbaya",
+   "nombre": "Poporo Quimbaya",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-poporo-quimbaya.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Poporo Quimbaya», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-mascara-ilama",
+   "nombre": "Máscara Ilama",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-mascara-ilama.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Máscara Ilama», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-disco-rotatorio",
+   "nombre": "Disco Rotatorio",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-disco-rotatorio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Disco Rotatorio», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-danzante-tairona",
+   "nombre": "Danzante Tairona",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-danzante-tairona.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Danzante Tairona», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-orejera-zenu",
+   "nombre": "Orejera Zenú",
+   "categoria": "orfebreria",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-orejera-zenu.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Orejera Zenú», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-esmeralda-trapiche",
+   "nombre": "Esmeralda Trapiche",
+   "categoria": "esmeraldas",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-esmeralda-trapiche.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Esmeralda Trapiche», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-muzo",
+   "nombre": "Muzo",
+   "categoria": "esmeraldas",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-muzo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Muzo», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-chivor",
+   "nombre": "Chivor",
+   "categoria": "esmeraldas",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-chivor.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chivor», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "riq-coscuez",
+   "nombre": "Coscuez",
+   "categoria": "esmeraldas",
+   "seccion": "riquezas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/riq-coscuez.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Coscuez», estampado a una cara. Una pieza del patrimonio y la riqueza de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-jaguar",
+   "nombre": "Jaguar",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-jaguar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Jaguar», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-oso-andino",
+   "nombre": "Oso Andino",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-oso-andino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Oso Andino», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-condor-de-los-andes",
+   "nombre": "Cóndor de los Andes",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-condor-de-los-andes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cóndor de los Andes», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-titi-cabeciblanco",
+   "nombre": "Tití Cabeciblanco",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-titi-cabeciblanco.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tití Cabeciblanco», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-delfin-rosado",
+   "nombre": "Delfín Rosado",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-delfin-rosado.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Delfín Rosado», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-rana-dorada",
+   "nombre": "Rana Dorada",
+   "categoria": "fauna",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-rana-dorada.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rana Dorada», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-palma-de-cera",
+   "nombre": "Palma de Cera",
+   "categoria": "flora",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-palma-de-cera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Palma de Cera», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-orquidea-de-mayo",
+   "nombre": "Orquídea de Mayo",
+   "categoria": "flora",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-orquidea-de-mayo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Orquídea de Mayo», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-frailejon",
+   "nombre": "Frailejón",
+   "categoria": "flora",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-frailejon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Frailejón», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "ff-victoria-amazonica",
+   "nombre": "Victoria Amazónica",
+   "categoria": "flora",
+   "seccion": "flora-fauna",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/ff-victoria-amazonica.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Victoria Amazónica», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
   }
  ]
 }
