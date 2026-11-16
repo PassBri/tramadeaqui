@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=18">
+<link rel="stylesheet" href="assets/css/styles.css?v=19">
 </head>
 <body data-page="inicio">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -38,8 +38,8 @@
         <span>Hecho en Santander</span>
       </div>
     </div>
-    <div class="hero-foto">
-      <img src="assets/img/productos/cv-colombia-viva.jpg" alt="Bolso de lona Trama de Aquí · colección Colombia Viva">
+    <div class="hero-foto" id="hero-slider">
+      <img class="activo" src="assets/img/productos/cv-colombia-viva.jpg" alt="Bolsos de lona Trama de Aquí con diseños de Colombia">
     </div>
   </div>
 </section>
@@ -75,5 +75,26 @@
 <script src="assets/js/config.js?v=8"></script>
 <script src="assets/js/nido.js?v=8"></script>
 <script src="assets/js/app.js?v=16"></script>
+<script>
+(function () {
+  var cont = document.getElementById('hero-slider');
+  if (!cont) return;
+  var base = 'assets/img/productos/';
+  var fotos = ['cv-colombia-viva', 'muni-barichara', 'depto-danza-magdalena', 'riq-poporo-quimbaya', 'canon-del-chicamocha', 'ff-jaguar', 'co-sombrero-vueltiao', 'cv-flamencos-de-la-guajira', 'depto-antioquia', 'ff-condor-de-los-andes', 'cv-ballenas-de-nuqui', 'muni-bucaramanga'].map(function (s) { return base + s + '.jpg'; });
+  fotos.forEach(function (s) { var im = new Image(); im.src = s; });
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var a = cont.querySelector('img');
+  var b = a.cloneNode(false); b.classList.remove('activo'); b.removeAttribute('alt'); cont.appendChild(b);
+  var i = 0, visible = a;
+  setInterval(function () {
+    i = (i + 1) % fotos.length;
+    var next = (visible === a) ? b : a;
+    next.src = fotos[i];
+    next.classList.add('activo');
+    visible.classList.remove('activo');
+    visible = next;
+  }, 2000);
+})();
+</script>
 </body>
 </html>
