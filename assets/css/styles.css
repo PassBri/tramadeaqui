@@ -802,9 +802,10 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .hero-foto { background: #DDCCB1; }    /* lino de reserva (el tapete va horneado en la foto) */
 .hero-foto img { object-fit: contain; background: transparent; }
 
-/* Producto: visor con fondo blanco limpio (sin aros decorativos) */
-.viewer { background: #fff; }
+/* Producto: visor con fondo blanco limpio (sin aros ni sombra de rectángulo) */
+.panel.viewer { background: #fff; }   /* especificidad para ganarle al crema del panel */
 .viewer .ring { display: none; }
+.viewer img { filter: none; }   /* sin drop-shadow: evita el doble blanco del rectangulo */
 
 /* ===== Ajustes móviles del inicio ===== */
 @media (max-width: 640px) {
