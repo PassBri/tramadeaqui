@@ -515,7 +515,7 @@
     $$('[data-ig]').forEach((a) => { if (CFG.instagram) a.href = CFG.instagram; });
     updateBadges();
     countdown();
-    const run = { inicio: tienda, tienda, producto, carrito }[page];
+    const run = { tienda, producto, carrito }[page];  // el inicio es portada; la tienda va en tienda.html
     if (run) run().then(() => window.nidoMirar && nidoMirar()).catch(() => { const m = $('main'); if (m) m.insertAdjacentHTML('afterbegin', '<p class="wrap alert alert-amber" style="margin-top:20px">No pudimos cargar los productos. Recarga la página.</p>'); });
     contacto();
     pago();
