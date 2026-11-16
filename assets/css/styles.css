@@ -799,8 +799,8 @@ body[data-page="tienda"] { background: #F8F4EB; } /* marfil liso en la tienda */
 body::before, body::after { display: none !important; } /* fuera aurora e íconos de fondo */
 
 /* La textura de lino va SOLO detrás del bolso principal */
-.hero-foto { background: #DDCCB1; }    /* lino de reserva (el tapete va horneado en la foto) */
-.hero-foto img { object-fit: contain; background: transparent; }
+.hero-foto { background: #fff; }       /* fondo claro: el bolso va sobre su fondo blanco real, sin recorte */
+.hero-foto img { object-fit: contain; background: #fff; }
 
 /* Producto: visor con fondo blanco limpio (sin aros ni sombra de rectángulo) */
 .panel.viewer { background: #fff; }   /* especificidad para ganarle al crema del panel */

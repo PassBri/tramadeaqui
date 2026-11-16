@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=27">
+<link rel="stylesheet" href="assets/css/styles.css?v=28">
 </head>
 <body data-page="inicio">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="hero-foto" id="hero-slider">
-      <img class="activo" src="assets/img/hero/cv-colombia-viva.jpg?v=4" alt="Bolsos de lona Trama de Aquí con diseños de Colombia">
+      <img class="activo" src="assets/img/productos/cv-colombia-viva.jpg" alt="Bolsos de lona Trama de Aquí con diseños de Colombia">
     </div>
   </div>
 </section>
@@ -79,8 +79,8 @@
 (function () {
   var cont = document.getElementById('hero-slider');
   if (!cont) return;
-  var base = 'assets/img/hero/';
-  var fotos = ['cv-colombia-viva', 'muni-barichara', 'depto-danza-magdalena', 'riq-poporo-quimbaya', 'canon-del-chicamocha', 'ff-jaguar', 'co-sombrero-vueltiao', 'cv-flamencos-de-la-guajira', 'depto-antioquia', 'ff-condor-de-los-andes', 'cv-ballenas-de-nuqui', 'muni-bucaramanga'].map(function (s) { return base + s + '.jpg?v=4'; });
+  var base = 'assets/img/productos/';
+  var fotos = ['cv-colombia-viva', 'muni-barichara', 'depto-danza-magdalena', 'riq-poporo-quimbaya', 'canon-del-chicamocha', 'ff-jaguar', 'co-sombrero-vueltiao', 'cv-flamencos-de-la-guajira', 'depto-antioquia', 'ff-condor-de-los-andes', 'cv-ballenas-de-nuqui', 'muni-bucaramanga'].map(function (s) { return base + s + '.jpg'; });
   fotos.forEach(function (s) { var im = new Image(); im.src = s; });
   if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   var a = cont.querySelector('img');
