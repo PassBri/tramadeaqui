@@ -23,6 +23,10 @@
   {
    "id": "flora-fauna",
    "nombre": "Flora y fauna"
+  },
+  {
+   "id": "colombia-viva",
+   "nombre": "Colombia Viva"
   }
  ],
  "categorias": [
@@ -121,6 +125,12 @@
    "nombre": "Flora",
    "detalle": "Plantas y flores de Colombia",
    "imagen": "ff-palma-de-cera"
+  },
+  {
+   "id": "colombia-viva",
+   "nombre": "Colombia Viva",
+   "detalle": "Naturaleza y biodiversidad de Colombia",
+   "imagen": "cv-colombia-viva"
   }
  ],
  "productos": [
@@ -7174,6 +7184,256 @@
    "nuevo": true,
    "imagen": "assets/img/productos/ff-victoria-amazonica.jpg",
    "descripcion": "Bolso de lona de algodón con el diseño «Victoria Amazónica», estampado a una cara. Un emblema de la biodiversidad de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-colombia-viva",
+   "nombre": "Colombia Viva",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-colombia-viva.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Colombia Viva», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-ballenas-de-nuqui",
+   "nombre": "Ballenas de Nuquí",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-ballenas-de-nuqui.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Ballenas de Nuquí», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-aves-de-colombia",
+   "nombre": "Aves de Colombia",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-aves-de-colombia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Aves de Colombia», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-orquideas-de-colombia",
+   "nombre": "Orquídeas de Colombia",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-orquideas-de-colombia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Orquídeas de Colombia», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-amazonia-colombiana",
+   "nombre": "Amazonía Colombiana",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-amazonia-colombiana.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Amazonía Colombiana», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-paramos-de-colombia",
+   "nombre": "Páramos de Colombia",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-paramos-de-colombia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Páramos de Colombia», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-cano-cristales",
+   "nombre": "Caño Cristales",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-cano-cristales.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Caño Cristales», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-sabana-llanera",
+   "nombre": "Sabana Llanera",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-sabana-llanera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sabana Llanera», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-flamencos-de-la-guajira",
+   "nombre": "Flamencos de La Guajira",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-flamencos-de-la-guajira.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Flamencos de La Guajira», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cv-arrecifes-de-providencia",
+   "nombre": "Arrecifes de Providencia",
+   "categoria": "colombia-viva",
+   "seccion": "colombia-viva",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cv-arrecifes-de-providencia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Arrecifes de Providencia», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Material": "Lona de algodón",
     "Medidas": "38 × 42 cm",
