@@ -35,6 +35,10 @@
   {
    "id": "mitos-leyendas",
    "nombre": "Mitos y Leyendas"
+  },
+  {
+   "id": "entre-lineas",
+   "nombre": "Entre Líneas"
   }
  ],
  "categorias": [
@@ -151,6 +155,12 @@
    "nombre": "Mitos y Leyendas",
    "detalle": "Mitos y leyendas del folclor colombiano",
    "imagen": "mito-fura-y-tena"
+  },
+  {
+   "id": "entre-lineas",
+   "nombre": "Entre Líneas",
+   "detalle": "Escenas inspiradas en la literatura colombiana",
+   "imagen": "linea-mariposas-amarillas"
   }
  ],
  "productos": [
@@ -8254,6 +8264,481 @@
    "nuevo": true,
    "imagen": "assets/img/productos/mito-la-sirena-de-hurtado.jpg",
    "descripcion": "Bolso de lona de algodón con el diseño «La Sirena de Hurtado», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-mariposas-amarillas",
+   "nombre": "Mariposas amarillas",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-mariposas-amarillas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Mariposas amarillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-jardin-de-ausencia",
+   "nombre": "Jardín de ausencia",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-jardin-de-ausencia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Jardín de ausencia», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-selva-que-devora",
+   "nombre": "Selva que devora",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-selva-que-devora.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Selva que devora», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-sapo-de-paseo",
+   "nombre": "Sapo de paseo",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-sapo-de-paseo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Sapo de paseo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-veta-y-la-casa",
+   "nombre": "La veta y la casa",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-veta-y-la-casa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La veta y la casa», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-una-vida-en-el-tablero",
+   "nombre": "Una vida en el tablero",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-una-vida-en-el-tablero.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Una vida en el tablero», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-morada-de-hojas",
+   "nombre": "Morada de hojas",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-morada-de-hojas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Morada de hojas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-vida-profunda",
+   "nombre": "La vida profunda",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-vida-profunda.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La vida profunda», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-tambor-de-dos-orillas",
+   "nombre": "Tambor de dos orillas",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-tambor-de-dos-orillas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tambor de dos orillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-estrellas-en-el-atrato",
+   "nombre": "Estrellas en el Atrato",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-estrellas-en-el-atrato.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Estrellas en el Atrato», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-el-jardin-del-recuerdo",
+   "nombre": "El jardín del recuerdo",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-jardin-del-recuerdo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El jardín del recuerdo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-cartas-de-una-nina",
+   "nombre": "Cartas de una niña",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-cartas-de-una-nina.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cartas de una niña», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-brisa-tras-la-celosia",
+   "nombre": "La brisa tras la celosía",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-brisa-tras-la-celosia.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La brisa tras la celosía», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-isla-secreta",
+   "nombre": "Isla secreta",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-isla-secreta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Isla secreta», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-el-pueblo-en-silencio",
+   "nombre": "El pueblo en silencio",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-pueblo-en-silencio.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El pueblo en silencio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-taza-y-la-luz",
+   "nombre": "La taza y la luz",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-taza-y-la-luz.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La taza y la luz», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-marea-y-la-perra",
+   "nombre": "La marea y la perra",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-marea-y-la-perra.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La marea y la perra», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-la-mesa-de-los-espejos",
+   "nombre": "La mesa de los espejos",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-la-mesa-de-los-espejos.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La mesa de los espejos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "linea-flores-del-encierro",
+   "nombre": "Flores del encierro",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-flores-del-encierro.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Flores del encierro», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Material": "Lona de algodón",
     "Medidas": "38 × 42 cm",
