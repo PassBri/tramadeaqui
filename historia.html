@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=36">
+<link rel="stylesheet" href="assets/css/styles.css?v=37">
 </head>
 <body data-page="historia">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -103,6 +103,7 @@
   fetch('data/productos.json').then(function (r) { return r.json(); }).then(function (d) {
     var ps = (d.productos || []).slice();
     for (var k = ps.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = ps[k]; ps[k] = ps[j]; ps[j] = t; }
+    ps = ps.slice(0, 30);   // muestra curada, no las 360 (se veía sobrecargado)
     var frag = document.createDocumentFragment();
     ps.forEach(function (p) {
       var im = document.createElement('img');
