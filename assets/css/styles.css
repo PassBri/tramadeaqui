@@ -799,10 +799,5 @@ body[data-page="tienda"] { background: #F8F4EB; } /* marfil liso en la tienda */
 body::before, body::after { display: none !important; } /* fuera aurora e íconos de fondo */
 
 /* La textura de lino va SOLO detrás del bolso principal */
-.hero-foto {
-  background-color: #E7DDC8;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(92,72,40,.04) 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(90deg, rgba(92,72,40,.04) 0 1px, transparent 1px 3px);
-}
+.hero-foto { background: #E7DDC8; }   /* lino, igual al fondo de las fotos del hero */
 .hero-foto img { background: transparent; }
