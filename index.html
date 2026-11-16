@@ -83,21 +83,29 @@
 (function () {
   var cont = document.getElementById('hero-slider');
   if (!cont) return;
-  var base = 'assets/img/productos/';
-  var fotos = ['cv-colombia-viva', 'muni-barichara', 'depto-danza-magdalena', 'riq-poporo-quimbaya', 'canon-del-chicamocha', 'ff-jaguar', 'co-sombrero-vueltiao', 'cv-flamencos-de-la-guajira', 'depto-antioquia', 'ff-condor-de-los-andes', 'cv-ballenas-de-nuqui', 'muni-bucaramanga'].map(function (s) { return base + s + '.jpg'; });
-  fotos.forEach(function (s) { var im = new Image(); im.src = s; });
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   var a = cont.querySelector('img');
-  var b = a.cloneNode(false); b.classList.remove('activo'); b.removeAttribute('alt'); cont.appendChild(b);
-  var i = 0, visible = a;
-  setInterval(function () {
-    i = (i + 1) % fotos.length;
-    var next = (visible === a) ? b : a;
-    next.src = fotos[i];
-    next.classList.add('activo');
-    visible.classList.remove('activo');
-    visible = next;
-  }, 2000);
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  // Pasa TODOS los diseños del catálogo, en orden aleatorio, uno por uno.
+  fetch('data/productos.json').then(function (r) { return r.json(); }).then(function (d) {
+    var fotos = (d.productos || []).map(function (p) { return p.imagen; });
+    for (var k = fotos.length - 1; k > 0; k--) {           // barajar (Fisher-Yates)
+      var j = Math.floor(Math.random() * (k + 1));
+      var t = fotos[k]; fotos[k] = fotos[j]; fotos[j] = t;
+    }
+    if (!fotos.length) return;
+    var b = a.cloneNode(false); b.classList.remove('activo'); b.removeAttribute('alt'); cont.appendChild(b);
+    var i = -1, visible = a;
+    (new Image()).src = fotos[0];                           // precarga la primera
+    setInterval(function () {
+      i = (i + 1) % fotos.length;
+      var next = (visible === a) ? b : a;
+      next.src = fotos[i];
+      next.classList.add('activo');
+      visible.classList.remove('activo');
+      visible = next;
+      (new Image()).src = fotos[(i + 1) % fotos.length];    // precarga la siguiente
+    }, 2000);
+  }).catch(function () {});
 })();
 
 /* Revelado al hacer scroll — IntersectionObserver (vanilla, 1 vez por elemento) */
