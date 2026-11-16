@@ -18,7 +18,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=28">
+<link rel="stylesheet" href="assets/css/styles.css?v=29">
+<script>document.documentElement.classList.add('js-reveal')</script>
 </head>
 <body data-page="inicio">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -45,16 +46,16 @@
 </section>
 
 <section class="wrap section coles-sec">
-  <h2 class="coles-titulo">Explora las colecciones</h2>
+  <h2 class="coles-titulo reveal">Explora las colecciones</h2>
   <div class="colecciones">
-    <a class="coleccion" href="tienda.html?sec=municipios"><img loading="lazy" src="assets/img/productos/thumb/muni-barichara.webp" alt=""><span class="etq">Municipios de Santander</span></a>
-    <a class="coleccion" href="tienda.html?sec=colombia-viva"><img loading="lazy" src="assets/img/productos/thumb/cv-colombia-viva.webp" alt=""><span class="etq">Colombia Viva</span></a>
-    <a class="coleccion" href="tienda.html?sec=departamentos&amp;cat=danzas"><img loading="lazy" src="assets/img/productos/thumb/depto-danza-magdalena.webp" alt=""><span class="etq">Danzas de Colombia</span></a>
-    <a class="coleccion" href="tienda.html?sec=riquezas"><img loading="lazy" src="assets/img/productos/thumb/riq-poporo-quimbaya.webp" alt=""><span class="etq">Orfebrería y esmeraldas</span></a>
-    <a class="coleccion" href="tienda.html?sec=santander"><img loading="lazy" src="assets/img/productos/thumb/canon-del-chicamocha.webp" alt=""><span class="etq">Santander</span></a>
-    <a class="coleccion" href="tienda.html?sec=departamentos&amp;cat=expresiones"><img loading="lazy" src="assets/img/productos/thumb/depto-antioquia.webp" alt=""><span class="etq">Expresiones regionales</span></a>
-    <a class="coleccion" href="tienda.html?sec=cultura-co"><img loading="lazy" src="assets/img/productos/thumb/co-sombrero-vueltiao.webp" alt=""><span class="etq">Cultura colombiana</span></a>
-    <a class="coleccion" href="tienda.html?sec=flora-fauna"><img loading="lazy" src="assets/img/productos/thumb/ff-jaguar.webp" alt=""><span class="etq">Flora y fauna</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=municipios"><img loading="lazy" src="assets/img/productos/thumb/muni-barichara.webp" alt=""><span class="etq">Municipios de Santander</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=colombia-viva"><img loading="lazy" src="assets/img/productos/thumb/cv-colombia-viva.webp" alt=""><span class="etq">Colombia Viva</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=departamentos&amp;cat=danzas"><img loading="lazy" src="assets/img/productos/thumb/depto-danza-magdalena.webp" alt=""><span class="etq">Danzas de Colombia</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=riquezas"><img loading="lazy" src="assets/img/productos/thumb/riq-poporo-quimbaya.webp" alt=""><span class="etq">Orfebrería y esmeraldas</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=santander"><img loading="lazy" src="assets/img/productos/thumb/canon-del-chicamocha.webp" alt=""><span class="etq">Santander</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=departamentos&amp;cat=expresiones"><img loading="lazy" src="assets/img/productos/thumb/depto-antioquia.webp" alt=""><span class="etq">Expresiones regionales</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=cultura-co"><img loading="lazy" src="assets/img/productos/thumb/co-sombrero-vueltiao.webp" alt=""><span class="etq">Cultura colombiana</span></a>
+    <a class="coleccion reveal" href="tienda.html?sec=flora-fauna"><img loading="lazy" src="assets/img/productos/thumb/ff-jaguar.webp" alt=""><span class="etq">Flora y fauna</span></a>
   </div>
 </section>
 
@@ -94,6 +95,25 @@
     visible.classList.remove('activo');
     visible = next;
   }, 2000);
+})();
+
+/* Revelado al hacer scroll — IntersectionObserver (vanilla, 1 vez por elemento) */
+(function () {
+  var html = document.documentElement;
+  if (!('IntersectionObserver' in window)) { html.classList.remove('js-reveal'); return; }
+  var io = new IntersectionObserver(function (entradas) {
+    entradas.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('visto'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.reveal').forEach(function (el) {
+    var p = el.parentElement;
+    if (p && p.classList.contains('colecciones')) {
+      var idx = Array.prototype.indexOf.call(p.children, el);
+      el.style.transitionDelay = ((idx % 4) * 80) + 'ms';
+    }
+    io.observe(el);
+  });
 })();
 </script>
 </body>

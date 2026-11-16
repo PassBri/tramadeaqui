@@ -818,3 +818,10 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
   .coles-titulo { font-size: clamp(1.6rem, 7vw, 2.1rem); margin: 4px 0 16px; }
   .shop-trust { gap: 8px 16px; }
 }
+
+/* ===== Revelado sutil al hacer scroll (guía de motion UI/UX Pro Max) ===== */
+.js-reveal .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.75,.25,1); }
+.js-reveal .reveal.visto { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
