@@ -18,25 +18,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=17">
+<link rel="stylesheet" href="assets/css/styles.css?v=18">
 </head>
 <body data-page="tienda">
 <a class="sr-only" href="#main">Saltar al contenido</a>
 <header class="site-header" id="site-header"></header>
 <main id="main">
 
-<section class="wrap page-head">
-  <p class="eyebrow">Catálogo</p>
-  <h1 class="h-display">Tienda</h1>
-</section>
-<section class="wrap section" style="padding-top:0">
-  <div class="toolbar">
-    <label class="search-inline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" width="17" height="17" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></svg><span class="sr-only">Buscar</span><input id="q" type="search" placeholder="Buscar productos"></label>
-    <div style="display:flex;gap:12px;align-items:center">
-      <span class="note" id="count" aria-live="polite"></span>
-      <label class="sr-only" for="sort">Ordenar</label>
-      <select id="sort"><option value="relevancia">Recomendados</option><option value="menor">Menor precio</option><option value="mayor">Mayor precio</option></select>
-    </div>
+<h1 class="sr-only">Tienda · Trama de Aquí</h1>
+<section class="wrap section" style="padding-top:20px">
+  <div class="toolbar" style="justify-content:flex-end">
+    <span class="note" id="count" aria-live="polite"></span>
+    <label class="sr-only" for="sort">Ordenar</label>
+    <select id="sort"><option value="relevancia">Recomendados</option><option value="menor">Menor precio</option><option value="mayor">Mayor precio</option></select>
   </div>
   <div class="tienda-layout">
     <aside class="filtro-acc" id="filtro" aria-label="Filtrar por colección"></aside>
