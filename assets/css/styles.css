@@ -642,8 +642,6 @@ body::before {
     radial-gradient(1000px 620px at -10% 8%, rgba(192,106,56,0.20), transparent 60%),
     radial-gradient(820px 520px at 52% 116%, rgba(215,154,78,0.16), transparent 60%),
     linear-gradient(180deg, #F7F0E2 0%, #F1E8D7 55%, #EADFCB 100%);
-  animation: deriva 34s ease-in-out infinite alternate;
-  will-change: transform;
 }
 @keyframes deriva {
   from { transform: translate3d(-2%, -1%, 0) scale(1.08); }
@@ -659,9 +657,7 @@ body::after {
   opacity: 0.11;
   -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 100%);
   mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,0.6) 100%);
-  animation: trama 160s linear infinite;
 }
-@keyframes trama { to { background-position: 340px 340px; } }
 
 /* un solo momento orquestado: el hero entra al cargar */
 .shop-hero .eyebrow, .shop-hero h1, .shop-hero .shop-search, .shop-hero .shop-trust {
@@ -770,8 +766,28 @@ body::after {
 .coles-titulo { font-family: var(--font-display); color: var(--night); font-size: clamp(1.8rem, 4vw, 2.5rem); margin: 6px 0 20px; }
 .colecciones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .coleccion { display: flex; flex-direction: column; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); text-decoration: none; background: var(--surface-solid); }
-.coleccion img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 54%; transition: transform .45s ease; }
+.coleccion img { width: 100%; aspect-ratio: 4 / 5; object-fit: contain; background: var(--sage-container); transition: transform .45s ease; }
 .coleccion:hover img { transform: scale(1.05); }
 .coleccion .etq { background: var(--night); color: #fff; font-family: var(--font-display); font-size: 1.04rem; line-height: 1.2; padding: 12px 14px; text-align: center; }
 @media (max-width: 900px) { .colecciones { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 420px) { .coleccion .etq { font-size: .92rem; padding: 10px; } }
+
+/* ===== Tienda: acordeón de colecciones + grilla ===== */
+.tienda-layout { display: grid; grid-template-columns: 236px 1fr; gap: 26px; align-items: start; margin-top: 14px; }
+.tienda-main { min-width: 0; }
+.filtro-acc { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 3px; }
+.acc-todo, .acc-head, .acc-sub { text-align: left; background: none; border: 0; font-family: inherit; cursor: pointer; border-radius: 11px; width: 100%; color: var(--text); transition: background .15s, color .15s; }
+.acc-todo, .acc-head { padding: 10px 13px; font-weight: 700; font-size: .96rem; }
+.acc-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.acc-todo:hover, .acc-head:hover, .acc-sub:hover { background: var(--sage-container); }
+.acc-todo.activo, .acc-head.activo { background: var(--night); color: #fff; }
+.acc-ico { font-size: .7em; opacity: .7; transition: transform .2s ease; }
+.acc-grupo.abierto .acc-ico { transform: rotate(180deg); }
+.acc-subs { display: none; flex-direction: column; gap: 1px; margin: 2px 0 6px 12px; padding-left: 10px; border-left: 2px solid var(--line); }
+.acc-grupo.abierto .acc-subs { display: flex; }
+.acc-sub { padding: 8px 12px; font-size: .9rem; color: var(--text-2); }
+.acc-sub.activo { background: var(--mint-soft); color: var(--mint-text); font-weight: 700; }
+@media (max-width: 760px) {
+  .tienda-layout { grid-template-columns: 1fr; gap: 8px; }
+  .filtro-acc { position: static; }
+}

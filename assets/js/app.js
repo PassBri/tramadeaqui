@@ -48,8 +48,10 @@
 
   /* ---------- encabezado, navegación y pie ---------- */
   const NAV = [
-    ['index.html', 'Tienda', 'shop'],
+    ['index.html', 'Inicio', 'home'],
+    ['tienda.html', 'Tienda', 'shop'],
     ['regalos.html', 'Regalos', 'gift'],
+    ['historia.html', 'Nosotros', 'heart'],
   ];
   const isCur = (href) => { const b = href.replace('.html', ''); return (b === 'index' ? 'inicio' : b) === page; };
   function chrome() {
@@ -63,7 +65,7 @@
         <nav class="main-nav" aria-label="Principal">
           ${NAV.map(([href, label]) => `<a href="${href}"${isCur(href) ? ' aria-current="page"' : ''}>${label}</a>`).join('')}
         </nav>
-        <form class="search" action="index.html" role="search">
+        <form class="search" action="tienda.html" role="search">
           ${I.search}<label class="sr-only" for="q">Buscar en la tienda</label>
           <input id="q" name="q" type="search" placeholder="Busca tu pueblo, paisaje o sabor…">
         </form>
@@ -225,15 +227,27 @@
       const sopts = [{ id: 'todo', nombre: 'Todo' }].concat(SECS);
       secWrap.innerHTML = sopts.map((s) => `<button type="button" class="seg" data-sec="${s.id}" aria-pressed="${s.id === sec}">${esc(s.nombre)}</button>`).join('');
     }
+    const filtro = $('#filtro');
     const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
     const inSec = (p) => sec === 'todo' || p.seccion === sec || (!p.seccion && sec === 'santander');
+    const catIdsEnSec = (sid) => new Set(D.productos.filter((p) => sid === 'todo' || p.seccion === sid || (!p.seccion && sid === 'santander')).map((p) => p.categoria));
     function catsFor() {
-      const ids = new Set(D.productos.filter(inSec).map((p) => p.categoria));
+      const ids = catIdsEnSec(sec);
       return [{ id: 'todo', nombre: 'Todo' }].concat(D.categorias.filter((c) => ids.has(c.id)));
     }
+    // Acordeón de colecciones → subcategorías (en la tienda)
+    function drawAcordeon() {
+      if (!filtro) return;
+      filtro.innerHTML = `<button type="button" class="acc-todo${sec === 'todo' ? ' activo' : ''}" data-sec="todo" data-cat="todo">Todas las colecciones</button>` +
+        SECS.map((s) => {
+          const cats = D.categorias.filter((c) => catIdsEnSec(s.id).has(c.id));
+          const subs = cats.length > 1 ? `<div class="acc-subs">${cats.map((c) => `<button type="button" class="acc-sub${sec === s.id && cat === c.id ? ' activo' : ''}" data-sec="${s.id}" data-cat="${c.id}">${esc(c.nombre)}</button>`).join('')}</div>` : '';
+          return `<div class="acc-grupo${sec === s.id ? ' abierto' : ''}"><button type="button" class="acc-head${sec === s.id && cat === 'todo' ? ' activo' : ''}" data-sec="${s.id}" data-cat="todo">${esc(s.nombre)}${cats.length > 1 ? '<span class="acc-ico" aria-hidden="true">▾</span>' : ''}</button>${subs}</div>`;
+        }).join('');
+    }
     function drawChips() {
+      if (filtro) { chips.innerHTML = ''; return; }  // en la tienda manda el acordeón
       const cs = catsFor();
-      // Oculta las categorías en "Todo" (ocupan mucho) y cuando la sección tiene una sola. Aparecen al elegir una sección.
       chips.innerHTML = (sec === 'todo' || cs.length <= 2) ? '' : cs.map((c) => `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${c.id === cat}">${esc(c.nombre)}</button>`).join('');
     }
     function render() {
@@ -261,9 +275,14 @@
       cat = b.dataset.cat; $$('.chip', chips).forEach((c) => c.setAttribute('aria-pressed', c === b));
       render();
     });
+    if (filtro) filtro.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-sec]'); if (!b) return;
+      sec = b.dataset.sec; cat = b.dataset.cat || 'todo';
+      drawAcordeon(); render();
+    });
     q.addEventListener('input', render); sort.addEventListener('change', render);
     const qForm = q.closest('form'); if (qForm) qForm.addEventListener('submit', (e) => e.preventDefault());
-    drawChips(); render();
+    drawAcordeon(); drawChips(); render();
   }
 
   async function producto() {
