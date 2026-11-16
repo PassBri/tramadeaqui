@@ -9,7 +9,7 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const money = (n) => '$ ' + Math.round(n).toLocaleString('es-CO');
   // precio según el tamaño elegido (Grande suma el recargo; Mediana = precio base)
-  const precioDe = (p, v) => Math.round((p.precio || 0) + (/grande/i.test(v || '') ? (CFG.recargoGrande || 0) : 0) + (/historia completa/i.test(v || '') ? (CFG.recargoReverso || 3000) : 0));
+  const precioDe = (p, v) => Math.round((p.precio || 0) + (/grande/i.test(v || '') ? (CFG.recargoGrande || 0) : 0) + (/historia completa/i.test(v || '') ? (CFG.recargoReverso || 3000) : /reverso: minimal/i.test(v || '') ? 2000 : 0));
   const img = (id) => `assets/img/productos/${id}.svg`;
   const IMGV = '4';  // sube este número cuando cambien las imágenes (evita caché vieja)
   const foto = (p) => esc((p.imagen || img(p.id)) + '?v=' + IMGV);
@@ -343,7 +343,7 @@
         ${p.variantes ? `<div><p class="eyebrow" id="var-label" style="margin-bottom:8px">${esc(p.variantes.nombre)}</p>
           <div class="segmented" role="radiogroup" aria-labelledby="var-label">${p.variantes.opciones.map((o, i) => `<button type="button" role="radio" aria-checked="${i === 0}" data-v="${esc(o)}">${esc(o)} · ${money(precioDe(p, o))}</button>`).join('')}</div></div>` : ''}
         <div><p class="eyebrow" id="rev-label" style="margin-bottom:8px">Reverso del bolso</p>
-          <div class="segmented" role="radiogroup" aria-labelledby="rev-label">${['Sin texto','Minimal','Historia completa'].map((o) => `<button type="button" role="radio" aria-checked="${o === reverso}" data-r="${esc(o)}">${esc(o)}${o === 'Historia completa' ? ' · +' + money(CFG.recargoReverso || 3000) : ''}</button>`).join('')}</div>
+          <div class="segmented" role="radiogroup" aria-labelledby="rev-label">${(() => { const RR = { 'Minimal': 2000, 'Historia completa': (CFG.recargoReverso || 3000) }; return ['Sin texto','Minimal','Historia completa'].map((o) => `<button type="button" role="radio" aria-checked="${o === reverso}" data-r="${esc(o)}">${esc(o)}${RR[o] ? ' · +' + money(RR[o]) : ''}</button>`).join(''); })()}</div>
           <p class="note" id="rev-desc" style="margin-top:6px">${REVDESC[reverso]}</p></div>
         ${out ? '<div class="alert alert-amber"><span class="dot"></span>Agotado por ahora. Escríbenos y te avisamos cuando vuelva.</div>'
           : p.preventa ? `<div class="alert alert-peach"><span class="dot"></span>Preventa · ${esc(p.preventa)}</div>`
