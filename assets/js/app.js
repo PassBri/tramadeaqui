@@ -253,11 +253,12 @@
     function render() {
       const term = norm(q.value.trim());
       let list = D.productos.filter((p) => inSec(p) && (cat === 'todo' || p.categoria === cat) && (!term || norm(p.nombre + ' ' + p.descripcion + ' ' + catName(p.categoria)).includes(term)));
-      if (sort.value === 'menor') list.sort((a, b) => a.precio - b.precio);
-      else if (sort.value === 'mayor') list.sort((a, b) => b.precio - a.precio);
+      const sv = sort ? sort.value : 'relevancia';
+      if (sv === 'menor') list.sort((a, b) => a.precio - b.precio);
+      else if (sv === 'mayor') list.sort((a, b) => b.precio - a.precio);
       else list.sort((a, b) => (b.stock > 0) - (a.stock > 0) || (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
       grid.innerHTML = list.length ? list.map(card).join('') : `<div class="empty" style="grid-column:1/-1">${window.nidoSVG ? nidoSVG('grande') : ''}<p>No encontramos nada con esa palabra. Prueba con otra.</p></div>`;
-      count.textContent = list.length + (list.length === 1 ? ' producto' : ' productos');
+      if (count) count.textContent = list.length + (list.length === 1 ? ' producto' : ' productos');
       const u = new URL(location.href);
       sec === 'todo' ? u.searchParams.delete('sec') : u.searchParams.set('sec', sec);
       cat === 'todo' ? u.searchParams.delete('cat') : u.searchParams.set('cat', cat);
@@ -280,7 +281,7 @@
       sec = b.dataset.sec; cat = b.dataset.cat || 'todo';
       drawAcordeon(); render();
     });
-    q.addEventListener('input', render); sort.addEventListener('change', render);
+    q.addEventListener('input', render); if (sort) sort.addEventListener('change', render);
     const qForm = q.closest('form'); if (qForm) qForm.addEventListener('submit', (e) => e.preventDefault());
     drawAcordeon(); drawChips(); render();
   }
