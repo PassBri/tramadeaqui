@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=32">
+<link rel="stylesheet" href="assets/css/styles.css?v=34">
 <script>document.documentElement.classList.add('js-reveal')</script>
 </head>
 <body data-page="inicio">
@@ -39,8 +39,9 @@
         <span>Hecho en Santander</span>
       </div>
     </div>
-    <div class="hero-foto" id="hero-slider">
-      <img class="activo" src="assets/img/productos/cv-colombia-viva.jpg" alt="Bolsos de lona Trama de Aquí con diseños de Colombia">
+    <div class="hero-duo" id="hero-duo">
+      <div class="bolso b2"><img src="assets/img/productos/raiz-wayuu.jpg" alt=""></div>
+      <div class="bolso b1"><img class="activo" src="assets/img/productos/muni-barichara.jpg" alt="Bolsos de lona Trama de Aquí con diseños de Colombia"></div>
     </div>
   </div>
 </section>
@@ -82,11 +83,10 @@
 <script src="assets/js/app.js?v=16"></script>
 <script>
 (function () {
-  var cont = document.getElementById('hero-slider');
-  if (!cont) return;
-  var a = cont.querySelector('img');
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  // Pasa TODOS los diseños del catálogo, en orden aleatorio, uno por uno.
+  var duo = document.getElementById('hero-duo');
+  if (!duo) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Dos bolsos que recorren TODO el catálogo, barajado, cambiando de forma alterna.
   fetch('data/productos.json').then(function (r) { return r.json(); }).then(function (d) {
     var fotos = (d.productos || []).map(function (p) { return p.imagen; });
     for (var k = fotos.length - 1; k > 0; k--) {           // barajar (Fisher-Yates)
@@ -94,18 +94,26 @@
       var t = fotos[k]; fotos[k] = fotos[j]; fotos[j] = t;
     }
     if (!fotos.length) return;
-    var b = a.cloneNode(false); b.classList.remove('activo'); b.removeAttribute('alt'); cont.appendChild(b);
-    var i = -1, visible = a;
-    (new Image()).src = fotos[0];                           // precarga la primera
-    setInterval(function () {
-      i = (i + 1) % fotos.length;
-      var next = (visible === a) ? b : a;
-      next.src = fotos[i];
-      next.classList.add('activo');
-      visible.classList.remove('activo');
-      visible = next;
-      (new Image()).src = fotos[(i + 1) % fotos.length];    // precarga la siguiente
-    }, 2000);
+    var slots = duo.querySelectorAll('.bolso');
+    slots.forEach(function (slot, s) {
+      var a = slot.querySelector('img');
+      var ptr = s === 0 ? 0 : Math.floor(fotos.length / 2);  // cada bolso empieza en un punto distinto
+      a.src = fotos[ptr]; a.classList.add('activo');
+      if (reduce) return;
+      var b = a.cloneNode(false); b.classList.remove('activo'); b.removeAttribute('alt'); slot.appendChild(b);
+      var vis = a;
+      setTimeout(function () {                              // desfasa el cambio de cada bolso
+        setInterval(function () {
+          ptr = (ptr + 1) % fotos.length;
+          var next = (vis === a) ? b : a;
+          next.src = fotos[ptr];
+          next.classList.add('activo');
+          vis.classList.remove('activo');
+          vis = next;
+          (new Image()).src = fotos[(ptr + 1) % fotos.length];
+        }, 3200);
+      }, s * 1600);
+    });
   }).catch(function () {});
 })();
 
