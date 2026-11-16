@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=31">
+<link rel="stylesheet" href="assets/css/styles.css?v=32">
 </head>
 <body data-page="historia">
 <a class="sr-only" href="#main">Saltar al contenido</a>
@@ -107,7 +107,7 @@
     ps.forEach(function (p) {
       var im = document.createElement('img');
       im.loading = 'lazy'; im.decoding = 'async'; im.alt = '';
-      im.src = p.imagen.replace('/productos/', '/productos/thumb/').replace('.jpg', '.webp');
+      im.src = p.imagen.replace('/productos/', '/productos/art/').replace('.jpg', '.webp');
       frag.appendChild(im);
     });
     cont.appendChild(frag);
