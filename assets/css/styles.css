@@ -800,4 +800,4 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 
 /* La textura de lino va SOLO detrás del bolso principal */
 .hero-foto { background: #DDCCB1; }   /* lino de reserva mientras carga (el tapete va horneado en la foto) */
-.hero-foto img { object-fit: cover; background: transparent; }
+.hero-foto img { object-fit: contain; background: transparent; }
