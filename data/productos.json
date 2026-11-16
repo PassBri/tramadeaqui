@@ -27,6 +27,14 @@
   {
    "id": "colombia-viva",
    "nombre": "Colombia Viva"
+  },
+  {
+   "id": "colombia-surrealista",
+   "nombre": "Colombia Surrealista"
+  },
+  {
+   "id": "mitos-leyendas",
+   "nombre": "Mitos y Leyendas"
   }
  ],
  "categorias": [
@@ -131,6 +139,18 @@
    "nombre": "Colombia Viva",
    "detalle": "Naturaleza y biodiversidad de Colombia",
    "imagen": "cv-colombia-viva"
+  },
+  {
+   "id": "surrealista",
+   "nombre": "Colombia Surrealista",
+   "detalle": "Arte surrealista de la naturaleza y las leyendas de Colombia",
+   "imagen": "cs-el-canto-del-pacifico"
+  },
+  {
+   "id": "mitos",
+   "nombre": "Mitos y Leyendas",
+   "detalle": "Mitos y leyendas del folclor colombiano",
+   "imagen": "mito-fura-y-tena"
   }
  ],
  "productos": [
@@ -7434,6 +7454,806 @@
    "nuevo": true,
    "imagen": "assets/img/productos/cv-arrecifes-de-providencia.jpg",
    "descripcion": "Bolso de lona de algodón con el diseño «Arrecifes de Providencia», estampado a una cara. Una escena de la naturaleza viva de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-canto-del-pacifico",
+   "nombre": "El Canto del Pacífico",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-canto-del-pacifico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Canto del Pacífico», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-jaguar-y-la-luna",
+   "nombre": "El Jaguar y la Luna",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-jaguar-y-la-luna.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Jaguar y la Luna», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-la-orquidea-que-abrio-los-andes",
+   "nombre": "La Orquídea que Abrió los Andes",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-la-orquidea-que-abrio-los-andes.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Orquídea que Abrió los Andes», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-colibri-del-tiempo",
+   "nombre": "El Colibrí del Tiempo",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-colibri-del-tiempo.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Colibrí del Tiempo», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-vuelo-del-cocora",
+   "nombre": "El Vuelo del Cocora",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-vuelo-del-cocora.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Vuelo del Cocora», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-la-balsa-de-las-estrellas",
+   "nombre": "La Balsa de las Estrellas",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-la-balsa-de-las-estrellas.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Balsa de las Estrellas», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-corazon-de-boyaca",
+   "nombre": "El Corazón de Boyacá",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-corazon-de-boyaca.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Corazón de Boyacá», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-rio-de-colores",
+   "nombre": "Río de Colores",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-rio-de-colores.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Río de Colores», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-guacamayas-del-amanecer",
+   "nombre": "Guacamayas del Amanecer",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-guacamayas-del-amanecer.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guacamayas del Amanecer», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-sueno-del-oso-andino",
+   "nombre": "El Sueño del Oso Andino",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-sueno-del-oso-andino.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Sueño del Oso Andino», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-desierto-que-baila",
+   "nombre": "El Desierto que Baila",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-desierto-que-baila.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Desierto que Baila», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-arrecife-que-florece",
+   "nombre": "El Arrecife que Florece",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-arrecife-que-florece.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Arrecife que Florece», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-aroma-de-la-montana",
+   "nombre": "El Aroma de la Montaña",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-aroma-de-la-montana.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Aroma de la Montaña», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-la-cumbia-de-las-aves",
+   "nombre": "La Cumbia de las Aves",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-la-cumbia-de-las-aves.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Cumbia de las Aves», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "cs-el-rio-de-la-victoria",
+   "nombre": "El Río de la Victoria",
+   "categoria": "surrealista",
+   "seccion": "colombia-surrealista",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cs-el-rio-de-la-victoria.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Río de la Victoria», estampado a una cara. Una obra surrealista de la naturaleza y las leyendas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-fura-y-tena",
+   "nombre": "Fura y Tena",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-fura-y-tena.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Fura y Tena», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-bachue",
+   "nombre": "Bachué",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-bachue.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bachué», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-bochica",
+   "nombre": "Bochica",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-bochica.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Bochica», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-laguna-del-dorado",
+   "nombre": "La Laguna del Dorado",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-laguna-del-dorado.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Laguna del Dorado», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-madremonte",
+   "nombre": "La Madremonte",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-madremonte.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Madremonte», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-el-mohan",
+   "nombre": "El Mohán",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-el-mohan.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Mohán», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-francisco-el-hombre",
+   "nombre": "Francisco el Hombre",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-francisco-el-hombre.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Francisco el Hombre», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-candileja",
+   "nombre": "La Candileja",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-candileja.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Candileja», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-patasola",
+   "nombre": "La Patasola",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-patasola.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Patasola», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-el-sombreron",
+   "nombre": "El Sombrerón",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-el-sombreron.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Sombrerón», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-madre-de-agua",
+   "nombre": "La Madre de Agua",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-madre-de-agua.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Madre de Agua», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-muelona",
+   "nombre": "La Muelona",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-muelona.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Muelona», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-el-fraile-sin-cabeza",
+   "nombre": "El Fraile sin Cabeza",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-el-fraile-sin-cabeza.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Fraile sin Cabeza», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-el-riviel",
+   "nombre": "El Riviel",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-el-riviel.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Riviel», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-bola-de-fuego",
+   "nombre": "La Bola de Fuego",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-bola-de-fuego.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Bola de Fuego», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-el-bufeo-colorado",
+   "nombre": "El Bufeo Colorado",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-el-bufeo-colorado.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «El Bufeo Colorado», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "mito-la-sirena-de-hurtado",
+   "nombre": "La Sirena de Hurtado",
+   "categoria": "mitos",
+   "seccion": "mitos-leyendas",
+   "precio": 45000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/mito-la-sirena-de-hurtado.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La Sirena de Hurtado», estampado a una cara. Un mito o leyenda del folclor colombiano. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Material": "Lona de algodón",
     "Medidas": "38 × 42 cm",
