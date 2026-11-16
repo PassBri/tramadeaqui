@@ -917,3 +917,13 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 /* Etiqueta del preview de reverso en la página de producto */
 .viewer-cap { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); background: rgba(46,74,48,.92); color: #fff; font-size: 12px; font-weight: 700; padding: 7px 14px; border-radius: 999px; white-space: nowrap; box-shadow: 0 4px 14px rgba(0,0,0,.18); z-index: 3; }
 .viewer-cap[hidden] { display: none; }
+
+/* Hilo de producto: miniaturas Frente · Reverso · Lona */
+.viewer-col { display: flex; flex-direction: column; gap: 14px; }
+.miniaturas { display: flex; gap: 10px; }
+.mini { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 6px; border: 1.5px solid #ece3d1; border-radius: 12px; background: #fff; cursor: pointer; transition: border-color .18s ease, box-shadow .18s ease; }
+.mini img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; border-radius: 8px; }
+.mini span { font-size: 12px; font-weight: 700; color: var(--text-2); }
+.mini:hover { border-color: var(--mint); }
+.mini.activa { border-color: var(--mint); box-shadow: 0 0 0 3px var(--mint-soft); }
+.mini.activa span { color: var(--night); }

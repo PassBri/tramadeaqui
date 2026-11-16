@@ -326,10 +326,17 @@
     const out = p.stock <= 0;
     const niveles = ['', 'Suave', 'Muy suave', 'Suavísimo', 'Como una nube', 'Pura ternura'];
     root.innerHTML = `
-      <div class="panel brackets viewer" style="position:relative">
-        <span class="ring a" aria-hidden="true"></span><span class="ring b" aria-hidden="true"></span><span class="ring c" aria-hidden="true"></span>
-        <img src="${foto(p)}" ${SIN_FOTO} alt="${esc(p.nombre)}" width="300" height="300">
-        <span class="viewer-cap" id="viewer-cap" hidden></span>
+      <div class="viewer-col">
+        <div class="panel brackets viewer" style="position:relative">
+          <span class="ring a" aria-hidden="true"></span><span class="ring b" aria-hidden="true"></span><span class="ring c" aria-hidden="true"></span>
+          <img src="${foto(p)}" ${SIN_FOTO} alt="${esc(p.nombre)}" width="300" height="300">
+          <span class="viewer-cap" id="viewer-cap" hidden></span>
+        </div>
+        <div class="miniaturas" id="miniaturas">
+          <button type="button" class="mini activa" data-face="frente"><img src="${foto(p)}" ${SIN_FOTO} alt="Frente"><span>Frente</span></button>
+          <button type="button" class="mini" data-face="reverso"><img id="mini-rev-img" src="assets/img/reverso/sin-texto.jpg" alt="Reverso"><span>Reverso</span></button>
+          <button type="button" class="mini" data-face="lona"><img src="assets/img/reverso/lona.jpg" alt="Lona" loading="lazy"><span>Lona</span></button>
+        </div>
       </div>
       <div style="display:flex;flex-direction:column;gap:18px">
         <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}</p>
@@ -353,17 +360,22 @@
           ${out ? `<a class="btn btn-ghost" href="https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent('Hola, avísenme cuando vuelva: ' + p.nombre)}" rel="noopener">Avísame cuando vuelva</a>`
             : '<button type="button" class="btn btn-primary" id="add" style="flex:1;min-width:200px">Agregar al carrito</button>'}
         </div>
-        <p class="note">Envío a toda Colombia · gratis desde ${money(CFG.envioGratisDesde)} · ¿es un regalo? lo empacamos con tarjeta.</p>
+        <p class="note">Envío ${money(CFG.envioValor)} a toda Colombia · gratis desde ${money(CFG.envioGratisDesde)} · ¿es un regalo? lo empacamos con tarjeta.</p>
       </div>`;
     const precioEl = $('#p-precio', root);
-    // Preview del reverso según la selección
+    // Hilo de producto: Frente · Reverso · Lona
     const vimg = $('.viewer img', root);
     const vcap = $('#viewer-cap', root);
+    const miniRevImg = $('#mini-rev-img', root);
     const frontSrc = vimg ? vimg.src : '';
     const backSrc = { 'Sin texto': 'assets/img/reverso/sin-texto.jpg', 'Minimal': 'assets/img/reverso/minimal.jpg', 'Historia completa': 'assets/img/reverso/historia.jpg' };
-    function verReverso() { if (!vimg) return; vimg.src = backSrc[reverso]; vimg.dataset.face = 'reverso'; if (vcap) { vcap.textContent = 'Reverso · ' + reverso + ' · toca para ver el frente'; vcap.hidden = false; } }
-    function verFrente() { if (!vimg) return; vimg.src = frontSrc; vimg.dataset.face = 'frente'; if (vcap) vcap.hidden = true; }
-    if (vimg) { vimg.style.cursor = 'pointer'; vimg.addEventListener('click', () => { vimg.dataset.face === 'reverso' ? verFrente() : verReverso(); }); }
+    function mostrarCara(f) {
+      if (vimg) vimg.src = (f === 'reverso') ? backSrc[reverso] : (f === 'lona') ? 'assets/img/reverso/lona.jpg' : frontSrc;
+      if (vcap) { if (f === 'frente') { vcap.hidden = true; } else { vcap.textContent = (f === 'reverso') ? ('Reverso · ' + reverso) : 'La lona de algodón, de cerca'; vcap.hidden = false; } }
+      $$('.mini', root).forEach((m) => m.classList.toggle('activa', m.dataset.face === f));
+    }
+    function verReverso() { if (miniRevImg) miniRevImg.src = backSrc[reverso]; mostrarCara('reverso'); }
+    $$('.mini', root).forEach((m) => m.addEventListener('click', () => { if (m.dataset.face === 'reverso' && miniRevImg) miniRevImg.src = backSrc[reverso]; mostrarCara(m.dataset.face); }));
     $$('[data-v]', root).forEach((b) => b.addEventListener('click', () => {
       variante = b.dataset.v; $$('[data-v]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
       if (precioEl) precioEl.innerHTML = money(precioDe(p, varFull())) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
