@@ -138,6 +138,7 @@
         (st.sec === 'todo' || p.seccion === st.sec) &&
         (st.cat === 'todo' || p.categoria === st.cat) &&
         (!q || norm(p.nombre + ' ' + (p.descripcion || '') + ' ' + catNombre(p.categoria)).includes(q)));
+      list.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
       $('#grid-wrap').innerHTML = list.length ? `<div class="grid-prod">${list.map(cardHTML).join('')}</div>`
         : `<p class="vacio">No hay productos con ese filtro.</p>`;
       $('.conteo', $('#vista')).textContent = list.length + (list.length === 1 ? ' producto' : ' productos');
