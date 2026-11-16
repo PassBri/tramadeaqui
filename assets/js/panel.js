@@ -346,4 +346,13 @@
     try { await cargar(); render(); }
     catch (e) { estado('No se pudo cargar el catálogo', 'error'); $('#vista').innerHTML = '<p class="vacio">No se pudo cargar data/productos.json.</p>'; }
   }
+
+  // Puente para el módulo de negocio (panel-biz.js): comparte vistas, datos y utilidades.
+  window.PANEL = {
+    VISTAS, TITULOS, aviso, confirmar,
+    render: () => render(),
+    productos, catNombre, secNombre,
+    ls, SUPA,
+    helpers: { $, $$, esc, money, norm, reducirImagen },
+  };
 })();
