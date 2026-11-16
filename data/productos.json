@@ -39,6 +39,10 @@
   {
    "id": "entre-lineas",
    "nombre": "Entre Líneas"
+  },
+  {
+   "id": "raices",
+   "nombre": "Raíces de mi tierra"
   }
  ],
  "categorias": [
@@ -161,6 +165,12 @@
    "nombre": "Entre Líneas",
    "detalle": "Escenas inspiradas en la literatura colombiana",
    "imagen": "linea-mariposas-amarillas"
+  },
+  {
+   "id": "raices",
+   "nombre": "Raíces de mi tierra",
+   "detalle": "Pueblos y raíces afro, indígenas e isleñas de Colombia",
+   "imagen": "raiz-tejiendo-la-guajira"
   }
  ],
  "productos": [
@@ -8739,6 +8749,481 @@
    "nuevo": true,
    "imagen": "assets/img/productos/linea-flores-del-encierro.jpg",
    "descripcion": "Bolso de lona de algodón con el diseño «Flores del encierro», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-tejiendo-la-guajira",
+   "nombre": "Tejiendo la Guajira",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 60000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-tejiendo-la-guajira.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tejiendo la Guajira», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-wayuu",
+   "nombre": "Wayuu",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-wayuu.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Wayuu», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-zenu",
+   "nombre": "Zenú",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-zenu.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Zenú», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-embera",
+   "nombre": "Emberá",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-embera.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Emberá», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-guna-dule",
+   "nombre": "Guna Dule",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-guna-dule.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Guna Dule», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-inga",
+   "nombre": "Inga",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-inga.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Inga», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-nasa",
+   "nombre": "Nasa",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-nasa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Nasa», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-misak",
+   "nombre": "Misak",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-misak.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Misak», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-uwa",
+   "nombre": "Uwa",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-uwa.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Uwa», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-cantos-del-pacifico",
+   "nombre": "Cantos del Pacífico",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-cantos-del-pacifico.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Cantos del Pacífico», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-marimba-de-chonta",
+   "nombre": "Marimba de chonta",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 60000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-marimba-de-chonta.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Marimba de chonta», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-piangua-y-manglar",
+   "nombre": "Piangua y manglar",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-piangua-y-manglar.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Piangua y manglar», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-chirimia-del-atrato",
+   "nombre": "Chirimía del Atrato",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-chirimia-del-atrato.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Chirimía del Atrato», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-san-pacho",
+   "nombre": "San Pacho",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-san-pacho.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «San Pacho», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-la-palabra-de-palenque",
+   "nombre": "La palabra de Palenque",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-la-palabra-de-palenque.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La palabra de Palenque», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-tambor-palenquero",
+   "nombre": "Tambor palenquero",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-tambor-palenquero.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Tambor palenquero», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-ritmo-insular",
+   "nombre": "Ritmo insular",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-ritmo-insular.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Ritmo insular», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-la-vela-del-arrecife",
+   "nombre": "La vela del arrecife",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-la-vela-del-arrecife.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «La vela del arrecife», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Material": "Lona de algodón",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   }
+  },
+  {
+   "id": "raiz-rondon",
+   "nombre": "Rondón",
+   "categoria": "raices",
+   "seccion": "raices",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/raiz-rondon.jpg",
+   "descripcion": "Bolso de lona de algodón con el diseño «Rondón», estampado a una cara. Un homenaje a los pueblos y raíces de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Material": "Lona de algodón",
     "Medidas": "38 × 42 cm",
