@@ -306,6 +306,12 @@
       const s = document.createElement('script'); s.type = 'application/ld+json'; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
     })();
     let variante = p.variantes ? p.variantes.opciones[0] : '';
+    let reverso = 'Minimal';   // predeterminado
+    const REVDESC = {
+      'Sin texto': 'Solo el diseño; la lona de atrás queda limpia.',
+      'Minimal': 'Marca + «Lleva tu tierra contigo» atrás. El poema completo va en la tarjeta.',
+      'Historia completa': 'El manifiesto de Trama de Aquí, estampado en el reverso.'
+    };
     let qty = 1;
     const out = p.stock <= 0;
     const niveles = ['', 'Suave', 'Muy suave', 'Suavísimo', 'Como una nube', 'Pura ternura'];
@@ -325,6 +331,9 @@
         <div class="specs">${Object.entries(p.atributos || {}).map(([k, v]) => `<div class="spec"><small>${esc(k)}</small><b>${esc(v)}</b></div>`).join('')}</div>
         ${p.variantes ? `<div><p class="eyebrow" id="var-label" style="margin-bottom:8px">${esc(p.variantes.nombre)}</p>
           <div class="segmented" role="radiogroup" aria-labelledby="var-label">${p.variantes.opciones.map((o, i) => `<button type="button" role="radio" aria-checked="${i === 0}" data-v="${esc(o)}">${esc(o)} · ${money(precioDe(p, o))}</button>`).join('')}</div></div>` : ''}
+        <div><p class="eyebrow" id="rev-label" style="margin-bottom:8px">Reverso del bolso</p>
+          <div class="segmented" role="radiogroup" aria-labelledby="rev-label">${['Sin texto','Minimal','Historia completa'].map((o) => `<button type="button" role="radio" aria-checked="${o === reverso}" data-r="${esc(o)}">${esc(o)}</button>`).join('')}</div>
+          <p class="note" id="rev-desc" style="margin-top:6px">${REVDESC[reverso]}</p></div>
         ${out ? '<div class="alert alert-amber"><span class="dot"></span>Agotado por ahora. Escríbenos y te avisamos cuando vuelva.</div>'
           : p.preventa ? `<div class="alert alert-peach"><span class="dot"></span>Preventa · ${esc(p.preventa)}</div>`
           : `<div class="alert alert-mint"><span class="dot"></span>Hecho bajo pedido · lo imprimimos para ti en ${esc(CFG.bajoPedidoDias || '3 a 5 días hábiles')}.</div>`}
@@ -340,11 +349,15 @@
       variante = b.dataset.v; $$('[data-v]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
       if (precioEl) precioEl.innerHTML = money(precioDe(p, variante)) + (p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : '');
     }));
+    $$('[data-r]', root).forEach((b) => b.addEventListener('click', () => {
+      reverso = b.dataset.r; $$('[data-r]', root).forEach((x) => x.setAttribute('aria-checked', x === b));
+      const rd = $('#rev-desc', root); if (rd) rd.textContent = REVDESC[reverso];
+    }));
     $$('[data-q]', root).forEach((b) => b.addEventListener('click', () => {
       qty = Math.max(1, qty + Number(b.dataset.q)); $('#qty').textContent = qty;
     }));
     const add = $('#add');
-    if (add) add.addEventListener('click', () => { Cart.add(p.id, variante, qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
+    if (add) add.addEventListener('click', () => { const varFull = (variante ? variante + ' · ' : '') + 'Reverso: ' + reverso; Cart.add(p.id, varFull, qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
     const rel = $('#relacionados');
     if (rel) rel.innerHTML = D.productos.filter((x) => x.categoria === p.categoria && x.id !== p.id).slice(0, 4).map(card).join('');
   }
