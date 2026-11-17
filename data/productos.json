@@ -99,6 +99,18 @@
   {
    "id": "uni-pamplona",
    "nombre": "Recuerdos de la Universidad de Pamplona"
+  },
+  {
+   "id": "trama",
+   "nombre": "Trama de Aquí"
+  },
+  {
+   "id": "primer-beso",
+   "nombre": "El primer beso"
+  },
+  {
+   "id": "sabores-pam",
+   "nombre": "Sabores de Pamplona"
   }
  ],
  "categorias": [
@@ -269,6 +281,24 @@
    "nombre": "Universidad de Pamplona",
    "detalle": "Recuerdos de la vida universitaria en Pamplona",
    "imagen": "uni-la-casona"
+  },
+  {
+   "id": "trama",
+   "nombre": "Trama de Aquí",
+   "detalle": "La esencia de la marca: raíces, casa y el tejido que nos une",
+   "imagen": "trama-maleta"
+  },
+  {
+   "id": "primer-beso",
+   "nombre": "El primer beso",
+   "detalle": "Escenas de amor y romance en los pueblos de Colombia",
+   "imagen": "beso-banca"
+  },
+  {
+   "id": "sabores-pam",
+   "nombre": "Sabores de Pamplona",
+   "detalle": "El pan, los dulces y las frutas de Pamplona",
+   "imagen": "sab-pan-de-madrugada"
   },
   {
    "id": "colombia-viva",
@@ -14509,6 +14539,734 @@
     ]
    },
    "codigo": "T0553"
+  },
+  {
+   "id": "trama-maleta",
+   "nombre": "Maleta",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-maleta.jpg",
+   "descripcion": "Bolso con el diseño «Maleta», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0554"
+  },
+  {
+   "id": "trama-hilos",
+   "nombre": "Hilos",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-hilos.jpg",
+   "descripcion": "Bolso con el diseño «Hilos», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0555"
+  },
+  {
+   "id": "trama-rio-de-casa",
+   "nombre": "Río de Casa",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-rio-de-casa.jpg",
+   "descripcion": "Bolso con el diseño «Río de Casa», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0556"
+  },
+  {
+   "id": "trama-palabra-de-casa",
+   "nombre": "Palabra de Casa",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-palabra-de-casa.jpg",
+   "descripcion": "Bolso con el diseño «Palabra de Casa», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0557"
+  },
+  {
+   "id": "trama-patio",
+   "nombre": "Patio",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-patio.jpg",
+   "descripcion": "Bolso con el diseño «Patio», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0558"
+  },
+  {
+   "id": "trama-oracion",
+   "nombre": "Oración",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-oracion.jpg",
+   "descripcion": "Bolso con el diseño «Oración», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0559"
+  },
+  {
+   "id": "trama-la-llave",
+   "nombre": "La Llave",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-la-llave.jpg",
+   "descripcion": "Bolso con el diseño «La Llave», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0560"
+  },
+  {
+   "id": "trama-pedacito-de-tierra",
+   "nombre": "Pedacito de Tierra",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-pedacito-de-tierra.jpg",
+   "descripcion": "Bolso con el diseño «Pedacito de Tierra», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0561"
+  },
+  {
+   "id": "trama-lo-que-guarda-el-tuyo",
+   "nombre": "Lo que Guarda el Tuyo",
+   "categoria": "trama",
+   "seccion": "trama",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/trama-lo-que-guarda-el-tuyo.jpg",
+   "descripcion": "Bolso con el diseño «Lo que Guarda el Tuyo», estampado a una cara. Una pieza del alma de Trama de Aquí: la tierra, la casa y el tejido que guarda los recuerdos. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0562"
+  },
+  {
+   "id": "beso-banca",
+   "nombre": "Banca",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-banca.jpg",
+   "descripcion": "Bolso con el diseño «Banca», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0563"
+  },
+  {
+   "id": "beso-balcones",
+   "nombre": "Balcones",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-balcones.jpg",
+   "descripcion": "Bolso con el diseño «Balcones», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0564"
+  },
+  {
+   "id": "beso-colibries",
+   "nombre": "Colibríes",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-colibries.jpg",
+   "descripcion": "Bolso con el diseño «Colibríes», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0565"
+  },
+  {
+   "id": "beso-lluvia",
+   "nombre": "Lluvia",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-lluvia.jpg",
+   "descripcion": "Bolso con el diseño «Lluvia», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0566"
+  },
+  {
+   "id": "beso-reloj",
+   "nombre": "Reloj",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-reloj.jpg",
+   "descripcion": "Bolso con el diseño «Reloj», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0567"
+  },
+  {
+   "id": "beso-chocolate",
+   "nombre": "Chocolate",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-chocolate.jpg",
+   "descripcion": "Bolso con el diseño «Chocolate», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0568"
+  },
+  {
+   "id": "beso-buganvilla",
+   "nombre": "Buganvilla",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-buganvilla.jpg",
+   "descripcion": "Bolso con el diseño «Buganvilla», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0569"
+  },
+  {
+   "id": "beso-rio",
+   "nombre": "Río",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-rio.jpg",
+   "descripcion": "Bolso con el diseño «Río», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0570"
+  },
+  {
+   "id": "beso-carta",
+   "nombre": "Carta",
+   "categoria": "primer-beso",
+   "seccion": "primer-beso",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/beso-carta.jpg",
+   "descripcion": "Bolso con el diseño «Carta», estampado a una cara. Una escena de amor y romance en un pueblo de Colombia — ideal para regalar. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0571"
+  },
+  {
+   "id": "sab-pan-de-madrugada",
+   "nombre": "Pan de Madrugada",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-pan-de-madrugada.jpg",
+   "descripcion": "Bolso con el diseño «Pan de Madrugada», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0572"
+  },
+  {
+   "id": "sab-horno-de-pan",
+   "nombre": "Horno de Pan",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-horno-de-pan.jpg",
+   "descripcion": "Bolso con el diseño «Horno de Pan», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0573"
+  },
+  {
+   "id": "sab-pan-y-chocolate",
+   "nombre": "Pan y Chocolate",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-pan-y-chocolate.jpg",
+   "descripcion": "Bolso con el diseño «Pan y Chocolate», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0574"
+  },
+  {
+   "id": "sab-durazno-rojo",
+   "nombre": "Durazno Rojo",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-durazno-rojo.jpg",
+   "descripcion": "Bolso con el diseño «Durazno Rojo», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0575"
+  },
+  {
+   "id": "sab-cosecha-de-duraznos",
+   "nombre": "Cosecha de Duraznos",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-cosecha-de-duraznos.jpg",
+   "descripcion": "Bolso con el diseño «Cosecha de Duraznos», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0576"
+  },
+  {
+   "id": "sab-higos",
+   "nombre": "Higos",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-higos.jpg",
+   "descripcion": "Bolso con el diseño «Higos», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0577"
+  },
+  {
+   "id": "sab-dulce-de-higos",
+   "nombre": "Dulce de Higos",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-dulce-de-higos.jpg",
+   "descripcion": "Bolso con el diseño «Dulce de Higos», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0578"
+  },
+  {
+   "id": "sab-dulces-de-vitrina",
+   "nombre": "Dulces de Vitrina",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-dulces-de-vitrina.jpg",
+   "descripcion": "Bolso con el diseño «Dulces de Vitrina», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0579"
+  },
+  {
+   "id": "sab-arepa-y-fogon",
+   "nombre": "Arepa y Fogón",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-arepa-y-fogon.jpg",
+   "descripcion": "Bolso con el diseño «Arepa y Fogón», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0580"
+  },
+  {
+   "id": "sab-sabores-de-mercado",
+   "nombre": "Sabores de Mercado",
+   "categoria": "sabores-pam",
+   "seccion": "sabores-pam",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/sab-sabores-de-mercado.jpg",
+   "descripcion": "Bolso con el diseño «Sabores de Mercado», estampado a una cara. Un sabor de Pamplona: su pan, sus dulces y sus frutas de montaña. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0581"
   }
  ]
 }
