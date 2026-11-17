@@ -79,6 +79,14 @@
   {
    "id": "guanenta",
    "nombre": "Leyenda de Guanentá"
+  },
+  {
+   "id": "homenaje-artistas",
+   "nombre": "Homenaje a artistas"
+  },
+  {
+   "id": "patio-infancia",
+   "nombre": "El patio de infancia"
   }
  ],
  "categorias": [
@@ -213,6 +221,24 @@
    "nombre": "Leyenda de Guanentá",
    "detalle": "El cacique guane del Chicamocha",
    "imagen": "guan-guanenta-ante-el-abismo"
+  },
+  {
+   "id": "homenaje-artistas",
+   "nombre": "Homenaje a artistas",
+   "detalle": "Al estilo de los maestros del arte colombiano",
+   "imagen": "art-homenaje-a-omar-rayo"
+  },
+  {
+   "id": "de-aqui-para-el-mundo",
+   "nombre": "De aquí para el mundo",
+   "detalle": "Para los colombianos que llevan su tierra por el mundo",
+   "imagen": "col-maleta-viva"
+  },
+  {
+   "id": "patio-infancia",
+   "nombre": "El patio de infancia",
+   "detalle": "Infancia y recuerdos de pueblo",
+   "imagen": "patio-golosa-lunar"
   },
   {
    "id": "colombia-viva",
@@ -9099,12 +9125,272 @@
    "codigo": "T0341"
   },
   {
+   "id": "linea-cien-anos-de-soledad",
+   "nombre": "Cien Años de Soledad",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-cien-anos-de-soledad.jpg",
+   "descripcion": "Bolso con el diseño «Cien Años de Soledad», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0457"
+  },
+  {
+   "id": "linea-el-amor-en-los-tiempos-del-colera",
+   "nombre": "El Amor en los Tiempos del Cólera",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-amor-en-los-tiempos-del-colera.jpg",
+   "descripcion": "Bolso con el diseño «El Amor en los Tiempos del Cólera», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0458"
+  },
+  {
+   "id": "linea-el-coronel-no-tiene-quien-le-escriba",
+   "nombre": "El Coronel no Tiene Quien le Escriba",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-coronel-no-tiene-quien-le-escriba.jpg",
+   "descripcion": "Bolso con el diseño «El Coronel no Tiene Quien le Escriba», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0459"
+  },
+  {
+   "id": "linea-el-otono-del-patriarca",
+   "nombre": "El Otoño del Patriarca",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-otono-del-patriarca.jpg",
+   "descripcion": "Bolso con el diseño «El Otoño del Patriarca», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0460"
+  },
+  {
+   "id": "linea-un-senor-muy-viejo-con-unas-alas-enormes",
+   "nombre": "Un Señor Muy Viejo con Unas Alas Enormes",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-un-senor-muy-viejo-con-unas-alas-enormes.jpg",
+   "descripcion": "Bolso con el diseño «Un Señor Muy Viejo con Unas Alas Enormes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0461"
+  },
+  {
+   "id": "linea-el-olvido-que-seremos",
+   "nombre": "El Olvido que Seremos",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-el-olvido-que-seremos.jpg",
+   "descripcion": "Bolso con el diseño «El Olvido que Seremos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0462"
+  },
+  {
+   "id": "linea-rosario-tijeras",
+   "nombre": "Rosario Tijeras",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-rosario-tijeras.jpg",
+   "descripcion": "Bolso con el diseño «Rosario Tijeras», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0463"
+  },
+  {
+   "id": "linea-perder-es-cuestion-de-metodo",
+   "nombre": "Perder es Cuestión de Método",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-perder-es-cuestion-de-metodo.jpg",
+   "descripcion": "Bolso con el diseño «Perder es Cuestión de Método», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0464"
+  },
+  {
+   "id": "linea-delirio",
+   "nombre": "Delirio",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-delirio.jpg",
+   "descripcion": "Bolso con el diseño «Delirio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0465"
+  },
+  {
+   "id": "linea-opio-en-las-nubes",
+   "nombre": "Opio en las Nubes",
+   "categoria": "entre-lineas",
+   "seccion": "entre-lineas",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/linea-opio-en-las-nubes.jpg",
+   "descripcion": "Bolso con el diseño «Opio en las Nubes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0466"
+  },
+  {
    "id": "raiz-tejiendo-la-guajira",
    "nombre": "Tejiendo la Guajira",
    "categoria": "raices",
    "seccion": "raices",
    "precio": 60000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-tejiendo-la-guajira.jpg",
@@ -9130,7 +9416,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-wayuu.jpg",
@@ -9156,7 +9442,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-zenu.jpg",
@@ -9182,7 +9468,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-embera.jpg",
@@ -9208,7 +9494,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-guna-dule.jpg",
@@ -9234,7 +9520,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-inga.jpg",
@@ -9260,7 +9546,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-nasa.jpg",
@@ -9286,7 +9572,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-misak.jpg",
@@ -9312,7 +9598,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-uwa.jpg",
@@ -9338,7 +9624,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-cantos-del-pacifico.jpg",
@@ -9364,7 +9650,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 60000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-marimba-de-chonta.jpg",
@@ -9390,7 +9676,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-piangua-y-manglar.jpg",
@@ -9416,7 +9702,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-chirimia-del-atrato.jpg",
@@ -9442,7 +9728,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-san-pacho.jpg",
@@ -9468,7 +9754,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-la-palabra-de-palenque.jpg",
@@ -9494,7 +9780,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-tambor-palenquero.jpg",
@@ -9520,7 +9806,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-ritmo-insular.jpg",
@@ -9546,7 +9832,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-la-vela-del-arrecife.jpg",
@@ -9572,7 +9858,7 @@
    "categoria": "raices",
    "seccion": "raices",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/raiz-rondon.jpg",
@@ -9598,7 +9884,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-la-montana-dormida.jpg",
@@ -9624,7 +9910,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-muzo.jpg",
@@ -9650,7 +9936,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-coscuez.jpg",
@@ -9676,7 +9962,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-esmeralda-trapiche.jpg",
@@ -9702,7 +9988,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-seis-galerias.jpg",
@@ -9728,7 +10014,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-la-veta-blanca.jpg",
@@ -9754,7 +10040,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-lectura-de-la-veta.jpg",
@@ -9780,7 +10066,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-salida-del-socavon.jpg",
@@ -9806,7 +10092,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-mesa-de-seleccion.jpg",
@@ -9832,7 +10118,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-alas-en-la-gema.jpg",
@@ -9858,7 +10144,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-la-lupa-del-tallador.jpg",
@@ -9884,7 +10170,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-gama-de-verdes-i.jpg",
@@ -9910,7 +10196,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-gama-de-verdes-ii.jpg",
@@ -9936,7 +10222,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-gama-de-verdes-iii.jpg",
@@ -9962,7 +10248,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-gama-de-verdes-iv.jpg",
@@ -9988,7 +10274,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-bosque-en-la-gema.jpg",
@@ -10014,7 +10300,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-sombra-de-barranco.jpg",
@@ -10040,7 +10326,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-seis-paisajes.jpg",
@@ -10066,7 +10352,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-la-cascada-en-la-gema.jpg",
@@ -10092,7 +10378,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-paisaje-fluvial.jpg",
@@ -10118,7 +10404,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-esmeraldas-sobre-pizarra.jpg",
@@ -10144,7 +10430,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-rectangular-cascada.jpg",
@@ -10170,7 +10456,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-oval-bosque.jpg",
@@ -10196,7 +10482,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-pera-rio.jpg",
@@ -10222,7 +10508,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-marquesa-canon.jpg",
@@ -10248,7 +10534,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-cojin-terrazas.jpg",
@@ -10274,7 +10560,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-redonda-laguna.jpg",
@@ -10300,7 +10586,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-prisma-raices.jpg",
@@ -10326,7 +10612,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-libre-islas.jpg",
@@ -10352,7 +10638,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-asscher-gota-de-aceite.jpg",
@@ -10378,7 +10664,7 @@
    "categoria": "esmeraldas",
    "seccion": "esmeraldas",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/esm-talla-trillion-gota-de-aceite.jpg",
@@ -10404,7 +10690,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-dos-mares.jpg",
@@ -10430,7 +10716,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-andes.jpg",
@@ -10456,7 +10742,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-amazonia.jpg",
@@ -10482,7 +10768,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-cafe-y-esmeraldas.jpg",
@@ -10508,7 +10794,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-memoria.jpg",
@@ -10534,7 +10820,7 @@
    "categoria": "colombia",
    "seccion": "colombia",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/col-colombia-cumbia-y-carnaval.jpg",
@@ -10560,7 +10846,7 @@
    "categoria": "fauna",
    "seccion": "fauna",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/fauna-mariposas-de-fura.jpg",
@@ -10586,7 +10872,7 @@
    "categoria": "fauna",
    "seccion": "fauna",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/fauna-nuqui.jpg",
@@ -10612,7 +10898,7 @@
    "categoria": "fauna",
    "seccion": "fauna",
    "precio": 55000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/fauna-amazonas.jpg",
@@ -10638,7 +10924,7 @@
    "categoria": "fauna",
    "seccion": "fauna",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/fauna-cocora.jpg",
@@ -10664,7 +10950,7 @@
    "categoria": "fauna",
    "seccion": "fauna",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/fauna-oso-de-anteojos.jpg",
@@ -10690,7 +10976,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-cattleya-trianae.jpg",
@@ -10716,7 +11002,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-cattleya-warscewiczii.jpg",
@@ -10742,7 +11028,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-cattleya-dowiana-aurea.jpg",
@@ -10768,7 +11054,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-cattleya-quadricolor.jpg",
@@ -10794,7 +11080,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-miltoniopsis-vexillaria.jpg",
@@ -10820,7 +11106,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-frailejon-de-santurban.jpg",
@@ -10846,7 +11132,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-oncidium-alexandrae.jpg",
@@ -10872,7 +11158,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-dracula-bella.jpg",
@@ -10898,7 +11184,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-masdevallia-coccinea.jpg",
@@ -10924,7 +11210,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-phragmipedium-schlimii.jpg",
@@ -10950,7 +11236,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-anguloa-clowesii.jpg",
@@ -10976,7 +11262,7 @@
    "categoria": "flora",
    "seccion": "flora",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/flora-orquidea-y-colibri.jpg",
@@ -11002,7 +11288,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-cano-cristales.jpg",
@@ -11028,7 +11314,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-la-guajira.jpg",
@@ -11054,7 +11340,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-san-andres.jpg",
@@ -11080,7 +11366,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-choco.jpg",
@@ -11106,7 +11392,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-cienaga-grande.jpg",
@@ -11132,7 +11418,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-eje-cafetero.jpg",
@@ -11158,7 +11444,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-velez.jpg",
@@ -11184,7 +11470,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-barichara.jpg",
@@ -11210,7 +11496,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-canon-del-chicamocha.jpg",
@@ -11236,7 +11522,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-cartagena.jpg",
@@ -11262,7 +11548,7 @@
    "categoria": "destinos",
    "seccion": "destinos",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/dest-llanos-orientales.jpg",
@@ -11288,7 +11574,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-monserrate.jpg",
@@ -11314,7 +11600,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-la-candelaria.jpg",
@@ -11340,7 +11626,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-plaza-de-bolivar.jpg",
@@ -11366,7 +11652,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-museo-del-oro.jpg",
@@ -11392,7 +11678,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-museo-botero.jpg",
@@ -11418,7 +11704,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-jardin-botanico.jpg",
@@ -11444,7 +11730,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-parque-simon-bolivar.jpg",
@@ -11470,7 +11756,7 @@
    "categoria": "bogota",
    "seccion": "bogota",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/bog-biblioteca-virgilio-barco.jpg",
@@ -11496,7 +11782,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-garcia-rovira.jpg",
@@ -11522,7 +11808,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-santander.jpg",
@@ -11548,7 +11834,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-de-los-ninos.jpg",
@@ -11574,7 +11860,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-san-pio.jpg",
@@ -11600,7 +11886,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-las-palmas.jpg",
@@ -11626,7 +11912,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-de-los-leones.jpg",
@@ -11652,7 +11938,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-la-flora.jpg",
@@ -11678,7 +11964,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-la-concordia.jpg",
@@ -11704,7 +11990,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-romero.jpg",
@@ -11730,7 +12016,7 @@
    "categoria": "parques-bga",
    "seccion": "parques-bga",
    "precio": 45000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/pbga-parque-ecologico-la-esperanza.jpg",
@@ -11756,7 +12042,7 @@
    "categoria": "cabra-criolla",
    "seccion": "cabra-criolla",
    "precio": 50000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/cabra-macho-en-el-farallon.jpg",
@@ -11782,7 +12068,7 @@
    "categoria": "cabra-criolla",
    "seccion": "cabra-criolla",
    "precio": 50000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/cabra-la-guardiana-del-canon.jpg",
@@ -11808,7 +12094,7 @@
    "categoria": "cabra-criolla",
    "seccion": "cabra-criolla",
    "precio": 50000,
-   "stock": 24,
+   "stock": 18,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/cabra-rebano-entre-estratos.jpg",
@@ -11834,7 +12120,7 @@
    "categoria": "cabra-criolla",
    "seccion": "cabra-criolla",
    "precio": 50000,
-   "stock": 9,
+   "stock": 20,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/cabra-cuernos-de-luz.jpg",
@@ -11860,7 +12146,7 @@
    "categoria": "cabra-criolla",
    "seccion": "cabra-criolla",
    "precio": 50000,
-   "stock": 12,
+   "stock": 24,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/cabra-centinela-de-la-tormenta.jpg",
@@ -11886,7 +12172,7 @@
    "categoria": "guanenta",
    "seccion": "guanenta",
    "precio": 55000,
-   "stock": 15,
+   "stock": 9,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/guan-guanenta-ante-el-abismo.jpg",
@@ -11912,7 +12198,7 @@
    "categoria": "guanenta",
    "seccion": "guanenta",
    "precio": 55000,
-   "stock": 18,
+   "stock": 12,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/guan-el-ultimo-encantamiento.jpg",
@@ -11938,7 +12224,7 @@
    "categoria": "guanenta",
    "seccion": "guanenta",
    "precio": 55000,
-   "stock": 20,
+   "stock": 15,
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/guan-el-ave-del-chicamocha.jpg",
@@ -11957,6 +12243,786 @@
     ]
    },
    "codigo": "T0446"
+  },
+  {
+   "id": "art-homenaje-a-omar-rayo",
+   "nombre": "Homenaje a Omar Rayo",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-omar-rayo.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Omar Rayo», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0467"
+  },
+  {
+   "id": "art-homenaje-a-alejandro-obregon",
+   "nombre": "Homenaje a Alejandro Obregón",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-alejandro-obregon.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Alejandro Obregón», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0468"
+  },
+  {
+   "id": "art-homenaje-a-david-manzur",
+   "nombre": "Homenaje a David Manzur",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-david-manzur.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a David Manzur», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0469"
+  },
+  {
+   "id": "art-homenaje-a-eduardo-ramirez-villamizar",
+   "nombre": "Homenaje a Eduardo Ramírez Villamizar",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-eduardo-ramirez-villamizar.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Eduardo Ramírez Villamizar», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0470"
+  },
+  {
+   "id": "art-homenaje-a-edgar-negret",
+   "nombre": "Homenaje a Edgar Negret",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-edgar-negret.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Edgar Negret», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0471"
+  },
+  {
+   "id": "art-homenaje-a-feliza-bursztyn",
+   "nombre": "Homenaje a Feliza Bursztyn",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-feliza-bursztyn.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Feliza Bursztyn», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0472"
+  },
+  {
+   "id": "art-homenaje-a-debora-arango",
+   "nombre": "Homenaje a Débora Arango",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-debora-arango.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Débora Arango», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0473"
+  },
+  {
+   "id": "art-homenaje-a-enrique-grau",
+   "nombre": "Homenaje a Enrique Grau",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-enrique-grau.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Enrique Grau», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0474"
+  },
+  {
+   "id": "art-homenaje-a-beatriz-gonzalez",
+   "nombre": "Homenaje a Beatriz González",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-beatriz-gonzalez.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Beatriz González», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0475"
+  },
+  {
+   "id": "art-homenaje-a-fernando-botero",
+   "nombre": "Homenaje a Fernando Botero",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-fernando-botero.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Fernando Botero», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0476"
+  },
+  {
+   "id": "col-maleta-viva",
+   "nombre": "Maleta Viva",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-maleta-viva.jpg",
+   "descripcion": "Bolso con el diseño «Maleta Viva», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0477"
+  },
+  {
+   "id": "col-carta-de-vuelta",
+   "nombre": "Carta de Vuelta",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-carta-de-vuelta.jpg",
+   "descripcion": "Bolso con el diseño «Carta de Vuelta», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0478"
+  },
+  {
+   "id": "col-cafe-a-distancia",
+   "nombre": "Café a Distancia",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-cafe-a-distancia.jpg",
+   "descripcion": "Bolso con el diseño «Café a Distancia», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0479"
+  },
+  {
+   "id": "col-el-hilo-del-regreso",
+   "nombre": "El Hilo del Regreso",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-el-hilo-del-regreso.jpg",
+   "descripcion": "Bolso con el diseño «El Hilo del Regreso», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0480"
+  },
+  {
+   "id": "col-raices-viajeras",
+   "nombre": "Raíces Viajeras",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-raices-viajeras.jpg",
+   "descripcion": "Bolso con el diseño «Raíces Viajeras», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0481"
+  },
+  {
+   "id": "col-la-llave-de-casa",
+   "nombre": "La Llave de Casa",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-la-llave-de-casa.jpg",
+   "descripcion": "Bolso con el diseño «La Llave de Casa», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0482"
+  },
+  {
+   "id": "col-puente-de-mariposas",
+   "nombre": "Puente de Mariposas",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-puente-de-mariposas.jpg",
+   "descripcion": "Bolso con el diseño «Puente de Mariposas», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0483"
+  },
+  {
+   "id": "col-la-arepa-de-casa",
+   "nombre": "La Arepa de Casa",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-la-arepa-de-casa.jpg",
+   "descripcion": "Bolso con el diseño «La Arepa de Casa», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0484"
+  },
+  {
+   "id": "col-postal-del-rio",
+   "nombre": "Postal del Río",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-postal-del-rio.jpg",
+   "descripcion": "Bolso con el diseño «Postal del Río», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0485"
+  },
+  {
+   "id": "col-la-cancion-que-viaja",
+   "nombre": "La Canción que Viaja",
+   "categoria": "de-aqui-para-el-mundo",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-la-cancion-que-viaja.jpg",
+   "descripcion": "Bolso con el diseño «La Canción que Viaja», estampado a una cara. Una escena para los colombianos que llevan su tierra por el mundo. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0486"
+  },
+  {
+   "id": "patio-golosa-lunar",
+   "nombre": "Golosa Lunar",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-golosa-lunar.jpg",
+   "descripcion": "Bolso con el diseño «Golosa Lunar», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0487"
+  },
+  {
+   "id": "patio-cometa-de-agosto",
+   "nombre": "Cometa de Agosto",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-cometa-de-agosto.jpg",
+   "descripcion": "Bolso con el diseño «Cometa de Agosto», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0488"
+  },
+  {
+   "id": "patio-canicas",
+   "nombre": "Canicas",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-canicas.jpg",
+   "descripcion": "Bolso con el diseño «Canicas», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0489"
+  },
+  {
+   "id": "patio-trompo",
+   "nombre": "Trompo",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-trompo.jpg",
+   "descripcion": "Bolso con el diseño «Trompo», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0490"
+  },
+  {
+   "id": "patio-mango-del-patio",
+   "nombre": "Mango del Patio",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-mango-del-patio.jpg",
+   "descripcion": "Bolso con el diseño «Mango del Patio», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0491"
+  },
+  {
+   "id": "patio-charcos",
+   "nombre": "Charcos",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-charcos.jpg",
+   "descripcion": "Bolso con el diseño «Charcos», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0492"
+  },
+  {
+   "id": "patio-la-cuerda",
+   "nombre": "La Cuerda",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-la-cuerda.jpg",
+   "descripcion": "Bolso con el diseño «La Cuerda», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0493"
+  },
+  {
+   "id": "patio-la-bicicleta",
+   "nombre": "La Bicicleta",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-la-bicicleta.jpg",
+   "descripcion": "Bolso con el diseño «La Bicicleta», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0494"
+  },
+  {
+   "id": "patio-escondidas",
+   "nombre": "Escondidas",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-escondidas.jpg",
+   "descripcion": "Bolso con el diseño «Escondidas», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0495"
+  },
+  {
+   "id": "patio-luciernagas",
+   "nombre": "Luciérnagas",
+   "categoria": "patio-infancia",
+   "seccion": "patio-infancia",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/patio-luciernagas.jpg",
+   "descripcion": "Bolso con el diseño «Luciérnagas», estampado a una cara. Un recuerdo de la infancia en los pueblos de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0496"
   }
  ]
 }

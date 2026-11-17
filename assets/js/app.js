@@ -250,7 +250,8 @@
       { label: 'Colombia entera', secs: ['cultura-co', 'departamentos', 'colombia', 'destinos', 'bogota'] },
       { label: 'Riquezas de Colombia', secs: ['riquezas', 'esmeraldas'] },
       { label: 'Flora y fauna', secs: ['flora-fauna', 'flora', 'fauna', 'colombia-viva'] },
-      { label: 'Arte y leyendas', secs: ['colombia-surrealista', 'mitos-leyendas', 'entre-lineas', 'raices'] },
+      { label: 'Arte y leyendas', secs: ['homenaje-artistas', 'colombia-surrealista', 'mitos-leyendas', 'entre-lineas'] },
+      { label: 'Raíces y memoria', secs: ['raices', 'patio-infancia'] },
     ];
     // Acordeón de colecciones → subcategorías (en la tienda)
     function grupoHTML(s) {
