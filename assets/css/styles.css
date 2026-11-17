@@ -791,6 +791,8 @@ body::after {
 .acc-grupo.abierto .acc-ico { transform: rotate(180deg); }
 .acc-subs { display: none; flex-direction: column; gap: 1px; margin: 2px 0 6px 12px; padding-left: 10px; border-left: 2px solid var(--line); }
 .acc-grupo.abierto .acc-subs { display: flex; }
+.acc-tema { font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: 1.02rem; color: var(--mint-text); margin: 14px 4px 4px; padding-top: 11px; border-top: 1px solid var(--line); }
+.acc-tema:first-of-type { margin-top: 6px; }
 .acc-sub { padding: 8px 12px; font-size: .9rem; color: var(--text-2); }
 .acc-sub.activo { background: var(--mint-soft); color: var(--mint-text); font-weight: 700; }
 .filtro-toggle { display: none; align-items: center; justify-content: space-between; gap: 10px; width: 100%; padding: 13px 16px; border-radius: 12px; border: 1.5px solid var(--line); background: #fff; font-family: var(--font-body); font-weight: 700; font-size: .98rem; color: var(--night); cursor: pointer; }

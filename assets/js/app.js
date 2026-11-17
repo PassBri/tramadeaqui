@@ -244,15 +244,34 @@
       const ids = catIdsEnSec(sec);
       return [{ id: 'todo', nombre: 'Todo' }].concat(D.categorias.filter((c) => ids.has(c.id)));
     }
+    // Temas que agrupan las secciones en el acordeón de la tienda
+    const TEMAS = [
+      { label: 'Santander nuestro', secs: ['santander', 'municipios', 'parques-bga', 'cabra-criolla', 'guanenta'] },
+      { label: 'Colombia entera', secs: ['cultura-co', 'departamentos', 'colombia', 'destinos', 'bogota'] },
+      { label: 'Riquezas de Colombia', secs: ['riquezas', 'esmeraldas'] },
+      { label: 'Flora y fauna', secs: ['flora-fauna', 'flora', 'fauna', 'colombia-viva'] },
+      { label: 'Arte y leyendas', secs: ['colombia-surrealista', 'mitos-leyendas', 'entre-lineas', 'raices'] },
+    ];
     // Acordeón de colecciones → subcategorías (en la tienda)
+    function grupoHTML(s) {
+      const cats = D.categorias.filter((c) => catIdsEnSec(s.id).has(c.id));
+      const subs = cats.length > 1 ? `<div class="acc-subs">${cats.map((c) => `<button type="button" class="acc-sub${sec === s.id && cat === c.id ? ' activo' : ''}" data-sec="${s.id}" data-cat="${c.id}">${esc(c.nombre)}</button>`).join('')}</div>` : '';
+      return `<div class="acc-grupo${sec === s.id ? ' abierto' : ''}"><button type="button" class="acc-head${sec === s.id && cat === 'todo' ? ' activo' : ''}" data-sec="${s.id}" data-cat="todo">${esc(s.nombre)}${cats.length > 1 ? '<span class="acc-ico" aria-hidden="true">▾</span>' : ''}</button>${subs}</div>`;
+    }
     function drawAcordeon() {
       if (!filtro) return;
-      filtro.innerHTML = `<button type="button" class="acc-todo${sec === 'todo' ? ' activo' : ''}" data-sec="todo" data-cat="todo">Todas las colecciones</button>` +
-        SECS.map((s) => {
-          const cats = D.categorias.filter((c) => catIdsEnSec(s.id).has(c.id));
-          const subs = cats.length > 1 ? `<div class="acc-subs">${cats.map((c) => `<button type="button" class="acc-sub${sec === s.id && cat === c.id ? ' activo' : ''}" data-sec="${s.id}" data-cat="${c.id}">${esc(c.nombre)}</button>`).join('')}</div>` : '';
-          return `<div class="acc-grupo${sec === s.id ? ' abierto' : ''}"><button type="button" class="acc-head${sec === s.id && cat === 'todo' ? ' activo' : ''}" data-sec="${s.id}" data-cat="todo">${esc(s.nombre)}${cats.length > 1 ? '<span class="acc-ico" aria-hidden="true">▾</span>' : ''}</button>${subs}</div>`;
-        }).join('');
+      const porId = Object.fromEntries(SECS.map((s) => [s.id, s]));
+      const usados = new Set();
+      let html = `<button type="button" class="acc-todo${sec === 'todo' ? ' activo' : ''}" data-sec="todo" data-cat="todo">Todas las colecciones</button>`;
+      TEMAS.forEach((t) => {
+        const ss = t.secs.filter((id) => porId[id]);
+        if (!ss.length) return;
+        html += `<p class="acc-tema">${esc(t.label)}</p>`;
+        ss.forEach((id) => { usados.add(id); html += grupoHTML(porId[id]); });
+      });
+      const resto = SECS.filter((s) => !usados.has(s.id));
+      if (resto.length) { html += `<p class="acc-tema">Más colecciones</p>`; resto.forEach((s) => { html += grupoHTML(s); }); }
+      filtro.innerHTML = html;
     }
     function drawChips() {
       if (filtro) { chips.innerHTML = ''; return; }  // en la tienda manda el acordeón
