@@ -196,3 +196,12 @@
 .precio-inline { width: 92px; padding: 6px 8px; border: 1.5px solid var(--line, #e3dccb); border-radius: 8px; font-family: var(--font-body); font-weight: 700; font-size: .9rem; color: var(--night, #2E4A30); background: #fff; }
 .precio-inline:focus { outline: none; border-color: var(--mint, #4F7D55); box-shadow: 0 0 0 3px rgba(79,125,85,.15); }
 .precio-inline.guardado { border-color: var(--mint, #4F7D55); background: #eef5ee; }
+
+/* Botón de descarga de catálogo en la cabecera */
+.desc-menu { position: relative; margin-left: auto; }
+.desc-btn { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.desc-btn .desc-ico { font-size: 1.05rem; line-height: 1; }
+.desc-pop { position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; background: #fff; border: 1.5px solid var(--line, #e3dccb); border-radius: 12px; box-shadow: 0 10px 28px rgba(0,0,0,.14); padding: 6px; min-width: 230px; display: flex; flex-direction: column; gap: 2px; }
+.desc-pop a { display: block; padding: 10px 12px; border-radius: 9px; color: var(--night, #2E4A30); font-weight: 700; font-size: .92rem; text-decoration: none; }
+.desc-pop a:hover { background: var(--sage-container, #f3efe3); }
+@media (max-width: 640px) { .desc-btn .desc-txt { display: none; } .desc-btn { padding-left: 11px; padding-right: 11px; } }

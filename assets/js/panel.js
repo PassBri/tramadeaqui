@@ -39,6 +39,13 @@
     else { $('#pin-mal').hidden = false; $('#pin').value = ''; }
   });
   $('#salir').addEventListener('click', () => { sessionStorage.removeItem('trama_panel'); location.reload(); });
+  (function descargaCatalogo() {
+    const b = $('#desc-btn'), pop = $('#desc-pop');
+    if (!b || !pop) return;
+    b.addEventListener('click', (e) => { e.stopPropagation(); pop.hidden = !pop.hidden; b.setAttribute('aria-expanded', String(!pop.hidden)); });
+    pop.addEventListener('click', (e) => e.stopPropagation());
+    document.addEventListener('click', () => { if (!pop.hidden) { pop.hidden = true; b.setAttribute('aria-expanded', 'false'); } });
+  })();
 
   /* ---------- avisos / estado ---------- */
   let avisoT;

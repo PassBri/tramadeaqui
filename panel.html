@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css?v=48">
-<link rel="stylesheet" href="assets/css/panel.css?v=4">
+<link rel="stylesheet" href="assets/css/panel.css?v=5">
 </head>
 <body data-page="panel" class="panel-body">
 
@@ -74,6 +74,13 @@
       <button type="button" class="ico-btn menu-btn" id="menu-btn" aria-label="Menú">☰</button>
       <h1 id="titulo">Resumen</h1>
       <div class="estado" id="estado" role="status" aria-live="polite"></div>
+      <div class="desc-menu">
+        <button type="button" class="btn btn-ghost desc-btn" id="desc-btn" aria-haspopup="true" aria-expanded="false" title="Descargar catálogo PDF"><span class="desc-ico" aria-hidden="true">⬇</span><span class="desc-txt">Catálogo PDF</span></button>
+        <div class="desc-pop" id="desc-pop" hidden>
+          <a href="docs/trama-catalogo-9x4k7m.pdf" download="Catalogo_Trama_de_Aqui.pdf" rel="noopener">⬇ Catálogo (PC · imprimir)</a>
+          <a href="docs/trama-catalogo-movil-9x4k7m.pdf" download="Catalogo_Trama_movil.pdf" rel="noopener">⬇ Versión celular</a>
+        </div>
+      </div>
       <button type="button" class="btn btn-primary" id="accion" hidden><b>+</b> <span></span></button>
     </header>
     <main id="vista" class="vista"></main>
@@ -90,7 +97,7 @@
 <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
 
 <script src="assets/js/config.js?v=9"></script>
-<script src="assets/js/panel.js?v=7"></script>
+<script src="assets/js/panel.js?v=8"></script>
 <script src="assets/js/panel-biz.js?v=1"></script>
 </body>
 </html>
