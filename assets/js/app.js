@@ -285,10 +285,18 @@
       cat = b.dataset.cat; $$('.chip', chips).forEach((c) => c.setAttribute('aria-pressed', c === b));
       render();
     });
+    const filtroToggle = $('#filtro-toggle');
+    if (filtroToggle && filtro) filtroToggle.addEventListener('click', () => {
+      const abierto = filtro.classList.toggle('abierta');
+      filtroToggle.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+    });
     if (filtro) filtro.addEventListener('click', (e) => {
       const b = e.target.closest('[data-sec]'); if (!b) return;
+      const headConSubs = b.classList.contains('acc-head') && !!b.parentElement.querySelector('.acc-subs');
       sec = b.dataset.sec; cat = b.dataset.cat || 'todo';
       drawAcordeon(); render();
+      // en móvil: cerrar el panel tras una selección final (no al abrir un grupo con subcategorías)
+      if (filtroToggle && !headConSubs) { filtro.classList.remove('abierta'); filtroToggle.setAttribute('aria-expanded', 'false'); }
     });
     q.addEventListener('input', render); if (sort) sort.addEventListener('change', render);
     const qForm = q.closest('form'); if (qForm) qForm.addEventListener('submit', (e) => e.preventDefault());
