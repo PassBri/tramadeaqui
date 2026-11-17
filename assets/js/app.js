@@ -247,6 +247,7 @@
     // Temas que agrupan las secciones en el acordeón de la tienda
     const TEMAS = [
       { label: 'Santander nuestro', secs: ['santander', 'municipios', 'parques-bga', 'cabra-criolla', 'guanenta'] },
+      { label: 'Pamplona, mi tierra', secs: ['pamplona', 'uni-pamplona'] },
       { label: 'Colombia entera', secs: ['cultura-co', 'departamentos', 'colombia', 'destinos', 'bogota'] },
       { label: 'Riquezas de Colombia', secs: ['riquezas', 'esmeraldas'] },
       { label: 'Flora y fauna', secs: ['flora-fauna', 'flora', 'fauna', 'colombia-viva'] },

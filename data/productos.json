@@ -91,6 +91,14 @@
   {
    "id": "recuerdos",
    "nombre": "Recuerdos de Colombia"
+  },
+  {
+   "id": "pamplona",
+   "nombre": "Pamplona querida"
+  },
+  {
+   "id": "uni-pamplona",
+   "nombre": "Recuerdos de la Universidad de Pamplona"
   }
  ],
  "categorias": [
@@ -249,6 +257,18 @@
    "nombre": "Recuerdos de Colombia",
    "detalle": "Estampas y tradiciones de la Colombia de siempre",
    "imagen": "rec-plaza-de-mercado"
+  },
+  {
+   "id": "pamplona",
+   "nombre": "Pamplona querida",
+   "detalle": "Pamplona, Norte de Santander — la ciudad mariana y patriótica",
+   "imagen": "pam-plaza-agueda-gallardo"
+  },
+  {
+   "id": "uni-pamplona",
+   "nombre": "Universidad de Pamplona",
+   "detalle": "Recuerdos de la vida universitaria en Pamplona",
+   "imagen": "uni-la-casona"
   },
   {
    "id": "colombia-viva",
@@ -13709,6 +13729,786 @@
     ]
    },
    "codigo": "T0516"
+  },
+  {
+   "id": "pam-plaza-agueda-gallardo",
+   "nombre": "Plaza Águeda Gallardo",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-plaza-agueda-gallardo.jpg",
+   "descripcion": "Bolso con el diseño «Plaza Águeda Gallardo», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0524"
+  },
+  {
+   "id": "pam-catedral-santa-clara",
+   "nombre": "Catedral Santa Clara",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-catedral-santa-clara.jpg",
+   "descripcion": "Bolso con el diseño «Catedral Santa Clara», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0525"
+  },
+  {
+   "id": "pam-calle-real",
+   "nombre": "Calle Real",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-calle-real.jpg",
+   "descripcion": "Bolso con el diseño «Calle Real», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0526"
+  },
+  {
+   "id": "pam-el-humilladero",
+   "nombre": "El Humilladero",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-el-humilladero.jpg",
+   "descripcion": "Bolso con el diseño «El Humilladero», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0527"
+  },
+  {
+   "id": "pam-cristo-rey",
+   "nombre": "Cristo Rey",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-cristo-rey.jpg",
+   "descripcion": "Bolso con el diseño «Cristo Rey», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0528"
+  },
+  {
+   "id": "pam-casa-agueda-gallardo",
+   "nombre": "Casa Águeda Gallardo",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-casa-agueda-gallardo.jpg",
+   "descripcion": "Bolso con el diseño «Casa Águeda Gallardo», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0529"
+  },
+  {
+   "id": "pam-semana-santa",
+   "nombre": "Semana Santa",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-semana-santa.jpg",
+   "descripcion": "Bolso con el diseño «Semana Santa», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0530"
+  },
+  {
+   "id": "pam-semana-santa-infantil",
+   "nombre": "Semana Santa Infantil",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-semana-santa-infantil.jpg",
+   "descripcion": "Bolso con el diseño «Semana Santa Infantil», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0531"
+  },
+  {
+   "id": "pam-coro-de-musica-sacra",
+   "nombre": "Coro de Música Sacra",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-coro-de-musica-sacra.jpg",
+   "descripcion": "Bolso con el diseño «Coro de Música Sacra», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0532"
+  },
+  {
+   "id": "pam-casa-de-mercado",
+   "nombre": "Casa de Mercado",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-casa-de-mercado.jpg",
+   "descripcion": "Bolso con el diseño «Casa de Mercado», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0533"
+  },
+  {
+   "id": "pam-pan-de-madrugada",
+   "nombre": "Pan de Madrugada",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-pan-de-madrugada.jpg",
+   "descripcion": "Bolso con el diseño «Pan de Madrugada», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0534"
+  },
+  {
+   "id": "pam-dulces-de-la-infancia",
+   "nombre": "Dulces de la Infancia",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-dulces-de-la-infancia.jpg",
+   "descripcion": "Bolso con el diseño «Dulces de la Infancia», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0535"
+  },
+  {
+   "id": "pam-chocolate-de-casa",
+   "nombre": "Chocolate de Casa",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-chocolate-de-casa.jpg",
+   "descripcion": "Bolso con el diseño «Chocolate de Casa», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0536"
+  },
+  {
+   "id": "pam-museo-ramirez-villamizar",
+   "nombre": "Museo Ramírez Villamizar",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-museo-ramirez-villamizar.jpg",
+   "descripcion": "Bolso con el diseño «Museo Ramírez Villamizar», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0537"
+  },
+  {
+   "id": "pam-ceramica-y-memoria",
+   "nombre": "Cerámica y Memoria",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-ceramica-y-memoria.jpg",
+   "descripcion": "Bolso con el diseño «Cerámica y Memoria», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0538"
+  },
+  {
+   "id": "pam-casona-universitaria",
+   "nombre": "Casona Universitaria",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-casona-universitaria.jpg",
+   "descripcion": "Bolso con el diseño «Casona Universitaria», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0539"
+  },
+  {
+   "id": "pam-casa-museo-anzoategui",
+   "nombre": "Casa Museo Anzoátegui",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-casa-museo-anzoategui.jpg",
+   "descripcion": "Bolso con el diseño «Casa Museo Anzoátegui», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0540"
+  },
+  {
+   "id": "pam-colina-las-cruces",
+   "nombre": "Colina Las Cruces",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-colina-las-cruces.jpg",
+   "descripcion": "Bolso con el diseño «Colina Las Cruces», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0541"
+  },
+  {
+   "id": "pam-frailejones-de-altura",
+   "nombre": "Frailejones de Altura",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-frailejones-de-altura.jpg",
+   "descripcion": "Bolso con el diseño «Frailejones de Altura», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0542"
+  },
+  {
+   "id": "pam-colibri-entre-las-nubes",
+   "nombre": "Colibrí entre las Nubes",
+   "categoria": "pamplona",
+   "seccion": "pamplona",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/pam-colibri-entre-las-nubes.jpg",
+   "descripcion": "Bolso con el diseño «Colibrí entre las Nubes», estampado a una cara. Una estampa de Pamplona, Norte de Santander: su historia, su fe y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0543"
+  },
+  {
+   "id": "uni-la-casona",
+   "nombre": "La Casona",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-la-casona.jpg",
+   "descripcion": "Bolso con el diseño «La Casona», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0544"
+  },
+  {
+   "id": "uni-camino-al-campus",
+   "nombre": "Camino al Campus",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-camino-al-campus.jpg",
+   "descripcion": "Bolso con el diseño «Camino al Campus», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0545"
+  },
+  {
+   "id": "uni-la-biblioteca",
+   "nombre": "La Biblioteca",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-la-biblioteca.jpg",
+   "descripcion": "Bolso con el diseño «La Biblioteca», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0546"
+  },
+  {
+   "id": "uni-el-aula",
+   "nombre": "El Aula",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-el-aula.jpg",
+   "descripcion": "Bolso con el diseño «El Aula», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0547"
+  },
+  {
+   "id": "uni-pausa-de-cafe",
+   "nombre": "Pausa de Café",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-pausa-de-cafe.jpg",
+   "descripcion": "Bolso con el diseño «Pausa de Café», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0548"
+  },
+  {
+   "id": "uni-deporte-universitario",
+   "nombre": "Deporte Universitario",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-deporte-universitario.jpg",
+   "descripcion": "Bolso con el diseño «Deporte Universitario», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0549"
+  },
+  {
+   "id": "uni-el-laboratorio",
+   "nombre": "El Laboratorio",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-el-laboratorio.jpg",
+   "descripcion": "Bolso con el diseño «El Laboratorio», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0550"
+  },
+  {
+   "id": "uni-amistades",
+   "nombre": "Amistades",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-amistades.jpg",
+   "descripcion": "Bolso con el diseño «Amistades», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0551"
+  },
+  {
+   "id": "uni-graduacion",
+   "nombre": "Graduación",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-graduacion.jpg",
+   "descripcion": "Bolso con el diseño «Graduación», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0552"
+  },
+  {
+   "id": "uni-regreso-a-pamplona",
+   "nombre": "Regreso a Pamplona",
+   "categoria": "uni-pamplona",
+   "seccion": "uni-pamplona",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/uni-regreso-a-pamplona.jpg",
+   "descripcion": "Bolso con el diseño «Regreso a Pamplona», estampado a una cara. Un recuerdo de la vida universitaria en Pamplona: sus aulas, sus patios y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0553"
   }
  ]
 }
