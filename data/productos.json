@@ -12565,16 +12565,16 @@
    "codigo": "T0476"
   },
   {
-   "id": "art-el-canon-entre-las-manos",
-   "nombre": "El cañón entre las manos",
+   "id": "art-homenaje-a-mantilla-caballero",
+   "nombre": "Homenaje a Mantilla Caballero",
    "categoria": "homenaje-artistas",
    "seccion": "homenaje-artistas",
    "precio": 55000,
    "stock": 12,
    "destacado": false,
    "nuevo": true,
-   "imagen": "assets/img/productos/art-el-canon-entre-las-manos.jpg",
-   "descripcion": "En esta ilustración de Trama de Aquí, dos manos despliegan el Chicamocha como un tejido de magentas y naranjas. Un homenaje a Jorge Mantilla Caballero, quien encontró inspiración en los colores vivos del cañón. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "imagen": "assets/img/productos/art-homenaje-a-mantilla-caballero.jpg",
+   "descripcion": "«El cañón entre las manos». En esta ilustración de Trama de Aquí, dos manos despliegan el Chicamocha como un tejido de magentas y naranjas. Un homenaje a Jorge Mantilla Caballero, quien encontró inspiración en los colores vivos del cañón. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
