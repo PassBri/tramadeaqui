@@ -187,7 +187,7 @@
     const desde = p.variantes ? '<small class="desde">desde</small> ' : '';
     return `<a class="panel brackets card" href="producto.html?id=${encodeURIComponent(p.id)}">
       <div class="media">${tag}${SPARK}<img src="${thumb(p)}" ${FALLBACK(p)} alt="${esc(p.nombre)}" loading="lazy" width="420" height="741"></div>
-      <span class="cat-label">${esc(catName(p.categoria))}${p.linea ? ' · ' + esc(p.linea) : ''}</span>
+      <span class="cat-label">${p.codigo ? '<b class="cod">' + esc(p.codigo) + '</b> · ' : ''}${esc(catName(p.categoria))}${p.linea ? ' · ' + esc(p.linea) : ''}</span>
       <h3>${esc(p.nombre)}</h3>
       <div class="meta"><span class="price">${desde}${money(p.precio)}${p.precioAntes ? `<s>${money(p.precioAntes)}</s>` : ''}</span>${nubes(p.suavidad)}</div>
     </a>`;
@@ -280,7 +280,7 @@
     }
     function render() {
       const term = norm(q.value.trim());
-      let list = D.productos.filter((p) => inSec(p) && (cat === 'todo' || p.categoria === cat) && (!term || norm(p.nombre + ' ' + p.descripcion + ' ' + catName(p.categoria)).includes(term)));
+      let list = D.productos.filter((p) => inSec(p) && (cat === 'todo' || p.categoria === cat) && (!term || norm(p.nombre + ' ' + p.descripcion + ' ' + catName(p.categoria) + ' ' + (p.codigo || '')).includes(term)));
       const sv = sort ? sort.value : 'relevancia';
       if (sv === 'menor') list.sort((a, b) => a.precio - b.precio);
       else if (sv === 'mayor') list.sort((a, b) => b.precio - a.precio);
