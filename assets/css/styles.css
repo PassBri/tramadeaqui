@@ -782,7 +782,10 @@ body::after {
 /* ===== Tienda: acordeón de colecciones + grilla ===== */
 .tienda-layout { display: grid; grid-template-columns: 236px 1fr; gap: 26px; align-items: start; margin-top: 14px; }
 .tienda-main { min-width: 0; }
-.filtro-acc { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 3px; }
+.filtro-acc { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 3px; max-height: calc(100vh - 102px); overflow-y: auto; overscroll-behavior: contain; padding-right: 6px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.filtro-acc::-webkit-scrollbar { width: 7px; }
+.filtro-acc::-webkit-scrollbar-thumb { background: var(--line); border-radius: 8px; }
+.filtro-acc::-webkit-scrollbar-thumb:hover { background: var(--mint); }
 .acc-todo, .acc-head, .acc-sub { text-align: left; background: none; border: 0; font-family: inherit; cursor: pointer; border-radius: 11px; width: 100%; color: var(--text); transition: background .15s, color .15s; }
 .acc-todo, .acc-head { padding: 10px 13px; font-weight: 700; font-size: .96rem; }
 .acc-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }

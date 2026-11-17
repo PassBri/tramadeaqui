@@ -125,7 +125,10 @@
           <b style="font-family:var(--font-display);color:var(--night);font-size:18px">Catálogo maestro (PDF)</b>
           <p class="note" style="margin:4px 0 0">${ps.length} diseños con código, nombre, categoría y precio. Documento interno.</p>
         </div>
-        <a class="btn btn-primary" href="docs/trama-catalogo-9x4k7m.pdf" download="Catalogo_Trama_de_Aqui.pdf" rel="noopener">⇣ Descargar catálogo</a>
+        <div style="display:flex;flex-wrap:wrap;gap:10px">
+          <a class="btn btn-primary" href="docs/trama-catalogo-9x4k7m.pdf" download="Catalogo_Trama_de_Aqui.pdf" rel="noopener">⇣ Catálogo (PC)</a>
+          <a class="btn btn-ghost" href="docs/trama-catalogo-movil-9x4k7m.pdf" download="Catalogo_Trama_movil.pdf" rel="noopener">⇣ Versión celular</a>
+        </div>
       </div>
       <h3 style="font-family:var(--font-display);color:var(--night);margin:0 0 12px">Productos por sección</h3>
       <div class="lista-sec">
