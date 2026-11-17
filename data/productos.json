@@ -9057,7 +9057,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-jardin-de-ausencia.jpg",
-   "descripcion": "Bolso con el diseño «Jardín de ausencia», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Nocturno» de José Asunción Silva. Bolso con el diseño «Jardín de ausencia», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9071,7 +9071,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0324"
+   "codigo": "T0324",
+   "libro": "Nocturno",
+   "autor": "José Asunción Silva",
+   "linea": "José Asunción Silva"
   },
   {
    "id": "linea-selva-que-devora",
@@ -9141,7 +9144,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-veta-y-la-casa.jpg",
-   "descripcion": "Bolso con el diseño «La veta y la casa», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «La casa de las dos palmas» de Manuel Mejía Vallejo. Bolso con el diseño «La veta y la casa», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9155,7 +9158,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0327"
+   "codigo": "T0327",
+   "libro": "La casa de las dos palmas",
+   "autor": "Manuel Mejía Vallejo",
+   "linea": "Manuel Mejía Vallejo"
   },
   {
    "id": "linea-una-vida-en-el-tablero",
@@ -9167,7 +9173,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-una-vida-en-el-tablero.jpg",
-   "descripcion": "Bolso con el diseño «Una vida en el tablero», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Siervo sin tierra» de Eduardo Caballero Calderón. Bolso con el diseño «Una vida en el tablero», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9181,7 +9187,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0328"
+   "codigo": "T0328",
+   "libro": "Siervo sin tierra",
+   "autor": "Eduardo Caballero Calderón",
+   "linea": "Eduardo Caballero Calderón"
   },
   {
    "id": "linea-morada-de-hojas",
@@ -9309,7 +9318,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-jardin-del-recuerdo.jpg",
-   "descripcion": "Bolso con el diseño «El jardín del recuerdo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «La hojarasca» de Gabriel García Márquez. Bolso con el diseño «El jardín del recuerdo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9323,7 +9332,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0333"
+   "codigo": "T0333",
+   "libro": "La hojarasca",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-cartas-de-una-nina",
@@ -9335,7 +9347,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-cartas-de-una-nina.jpg",
-   "descripcion": "Bolso con el diseño «Cartas de una niña», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Cartas cruzadas» de Darío Jaramillo Agudelo. Bolso con el diseño «Cartas de una niña», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9349,7 +9361,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0334"
+   "codigo": "T0334",
+   "libro": "Cartas cruzadas",
+   "autor": "Darío Jaramillo Agudelo",
+   "linea": "Darío Jaramillo Agudelo"
   },
   {
    "id": "linea-la-brisa-tras-la-celosia",
@@ -9390,7 +9405,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-isla-secreta.jpg",
-   "descripcion": "Bolso con el diseño «Isla secreta», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Los pañamanes» de Fanny Buitrago. Bolso con el diseño «Isla secreta», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9404,7 +9419,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0336"
+   "codigo": "T0336",
+   "libro": "Los pañamanes",
+   "autor": "Fanny Buitrago",
+   "linea": "Fanny Buitrago"
   },
   {
    "id": "linea-el-pueblo-en-silencio",
@@ -9416,7 +9434,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-pueblo-en-silencio.jpg",
-   "descripcion": "Bolso con el diseño «El pueblo en silencio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Cóndores no entierran todos los días» de Gustavo Álvarez Gardeazábal. Bolso con el diseño «El pueblo en silencio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9430,7 +9448,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0337"
+   "codigo": "T0337",
+   "libro": "Cóndores no entierran todos los días",
+   "autor": "Gustavo Álvarez Gardeazábal",
+   "linea": "Gustavo Álvarez Gardeazábal"
   },
   {
    "id": "linea-la-taza-y-la-luz",
@@ -9442,7 +9463,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-taza-y-la-luz.jpg",
-   "descripcion": "Bolso con el diseño «La taza y la luz», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Alba de olvido» de Meira Delmar. Bolso con el diseño «La taza y la luz», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9456,7 +9477,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0338"
+   "codigo": "T0338",
+   "libro": "Alba de olvido",
+   "autor": "Meira Delmar",
+   "linea": "Meira Delmar"
   },
   {
    "id": "linea-la-marea-y-la-perra",
