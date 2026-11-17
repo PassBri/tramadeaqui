@@ -139,7 +139,7 @@
   VISTAS.productos = function () {
     const ac = $('#accion'); ac.hidden = false; $('span', ac).textContent = 'Agregar producto';
     ac.onclick = () => editar(null);
-    const st = VISTAS.productos._estado || (VISTAS.productos._estado = { sec: 'todo', cat: 'todo', q: '' });
+    const st = VISTAS.productos._estado || (VISTAS.productos._estado = { sec: 'todo', cat: 'todo', q: '', vista: 'grid' });
     const ps = productos();
     const catsDe = (sec) => { const ids = new Set(ps.filter((p) => sec === 'todo' || p.seccion === sec).map((p) => p.categoria)); return DATA.categorias.filter((c) => ids.has(c.id)); };
     function dibujar() {
@@ -147,18 +147,26 @@
       let list = ps.filter((p) =>
         (st.sec === 'todo' || p.seccion === st.sec) &&
         (st.cat === 'todo' || p.categoria === st.cat) &&
-        (!q || norm(p.nombre + ' ' + (p.descripcion || '') + ' ' + catNombre(p.categoria)).includes(q)));
-      list.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
-      $('#grid-wrap').innerHTML = list.length ? `<div class="grid-prod">${list.map(cardHTML).join('')}</div>`
-        : `<p class="vacio">No hay productos con ese filtro.</p>`;
+        (!q || norm(p.nombre + ' ' + (p.descripcion || '') + ' ' + catNombre(p.categoria) + ' ' + (p.codigo || '')).includes(q)));
+      list.sort((a, b) => st.vista === 'lista' ? (a.codigo || '').localeCompare(b.codigo || '', 'es') : a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
+      if (!list.length) { $('#grid-wrap').innerHTML = `<p class="vacio">No hay productos con ese filtro.</p>`; }
+      else if (st.vista === 'lista') {
+        $('#grid-wrap').innerHTML = `<table class="tabla-prod"><thead><tr><th>Código</th><th>Producto</th><th>Sección · Categoría</th><th>Precio</th><th></th></tr></thead><tbody>${list.map(rowHTML).join('')}</tbody></table>`;
+      } else {
+        $('#grid-wrap').innerHTML = `<div class="grid-prod">${list.map(cardHTML).join('')}</div>`;
+      }
       $('.conteo', $('#vista')).textContent = list.length + (list.length === 1 ? ' producto' : ' productos');
     }
     $('#vista').innerHTML = `
       <div class="filtros">
         <select id="f-sec"><option value="todo">Todas las secciones</option>${DATA.secciones.map((s) => `<option value="${s.id}">${esc(s.nombre)}</option>`).join('')}</select>
         <select id="f-cat"><option value="todo">Todas las categorías</option></select>
-        <input id="f-q" class="busca" type="search" placeholder="Buscar por nombre…">
+        <input id="f-q" class="busca" type="search" placeholder="Buscar por nombre o código…">
         <span class="conteo"></span>
+        <div class="vista-toggle" role="group" aria-label="Modo de vista">
+          <button type="button" id="v-grid" title="Tarjetas" aria-label="Tarjetas">▦</button>
+          <button type="button" id="v-lista" title="Lista" aria-label="Lista">☰</button>
+        </div>
       </div>
       <div id="grid-wrap"></div>`;
     const fCat = $('#f-cat');
@@ -169,6 +177,10 @@
     fCat.onchange = (e) => { st.cat = e.target.value; dibujar(); };
     $('#f-q').oninput = (e) => { st.q = e.target.value; dibujar(); };
     $('#grid-wrap').addEventListener('click', (e) => { const c = e.target.closest('[data-id]'); if (c) editar(c.dataset.id); });
+    const setVista = () => { $('#v-grid').classList.toggle('activo', st.vista === 'grid'); $('#v-lista').classList.toggle('activo', st.vista === 'lista'); };
+    $('#v-grid').onclick = () => { st.vista = 'grid'; setVista(); dibujar(); };
+    $('#v-lista').onclick = () => { st.vista = 'lista'; setVista(); dibujar(); };
+    setVista();
     dibujar();
   };
 
@@ -181,10 +193,13 @@
       <div class="foto"><div class="tags">${tags.join('')}</div><img loading="lazy" src="${esc(thumb(p))}" alt="${esc(p.nombre)}" onerror="this.onerror=null;this.src='${esc(fotoFull(p))}'"></div>
       <div class="cuerpo">
         <div class="nom">${esc(p.nombre)}</div>
-        <div class="meta">${esc(secNombre(p.seccion))} · ${esc(catNombre(p.categoria))}</div>
+        <div class="meta">${p.codigo ? '<b class="pcod">' + esc(p.codigo) + '</b> · ' : ''}${esc(secNombre(p.seccion))} · ${esc(catNombre(p.categoria))}</div>
         <div class="precio">${money(p.precio)}</div>
         <div class="editar">Editar →</div>
       </div></button>`;
+  }
+  function rowHTML(p) {
+    return `<tr data-id="${esc(p.id)}"><td class="t-cod"><b>${esc(p.codigo || '')}</b></td><td class="t-nom">${esc(p.nombre)}</td><td class="t-meta">${esc(secNombre(p.seccion))} · ${esc(catNombre(p.categoria))}</td><td class="t-precio">${money(p.precio)}</td><td class="t-edit"><span class="editar">Editar →</span></td></tr>`;
   }
 
   /* ---------- editor de producto ---------- */

@@ -168,3 +168,22 @@
 .badge.bajo { background: #F6DADA; color: #9A2A2A; }
 .barra-total { display: flex; justify-content: flex-end; gap: 18px; align-items: baseline; margin-top: 8px; font-size: 1.05rem; }
 .barra-total b { font-family: var(--font-display); color: var(--night); font-size: 1.3rem; }
+
+/* Código en tarjeta + vista de lista (Productos) */
+.pcard .pcod { color: var(--peach-text, #9A5228); font-weight: 800; letter-spacing: .03em; }
+.vista-toggle { display: inline-flex; border: 1.5px solid var(--line, #e3dccb); border-radius: 10px; overflow: hidden; }
+.vista-toggle button { border: 0; background: #fff; color: var(--muted, #857a69); font-size: 1.05rem; line-height: 1; padding: 8px 12px; cursor: pointer; }
+.vista-toggle button + button { border-left: 1.5px solid var(--line, #e3dccb); }
+.vista-toggle button.activo { background: var(--night, #2E4A30); color: #fff; }
+.tabla-prod { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 0 rgba(0,0,0,.04); }
+.tabla-prod thead th { text-align: left; font-family: var(--font-body); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #857a69); padding: 11px 14px; border-bottom: 2px solid var(--line, #e3dccb); }
+.tabla-prod td { padding: 11px 14px; border-bottom: 1px solid var(--line, #eee); font-size: .92rem; vertical-align: middle; }
+.tabla-prod tbody tr { cursor: pointer; transition: background .12s; }
+.tabla-prod tbody tr:hover { background: var(--sage-container, #f3efe3); }
+.tabla-prod .t-cod b { color: var(--peach-text, #9A5228); font-weight: 800; white-space: nowrap; }
+.tabla-prod .t-nom { font-weight: 700; color: var(--night, #2E4A30); }
+.tabla-prod .t-meta { color: var(--text-2, #544c40); }
+.tabla-prod .t-precio { font-weight: 700; white-space: nowrap; }
+.tabla-prod .t-edit { text-align: right; white-space: nowrap; }
+.tabla-prod .t-edit .editar { color: var(--mint-text, #3B6B43); font-weight: 700; }
+@media (max-width: 680px) { .tabla-prod .t-meta { display: none; } }
