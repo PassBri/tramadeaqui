@@ -71,6 +71,14 @@
   {
    "id": "parques-bga",
    "nombre": "Parques de Bucaramanga"
+  },
+  {
+   "id": "cabra-criolla",
+   "nombre": "Cabra criolla santandereana"
+  },
+  {
+   "id": "guanenta",
+   "nombre": "Leyenda de Guanentá"
   }
  ],
  "categorias": [
@@ -193,6 +201,18 @@
    "nombre": "Parques de Bucaramanga",
    "detalle": "Los parques de la ciudad bonita",
    "imagen": "pbga-parque-garcia-rovira"
+  },
+  {
+   "id": "cabra-criolla",
+   "nombre": "Cabra criolla",
+   "detalle": "La cabra santandereana del cañón",
+   "imagen": "cabra-macho-en-el-farallon"
+  },
+  {
+   "id": "guanenta",
+   "nombre": "Leyenda de Guanentá",
+   "detalle": "El cacique guane del Chicamocha",
+   "imagen": "guan-guanenta-ante-el-abismo"
   },
   {
    "id": "colombia-viva",
@@ -11469,6 +11489,214 @@
     ]
    },
    "codigo": "T0438"
+  },
+  {
+   "id": "cabra-macho-en-el-farallon",
+   "nombre": "Macho en el Farallón",
+   "categoria": "cabra-criolla",
+   "seccion": "cabra-criolla",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cabra-macho-en-el-farallon.jpg",
+   "descripcion": "Bolso con el diseño «Macho en el Farallón», estampado a una cara. La cabra criolla santandereana en el cañón del Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0439"
+  },
+  {
+   "id": "cabra-la-guardiana-del-canon",
+   "nombre": "La Guardiana del Cañón",
+   "categoria": "cabra-criolla",
+   "seccion": "cabra-criolla",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cabra-la-guardiana-del-canon.jpg",
+   "descripcion": "Bolso con el diseño «La Guardiana del Cañón», estampado a una cara. La cabra criolla santandereana en el cañón del Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0440"
+  },
+  {
+   "id": "cabra-rebano-entre-estratos",
+   "nombre": "Rebaño entre Estratos",
+   "categoria": "cabra-criolla",
+   "seccion": "cabra-criolla",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cabra-rebano-entre-estratos.jpg",
+   "descripcion": "Bolso con el diseño «Rebaño entre Estratos», estampado a una cara. La cabra criolla santandereana en el cañón del Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0441"
+  },
+  {
+   "id": "cabra-cuernos-de-luz",
+   "nombre": "Cuernos de Luz",
+   "categoria": "cabra-criolla",
+   "seccion": "cabra-criolla",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cabra-cuernos-de-luz.jpg",
+   "descripcion": "Bolso con el diseño «Cuernos de Luz», estampado a una cara. La cabra criolla santandereana en el cañón del Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0442"
+  },
+  {
+   "id": "cabra-centinela-de-la-tormenta",
+   "nombre": "Centinela de la Tormenta",
+   "categoria": "cabra-criolla",
+   "seccion": "cabra-criolla",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/cabra-centinela-de-la-tormenta.jpg",
+   "descripcion": "Bolso con el diseño «Centinela de la Tormenta», estampado a una cara. La cabra criolla santandereana en el cañón del Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0443"
+  },
+  {
+   "id": "guan-guanenta-ante-el-abismo",
+   "nombre": "Guanentá ante el Abismo",
+   "categoria": "guanenta",
+   "seccion": "guanenta",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/guan-guanenta-ante-el-abismo.jpg",
+   "descripcion": "Bolso con el diseño «Guanentá ante el Abismo», estampado a una cara. Una escena de la leyenda del cacique Guanentá en el Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0444"
+  },
+  {
+   "id": "guan-el-ultimo-encantamiento",
+   "nombre": "El Último Encantamiento",
+   "categoria": "guanenta",
+   "seccion": "guanenta",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/guan-el-ultimo-encantamiento.jpg",
+   "descripcion": "Bolso con el diseño «El Último Encantamiento», estampado a una cara. Una escena de la leyenda del cacique Guanentá en el Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0445"
+  },
+  {
+   "id": "guan-el-ave-del-chicamocha",
+   "nombre": "El Ave del Chicamocha",
+   "categoria": "guanenta",
+   "seccion": "guanenta",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/guan-el-ave-del-chicamocha.jpg",
+   "descripcion": "Bolso con el diseño «El Ave del Chicamocha», estampado a una cara. Una escena de la leyenda del cacique Guanentá en el Chicamocha. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0446"
   }
  ]
 }
