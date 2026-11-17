@@ -249,7 +249,7 @@
       { label: 'Santander nuestro', secs: ['santander', 'municipios', 'parques-bga', 'cabra-criolla', 'guanenta'] },
       { label: 'Pamplona, mi tierra', secs: ['pamplona', 'uni-pamplona', 'sabores-pam'] },
       { label: 'Colombia entera', secs: ['cultura-co', 'departamentos', 'colombia', 'destinos', 'bogota'] },
-      { label: 'Riquezas de Colombia', secs: ['riquezas', 'esmeraldas'] },
+      { label: 'Riquezas de Colombia', secs: ['precolombina', 'riquezas', 'esmeraldas'] },
       { label: 'Flora y fauna', secs: ['flora-fauna', 'flora', 'fauna', 'colombia-viva'] },
       { label: 'Arte y leyendas', secs: ['homenaje-artistas', 'colombia-surrealista', 'mitos-leyendas', 'entre-lineas'] },
       { label: 'Raíces y memoria', secs: ['trama', 'primer-beso', 'raices', 'patio-infancia', 'recuerdos'] },

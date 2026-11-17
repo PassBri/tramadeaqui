@@ -111,6 +111,10 @@
   {
    "id": "sabores-pam",
    "nombre": "Sabores de Pamplona"
+  },
+  {
+   "id": "precolombina",
+   "nombre": "Precolombina"
   }
  ],
  "categorias": [
@@ -299,6 +303,12 @@
    "nombre": "Sabores de Pamplona",
    "detalle": "El pan, los dulces y las frutas de Pamplona",
    "imagen": "sab-pan-de-madrugada"
+  },
+  {
+   "id": "precolombina",
+   "nombre": "Precolombina",
+   "detalle": "Las grandes culturas ancestrales de Colombia",
+   "imagen": "preco-balsa-muisca"
   },
   {
    "id": "colombia-viva",
@@ -15267,6 +15277,526 @@
     ]
    },
    "codigo": "T0581"
+  },
+  {
+   "id": "preco-balsa-muisca",
+   "nombre": "Balsa Muisca",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-balsa-muisca.jpg",
+   "descripcion": "Bolso con el diseño «Balsa Muisca», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0582"
+  },
+  {
+   "id": "preco-tunjo-muisca",
+   "nombre": "Tunjo Muisca",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-tunjo-muisca.jpg",
+   "descripcion": "Bolso con el diseño «Tunjo Muisca», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0583"
+  },
+  {
+   "id": "preco-ceramica-muisca",
+   "nombre": "Cerámica Muisca",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-ceramica-muisca.jpg",
+   "descripcion": "Bolso con el diseño «Cerámica Muisca», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0584"
+  },
+  {
+   "id": "preco-arte-rupestre-del-altiplano",
+   "nombre": "Arte Rupestre del Altiplano",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-arte-rupestre-del-altiplano.jpg",
+   "descripcion": "Bolso con el diseño «Arte Rupestre del Altiplano», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0585"
+  },
+  {
+   "id": "preco-tejido-guane",
+   "nombre": "Tejido Guane",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-tejido-guane.jpg",
+   "descripcion": "Bolso con el diseño «Tejido Guane», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0586"
+  },
+  {
+   "id": "preco-ceramica-guane",
+   "nombre": "Cerámica Guane",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-ceramica-guane.jpg",
+   "descripcion": "Bolso con el diseño «Cerámica Guane», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0587"
+  },
+  {
+   "id": "preco-canales-zenu",
+   "nombre": "Canales Zenú",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-canales-zenu.jpg",
+   "descripcion": "Bolso con el diseño «Canales Zenú», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0588"
+  },
+  {
+   "id": "preco-orfebreria-zenu",
+   "nombre": "Orfebrería Zenú",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-orfebreria-zenu.jpg",
+   "descripcion": "Bolso con el diseño «Orfebrería Zenú», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0589"
+  },
+  {
+   "id": "preco-ceramica-zenu",
+   "nombre": "Cerámica Zenú",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-ceramica-zenu.jpg",
+   "descripcion": "Bolso con el diseño «Cerámica Zenú», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0590"
+  },
+  {
+   "id": "preco-caminos-tairona",
+   "nombre": "Caminos Tairona",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-caminos-tairona.jpg",
+   "descripcion": "Bolso con el diseño «Caminos Tairona», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0591"
+  },
+  {
+   "id": "preco-colgante-tairona",
+   "nombre": "Colgante Tairona",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-colgante-tairona.jpg",
+   "descripcion": "Bolso con el diseño «Colgante Tairona», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0592"
+  },
+  {
+   "id": "preco-vasija-tairona",
+   "nombre": "Vasija Tairona",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-vasija-tairona.jpg",
+   "descripcion": "Bolso con el diseño «Vasija Tairona», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0593"
+  },
+  {
+   "id": "preco-poporo-quimbaya",
+   "nombre": "Poporo Quimbaya",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-poporo-quimbaya.jpg",
+   "descripcion": "Bolso con el diseño «Poporo Quimbaya», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0594"
+  },
+  {
+   "id": "preco-oro-y-cera-quimbaya",
+   "nombre": "Oro y Cera Quimbaya",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-oro-y-cera-quimbaya.jpg",
+   "descripcion": "Bolso con el diseño «Oro y Cera Quimbaya», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0595"
+  },
+  {
+   "id": "preco-oro-martillado-calima",
+   "nombre": "Oro Martillado Calima",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-oro-martillado-calima.jpg",
+   "descripcion": "Bolso con el diseño «Oro Martillado Calima», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0596"
+  },
+  {
+   "id": "preco-vasija-calima",
+   "nombre": "Vasija Calima",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-vasija-calima.jpg",
+   "descripcion": "Bolso con el diseño «Vasija Calima», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0597"
+  },
+  {
+   "id": "preco-estatuaria-de-san-agustin",
+   "nombre": "Estatuaria de San Agustín",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-estatuaria-de-san-agustin.jpg",
+   "descripcion": "Bolso con el diseño «Estatuaria de San Agustín», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0598"
+  },
+  {
+   "id": "preco-hipogeo-de-tierradentro",
+   "nombre": "Hipogeo de Tierradentro",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-hipogeo-de-tierradentro.jpg",
+   "descripcion": "Bolso con el diseño «Hipogeo de Tierradentro», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0599"
+  },
+  {
+   "id": "preco-terracota-tumaco-la-tolita",
+   "nombre": "Terracota Tumaco-La Tolita",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-terracota-tumaco-la-tolita.jpg",
+   "descripcion": "Bolso con el diseño «Terracota Tumaco-La Tolita», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0600"
+  },
+  {
+   "id": "preco-huso-de-madera-con-algodon",
+   "nombre": "Huso de Madera con Algodón",
+   "categoria": "precolombina",
+   "seccion": "precolombina",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/preco-huso-de-madera-con-algodon.jpg",
+   "descripcion": "Bolso con el diseño «Huso de Madera con Algodón», estampado a una cara. Una pieza del arte y la herencia de las culturas precolombinas de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0601"
   }
  ]
 }
