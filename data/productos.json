@@ -87,6 +87,10 @@
   {
    "id": "patio-infancia",
    "nombre": "El patio de infancia"
+  },
+  {
+   "id": "recuerdos",
+   "nombre": "Recuerdos de Colombia"
   }
  ],
  "categorias": [
@@ -239,6 +243,12 @@
    "nombre": "El patio de infancia",
    "detalle": "Infancia y recuerdos de pueblo",
    "imagen": "patio-golosa-lunar"
+  },
+  {
+   "id": "recuerdos",
+   "nombre": "Recuerdos de Colombia",
+   "detalle": "Estampas y tradiciones de la Colombia de siempre",
+   "imagen": "rec-plaza-de-mercado"
   },
   {
    "id": "colombia-viva",
@@ -13023,6 +13033,526 @@
     ]
    },
    "codigo": "T0496"
+  },
+  {
+   "id": "rec-plaza-de-mercado",
+   "nombre": "Plaza de Mercado",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-plaza-de-mercado.jpg",
+   "descripcion": "Bolso con el diseño «Plaza de Mercado», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0497"
+  },
+  {
+   "id": "rec-paseo-de-olla",
+   "nombre": "Paseo de Olla",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-paseo-de-olla.jpg",
+   "descripcion": "Bolso con el diseño «Paseo de Olla», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0498"
+  },
+  {
+   "id": "rec-velitas",
+   "nombre": "Velitas",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-velitas.jpg",
+   "descripcion": "Bolso con el diseño «Velitas», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0499"
+  },
+  {
+   "id": "rec-novena",
+   "nombre": "Novena",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-novena.jpg",
+   "descripcion": "Bolso con el diseño «Novena», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0500"
+  },
+  {
+   "id": "rec-domingo-en-el-parque",
+   "nombre": "Domingo en el Parque",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-domingo-en-el-parque.jpg",
+   "descripcion": "Bolso con el diseño «Domingo en el Parque», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0501"
+  },
+  {
+   "id": "rec-chiva",
+   "nombre": "Chiva",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-chiva.jpg",
+   "descripcion": "Bolso con el diseño «Chiva», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0502"
+  },
+  {
+   "id": "rec-almojabana",
+   "nombre": "Almojábana",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-almojabana.jpg",
+   "descripcion": "Bolso con el diseño «Almojábana», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0503"
+  },
+  {
+   "id": "rec-arequipe",
+   "nombre": "Arequipe",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-arequipe.jpg",
+   "descripcion": "Bolso con el diseño «Arequipe», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0504"
+  },
+  {
+   "id": "rec-fiesta-de-pueblo",
+   "nombre": "Fiesta de Pueblo",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-fiesta-de-pueblo.jpg",
+   "descripcion": "Bolso con el diseño «Fiesta de Pueblo», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0505"
+  },
+  {
+   "id": "rec-silletero",
+   "nombre": "Silletero",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-silletero.jpg",
+   "descripcion": "Bolso con el diseño «Silletero», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0506"
+  },
+  {
+   "id": "rec-cocina-de-lena",
+   "nombre": "Cocina de Leña",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-cocina-de-lena.jpg",
+   "descripcion": "Bolso con el diseño «Cocina de Leña», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0507"
+  },
+  {
+   "id": "rec-pilon",
+   "nombre": "Pilón",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-pilon.jpg",
+   "descripcion": "Bolso con el diseño «Pilón», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0508"
+  },
+  {
+   "id": "rec-sombrero-vueltiao",
+   "nombre": "Sombrero Vueltiao",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-sombrero-vueltiao.jpg",
+   "descripcion": "Bolso con el diseño «Sombrero Vueltiao», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0509"
+  },
+  {
+   "id": "rec-rondon",
+   "nombre": "Rondón",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-rondon.jpg",
+   "descripcion": "Bolso con el diseño «Rondón», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0510"
+  },
+  {
+   "id": "rec-alfareria",
+   "nombre": "Alfarería",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-alfareria.jpg",
+   "descripcion": "Bolso con el diseño «Alfarería», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0511"
+  },
+  {
+   "id": "rec-fique",
+   "nombre": "Fique",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-fique.jpg",
+   "descripcion": "Bolso con el diseño «Fique», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0512"
+  },
+  {
+   "id": "rec-chirimia",
+   "nombre": "Chirimía",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-chirimia.jpg",
+   "descripcion": "Bolso con el diseño «Chirimía», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0513"
+  },
+  {
+   "id": "rec-bicicleta-panadera",
+   "nombre": "Bicicleta Panadera",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-bicicleta-panadera.jpg",
+   "descripcion": "Bolso con el diseño «Bicicleta Panadera», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0514"
+  },
+  {
+   "id": "rec-la-tienda",
+   "nombre": "La Tienda",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-la-tienda.jpg",
+   "descripcion": "Bolso con el diseño «La Tienda», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0515"
+  },
+  {
+   "id": "rec-radio-de-la-abuela",
+   "nombre": "Radio de la Abuela",
+   "categoria": "recuerdos",
+   "seccion": "recuerdos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/rec-radio-de-la-abuela.jpg",
+   "descripcion": "Bolso con el diseño «Radio de la Abuela», estampado a una cara. Una estampa de las tradiciones y la vida de pueblo de la Colombia de siempre. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0516"
   }
  ]
 }
