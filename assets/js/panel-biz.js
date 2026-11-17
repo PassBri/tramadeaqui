@@ -95,11 +95,17 @@
   /* ================================================================
      CRUD genérico (clientes, proveedores, equipo, gastos)
      ================================================================ */
+  function nextCodigo(tabla, prefix) {
+    let max = 0; BIZ[tabla].forEach((r) => { const mt = /(\d+)\s*$/.exec(r.codigo || ''); if (mt) max = Math.max(max, parseInt(mt[1], 10)); });
+    return prefix + '-' + String(max + 1).padStart(3, '0');
+  }
   function crud(cfg) {
     const ac = $('#accion'); ac.hidden = false; $('span', ac).textContent = 'Agregar ' + cfg.singular;
-    ac.onclick = async () => { const o = await abrirForm('Nuevo ' + cfg.singular, cfg.campos, cfg.nuevo ? cfg.nuevo() : {}); if (!o) return; o.id = uid(); o.creado = new Date().toISOString(); BIZ[cfg.tabla].push(o); salvar(); P.render(); aviso('Guardado'); };
+    if (cfg.codPrefix) { let camb = false; BIZ[cfg.tabla].forEach((r) => { if (!r.codigo) { r.codigo = nextCodigo(cfg.tabla, cfg.codPrefix); camb = true; } }); if (camb) salvar(); }
+    ac.onclick = async () => { const o = await abrirForm('Nuevo ' + cfg.singular, cfg.campos, cfg.nuevo ? cfg.nuevo() : {}); if (!o) return; o.id = uid(); o.creado = new Date().toISOString(); if (cfg.codPrefix) o.codigo = nextCodigo(cfg.tabla, cfg.codPrefix); BIZ[cfg.tabla].push(o); salvar(); P.render(); aviso('Guardado'); };
+    const cols = (cfg.codPrefix ? [{ k: 'codigo', label: 'Código', fmt: (r) => `<b style="color:var(--peach-text,#9A5228)">${esc(r.codigo || '')}</b>` }] : []).concat(cfg.cols);
     const rows = cfg.orden ? BIZ[cfg.tabla].slice().sort(cfg.orden) : BIZ[cfg.tabla];
-    $('#vista').innerHTML = rows.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr>${cfg.cols.map((c) => `<th class="${c.num ? 'num' : ''}">${esc(c.label)}</th>`).join('')}<th class="acc"></th></tr></thead><tbody>${rows.map((r) => `<tr>${cfg.cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.fmt ? c.fmt(r) : esc(r[c.k] || '')}</td>`).join('')}<td class="acc"><button class="mini-link" data-ed="${r.id}">Editar</button> <button class="mini-link del" data-del="${r.id}">Eliminar</button></td></tr>`).join('')}</tbody></table></div>`
+    $('#vista').innerHTML = rows.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr>${cols.map((c) => `<th class="${c.num ? 'num' : ''}">${esc(c.label)}</th>`).join('')}<th class="acc"></th></tr></thead><tbody>${rows.map((r) => `<tr>${cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.fmt ? c.fmt(r) : esc(r[c.k] || '')}</td>`).join('')}<td class="acc"><button class="mini-link" data-ed="${r.id}">Editar</button> <button class="mini-link del" data-del="${r.id}">Eliminar</button></td></tr>`).join('')}</tbody></table></div>`
       : `<p class="vacio">Aún no hay ${cfg.titulo.toLowerCase()}. Usa «Agregar ${cfg.singular}».</p>`;
     $('#vista').onclick = async (e) => {
       const ed = e.target.closest('[data-ed]'), del = e.target.closest('[data-del]');
@@ -114,16 +120,17 @@
   const V = P.VISTAS, T = P.TITULOS;
   Object.assign(T, { ventas: 'Ventas', compras: 'Compras', inventario: 'Inventario', clientes: 'Clientes', proveedores: 'Proveedores', equipo: 'Equipo y comisiones', gastos: 'Gastos', caja: 'Caja', resultados: 'Estado de resultados' });
 
+  const ddmm = (f) => f ? f.slice(8, 10) + '/' + f.slice(5, 7) : '';
   V.clientes = () => crud({
-    tabla: 'clientes', titulo: 'Clientes', singular: 'cliente',
-    cols: [{ k: 'nombre', label: 'Nombre' }, { k: 'telefono', label: 'Teléfono' }, { k: 'ciudad', label: 'Ciudad' }, { k: 'correo', label: 'Correo' }],
-    campos: [{ k: 'nombre', label: 'Nombre', req: true }, { k: 'telefono', label: 'Teléfono' }, { k: 'ciudad', label: 'Ciudad' }, { k: 'correo', label: 'Correo' }, { k: 'nota', label: 'Nota', tipo: 'textarea' }],
+    tabla: 'clientes', titulo: 'Clientes', singular: 'cliente', codPrefix: 'CL',
+    cols: [{ k: 'nombre', label: 'Nombre' }, { k: 'telefono', label: 'Teléfono' }, { k: 'ciudad', label: 'Ciudad' }, { k: 'cumple', label: 'Cumpleaños', fmt: (r) => ddmm(r.cumple) }],
+    campos: [{ k: 'nombre', label: 'Nombre', req: true }, { k: 'telefono', label: 'Teléfono' }, { k: 'ciudad', label: 'Ciudad' }, { k: 'correo', label: 'Correo' }, { k: 'cumple', label: 'Fecha de cumpleaños', tipo: 'fecha' }, { k: 'nota', label: 'Nota', tipo: 'textarea' }],
     orden: (a, b) => a.nombre.localeCompare(b.nombre, 'es'),
   });
   V.proveedores = () => crud({
-    tabla: 'proveedores', titulo: 'Proveedores', singular: 'proveedor',
-    cols: [{ k: 'nombre', label: 'Nombre' }, { k: 'telefono', label: 'Teléfono' }, { k: 'nota', label: 'Nota' }],
-    campos: [{ k: 'nombre', label: 'Nombre', req: true }, { k: 'telefono', label: 'Teléfono' }, { k: 'nota', label: 'Nota', tipo: 'textarea' }],
+    tabla: 'proveedores', titulo: 'Proveedores', singular: 'proveedor', codPrefix: 'PR',
+    cols: [{ k: 'nombre', label: 'Nombre' }, { k: 'telefono', label: 'Teléfono' }, { k: 'provee', label: 'Qué provee' }],
+    campos: [{ k: 'nombre', label: 'Nombre', req: true }, { k: 'telefono', label: 'Teléfono' }, { k: 'provee', label: '¿Qué provee?', tipo: 'textarea' }, { k: 'nota', label: 'Nota', tipo: 'textarea' }],
     orden: (a, b) => a.nombre.localeCompare(b.nombre, 'es'),
   });
   V.gastos = () => crud({
@@ -135,13 +142,14 @@
 
   V.equipo = function () {
     const ac = $('#accion'); ac.hidden = false; $('span', ac).textContent = 'Agregar persona';
-    ac.onclick = async () => { const o = await abrirForm('Nueva persona', camposEq, {}); if (!o) return; o.id = uid(); BIZ.equipo.push(o); salvar(); P.render(); aviso('Guardado'); };
     const camposEq = [{ k: 'nombre', label: 'Nombre', req: true }, { k: 'rol', label: 'Rol (p. ej. Embajador)' }, { k: 'telefono', label: 'Teléfono' }, { k: 'comision_pct', label: 'Comisión %', tipo: 'numero' }];
+    { let camb = false; BIZ.equipo.forEach((p) => { if (!p.codigo) { p.codigo = nextCodigo('equipo', 'EQ'); camb = true; } }); if (camb) salvar(); }
+    ac.onclick = async () => { const o = await abrirForm('Nueva persona', camposEq, {}); if (!o) return; o.id = uid(); o.codigo = nextCodigo('equipo', 'EQ'); BIZ.equipo.push(o); salvar(); P.render(); aviso('Guardado'); };
     const saldos = {};
     BIZ.equipo.forEach((p) => { saldos[p.id] = { gen: 0, pag: 0 }; });
     BIZ.ventas.forEach((v) => { if (!v.anulada && v.vendedor_id && saldos[v.vendedor_id] && v.pago === 'pagado') saldos[v.vendedor_id].gen += comisionVenta(v); });
     BIZ.pagos_equipo.forEach((p) => { if (saldos[p.persona_id]) saldos[p.persona_id].pag += int(p.valor); });
-    $('#vista').innerHTML = BIZ.equipo.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Nombre</th><th>Rol</th><th class="num">Comisión</th><th class="num">Generado</th><th class="num">Pagado</th><th class="num">Saldo</th><th class="acc"></th></tr></thead><tbody>${BIZ.equipo.map((p) => { const s = saldos[p.id]; const saldo = s.gen - s.pag; return `<tr><td>${esc(p.nombre)}</td><td>${esc(p.rol || '')}</td><td class="num">${int(p.comision_pct)}%</td><td class="num">${money(s.gen)}</td><td class="num">${money(s.pag)}</td><td class="num"><b>${money(saldo)}</b></td><td class="acc"><button class="mini-link" data-pagar="${p.id}">Pagar</button> <button class="mini-link" data-ed="${p.id}">Editar</button> <button class="mini-link del" data-del="${p.id}">Eliminar</button></td></tr>`; }).join('')}</tbody></table></div><p class="note" style="margin-top:12px;color:var(--muted)">La comisión se genera con las ventas marcadas «pagado» asignadas a la persona.</p>`
+    $('#vista').innerHTML = BIZ.equipo.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Código</th><th>Nombre</th><th>Rol</th><th class="num">Comisión</th><th class="num">Generado</th><th class="num">Pagado</th><th class="num">Saldo</th><th class="acc"></th></tr></thead><tbody>${BIZ.equipo.map((p) => { const s = saldos[p.id]; const saldo = s.gen - s.pag; return `<tr><td><b style="color:var(--peach-text,#9A5228)">${esc(p.codigo || '')}</b></td><td>${esc(p.nombre)}</td><td>${esc(p.rol || '')}</td><td class="num">${int(p.comision_pct)}%</td><td class="num">${money(s.gen)}</td><td class="num">${money(s.pag)}</td><td class="num"><b>${money(saldo)}</b></td><td class="acc"><button class="mini-link" data-pagar="${p.id}">Pagar</button> <button class="mini-link" data-ed="${p.id}">Editar</button> <button class="mini-link del" data-del="${p.id}">Eliminar</button></td></tr>`; }).join('')}</tbody></table></div><p class="note" style="margin-top:12px;color:var(--muted)">La comisión se genera con las ventas marcadas «pagado» asignadas a la persona.</p>`
       : `<p class="vacio">Aún no hay equipo. Agrega a tus vendedores o embajadores.</p>`;
     $('#vista').onclick = async (e) => {
       const ed = e.target.closest('[data-ed]'), del = e.target.closest('[data-del]'), pg = e.target.closest('[data-pagar]');
@@ -173,7 +181,17 @@
 
   function docVenta(venta) {
     const m = $('#modal'); const v = venta || { fecha: hoy(), pago: 'pagado', canal: 'directa', items: [], envio: 0 };
-    const prods = P.productos().map((p) => ({ id: p.id, nombre: p.nombre, precio: p.precio, costo: p.costo || 0 }));
+    const prods = P.productos().map((p) => ({ id: p.id, nombre: p.nombre, precio: int(p.precio), costo: int(p.costo) || 0, codigo: p.codigo || '' }));
+    const byId = {}; prods.forEach((p) => byId[p.id] = p);
+    const etiqueta = (p) => (p.codigo ? p.codigo + ' — ' : '') + p.nombre;
+    const porEtiqueta = (val) => {
+      val = (val || '').trim(); if (!val) return null;
+      const cod = val.split('—')[0].trim().toUpperCase();
+      return prods.find((p) => p.codigo && p.codigo.toUpperCase() === cod)
+        || prods.find((p) => etiqueta(p).toLowerCase() === val.toLowerCase())
+        || prods.find((p) => p.nombre.toLowerCase() === val.toLowerCase()) || null;
+    };
+    const thumbU = (id) => `assets/img/productos/thumb/${id}.webp`;
     const cli = BIZ.clientes.slice().sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
     m.innerHTML = `<form class="modal-caja">
       <header><h2>${venta ? 'Editar venta' : 'Nueva venta'}</h2><button type="button" class="cerrar" data-x>×</button></header>
@@ -186,26 +204,58 @@
           <div class="campo"><label>Vendedor</label><select data-k="vendedor_id"><option value="">—</option>${BIZ.equipo.map((p) => `<option value="${p.id}"${p.id === v.vendedor_id ? ' selected' : ''}>${esc(p.nombre)}</option>`).join('')}</select></div>
           <div class="campo"><label>Pago</label><select data-k="pago"><option value="pagado"${v.pago === 'pagado' ? ' selected' : ''}>Pagado</option><option value="pendiente"${v.pago === 'pendiente' ? ' selected' : ''}>Pendiente</option></select></div>
         </div>
-        <div class="campo"><label>Productos</label><div class="items-editor" id="items"></div><button type="button" class="mini-link" id="add-item" style="justify-self:start;margin-top:4px">+ Agregar producto</button></div>
-        <div class="campo-2">
-          <div class="campo"><label>Envío (COP)</label><input data-k="envio" type="number" min="0" value="${int(v.envio)}"></div>
-          <div></div>
+        <div class="campo"><label>Productos</label>
+          <div class="vhead"><span></span><span>Producto (busca por código o nombre)</span><span>Cant</span><span>Precio</span><span>Costo</span><span>Subtotal</span><span></span></div>
+          <div class="vitems" id="items"></div>
+          <button type="button" class="mini-link" id="add-item" style="justify-self:start;margin-top:6px">+ Agregar producto</button>
+          <datalist id="vlist">${prods.map((p) => `<option value="${esc(etiqueta(p))}">`).join('')}</datalist>
         </div>
-        <div class="barra-total">Total <b id="tot">$ 0</b></div>
+        <div class="campo-2"><div class="campo"><label>Envío (COP)</label><input data-k="envio" type="number" min="0" value="${int(v.envio)}"></div><div></div></div>
+        <div class="barra-total"><span>Total <b id="tot">$ 0</b></span><span class="bt-gan">Ganancia <b id="gan">$ 0</b> <small id="mar">0%</small></span></div>
       </div>
       <footer>${venta ? '<button type="button" class="mini-link del" data-anular style="color:var(--peach-text)">Eliminar</button>' : ''}<div class="botones"><button type="button" class="btn btn-ghost" data-x>Cancelar</button><button type="submit" class="btn btn-primary">Guardar venta</button></div></footer>
     </form>`;
     m.showModal();
     const cont = $('#items', m);
-    const recalc = () => { const its = cont._leer(); const sub = its.reduce((a, i) => a + i.cant * i.precio, 0); const env = int($('[data-k=envio]', m).value); $('#tot', m).textContent = money(sub + env); };
-    editorItems(cont, v.items || [], prods, recalc);
-    $('#add-item', m).onclick = () => cont._add();
+    function recalc() {
+      let sub = 0, cost = 0;
+      $$('.vrow', cont).forEach((d) => {
+        const q = int(d.querySelector('.q').value), pp = int(d.querySelector('.vp').value), cc = int(d.querySelector('.vc').value);
+        d.querySelector('.vsub').textContent = money(q * pp); sub += q * pp; cost += q * cc;
+      });
+      const env = int($('[data-k=envio]', m).value);
+      $('#tot', m).textContent = money(sub + env);
+      const gan = sub - cost; $('#gan', m).textContent = money(gan);
+      $('#mar', m).textContent = (sub ? Math.round(gan / sub * 100) : 0) + '%';
+    }
+    function fila(it) {
+      const p = it.producto_id ? byId[it.producto_id] : null;
+      const d = document.createElement('div'); d.className = 'vrow';
+      d.innerHTML = `<img class="vthumb" alt="" src="${p ? thumbU(p.id) : ''}"${p ? '' : ' style="visibility:hidden"'} onerror="this.style.visibility='hidden'">`
+        + `<input class="vbusca" list="vlist" placeholder="Código o nombre…" value="${p ? esc(etiqueta(p)) : ''}">`
+        + `<input class="q" type="number" min="1" value="${int(it.cant) || 1}">`
+        + `<input class="vp" type="number" min="0" value="${int(it.precio) || (p ? p.precio : 0)}">`
+        + `<input class="vc" type="number" min="0" value="${int(it.costo) || (p ? p.costo : 0)}">`
+        + `<span class="vsub">$ 0</span><button type="button" class="mini-link del">✕</button>`;
+      const img = d.querySelector('.vthumb'), bus = d.querySelector('.vbusca'), vp = d.querySelector('.vp'), vc = d.querySelector('.vc');
+      bus.addEventListener('change', () => { const pr = porEtiqueta(bus.value); if (pr) { img.src = thumbU(pr.id); img.style.visibility = 'visible'; vp.value = pr.precio; vc.value = pr.costo; } else { img.style.visibility = 'hidden'; } recalc(); });
+      bus.addEventListener('input', () => { const pr = porEtiqueta(bus.value); if (pr) { img.src = thumbU(pr.id); img.style.visibility = 'visible'; } });
+      d.querySelector('.del').onclick = () => { d.remove(); recalc(); };
+      [d.querySelector('.q'), vp, vc].forEach((i) => i.addEventListener('input', recalc));
+      return d;
+    }
+    (v.items && v.items.length ? v.items : [{}]).forEach((it) => cont.appendChild(fila(it)));
+    cont._leer = () => $$('.vrow', cont).map((d) => {
+      const pr = porEtiqueta(d.querySelector('.vbusca').value); if (!pr) return null;
+      return { producto_id: pr.id, nombre: pr.nombre, cant: int(d.querySelector('.q').value), precio: int(d.querySelector('.vp').value), costo: int(d.querySelector('.vc').value) };
+    }).filter(Boolean);
+    $('#add-item', m).onclick = () => { cont.appendChild(fila({})); recalc(); };
     $('[data-k=envio]', m).oninput = recalc; recalc();
     $$('[data-x]', m).forEach((b) => b.onclick = () => m.close());
     const an = $('[data-anular]', m); if (an) an.onclick = async () => { if (!await confirmar('¿Eliminar esta venta?')) return; BIZ.ventas = BIZ.ventas.filter((x) => x.id !== v.id); salvar(); m.close(); P.render(); aviso('Venta eliminada'); };
     $('form', m).onsubmit = (e) => {
       e.preventDefault(); const its = cont._leer();
-      if (!its.length) { aviso('Agrega al menos un producto', 'error'); return; }
+      if (!its.length) { aviso('Agrega al menos un producto (búscalo por código o nombre)', 'error'); return; }
       const o = Object.assign({}, v, { fecha: $('[data-k=fecha]', m).value, cliente_id: $('[data-k=cliente_id]', m).value, vendedor_id: $('[data-k=vendedor_id]', m).value, pago: $('[data-k=pago]', m).value, envio: int($('[data-k=envio]', m).value), items: its });
       if (!v.id) { o.id = uid(); o.numero = numero('ventas'); BIZ.ventas.push(o); } else { const r = porId('ventas', v.id); Object.assign(r, o); }
       salvar(); m.close(); P.render(); aviso('Venta guardada');
@@ -216,8 +266,13 @@
     const ac = $('#accion'); ac.hidden = false; $('span', ac).textContent = 'Nueva venta'; ac.onclick = () => docVenta(null);
     const vs = BIZ.ventas.slice().sort((a, b) => (b.fecha || '').localeCompare(a.fecha || '') || (b.numero || 0) - (a.numero || 0));
     const nombreCli = (id) => { const c = porId('clientes', id); return c ? c.nombre : 'Mostrador'; };
-    $('#vista').innerHTML = vs.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Fecha</th><th>Cliente</th><th class="num">Unid.</th><th class="num">Total</th><th>Pago</th><th class="acc"></th></tr></thead><tbody>${vs.map((v) => { const t = tv(v); return `<tr><td>${v.numero || ''}</td><td>${fCorta(v.fecha)}</td><td>${esc(nombreCli(v.cliente_id))}</td><td class="num">${t.unidades}</td><td class="num">${money(t.total)}</td><td><span class="badge ${v.pago === 'pagado' ? 'ok' : 'warn'}">${v.pago === 'pagado' ? 'Pagado' : 'Pendiente'}</span></td><td class="acc"><button class="mini-link" data-ed="${v.id}">Ver / editar</button></td></tr>`; }).join('')}</tbody></table></div>`
-      : `<p class="vacio">Aún no hay ventas. Usa «Nueva venta».</p>`;
+    const hoyS = hoy(), mesS = hoyS.slice(0, 7), anioS = hoyS.slice(0, 4);
+    const acum = (pred) => { let ven = 0, gan = 0, u = 0; BIZ.ventas.forEach((v) => { if (v.anulada || !pred((v.fecha || ''))) return; const t = tv(v); ven += t.total; gan += t.sub - t.costo; u += t.unidades; }); return { ven, gan, u }; };
+    const kHoy = acum((f) => f.slice(0, 10) === hoyS), kMes = acum((f) => f.slice(0, 7) === mesS), kAnio = acum((f) => f.slice(0, 4) === anioS);
+    const kpi = (lbl, k) => `<div class="vkpi"><span>${lbl}</span><b>${money(k.ven)}</b><em>Ganancia ${money(k.gan)}</em><small>${k.u} unid.</small></div>`;
+    const kpis = `<div class="ventas-kpis">${kpi('Hoy', kHoy)}${kpi('Este mes', kMes)}${kpi('Este año', kAnio)}</div>`;
+    $('#vista').innerHTML = kpis + (vs.length ? `<div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Fecha</th><th>Cliente</th><th class="num">Unid.</th><th class="num">Total</th><th class="num">Ganancia</th><th class="num">Margen</th><th>Pago</th><th class="acc"></th></tr></thead><tbody>${vs.map((v) => { const t = tv(v); const g = t.sub - t.costo; const mar = t.sub ? Math.round(g / t.sub * 100) : 0; return `<tr><td>${v.numero || ''}</td><td>${fCorta(v.fecha)}</td><td>${esc(nombreCli(v.cliente_id))}</td><td class="num">${t.unidades}</td><td class="num">${money(t.total)}</td><td class="num" style="color:var(--mint-text);font-weight:700">${money(g)}</td><td class="num">${mar}%</td><td><span class="badge ${v.pago === 'pagado' ? 'ok' : 'warn'}">${v.pago === 'pagado' ? 'Pagado' : 'Pendiente'}</span></td><td class="acc"><button class="mini-link" data-ed="${v.id}">Ver / editar</button></td></tr>`; }).join('')}</tbody></table></div>`
+      : `<p class="vacio">Aún no hay ventas. Usa «Nueva venta».</p>`);
     $('#vista').onclick = (e) => { const ed = e.target.closest('[data-ed]'); if (ed) docVenta(porId('ventas', ed.dataset.ed)); };
   };
 

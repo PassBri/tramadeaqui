@@ -212,3 +212,26 @@
 .stock-inline:focus { outline: none; border-color: var(--mint, #4F7D55); box-shadow: 0 0 0 3px rgba(79,125,85,.15); }
 .stock-inline.guardado { border-color: var(--mint, #4F7D55); background: #eef5ee; }
 #grid-wrap { overflow-x: auto; }
+
+/* Editor de venta: filas con miniatura, búsqueda por código, precio/costo */
+.vhead, .vrow { display: grid; grid-template-columns: 40px minmax(130px,1fr) 56px 82px 82px 82px 26px; gap: 7px; align-items: center; }
+.vhead { font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted, #857a69); padding: 0 2px 4px; }
+.vhead span { text-align: center; }
+.vhead span:nth-child(2) { text-align: left; }
+.vitems { display: flex; flex-direction: column; gap: 7px; }
+.vrow .vthumb { width: 40px; height: 40px; object-fit: cover; border-radius: 8px; background: var(--sage-container, #f3efe3); }
+.vrow input { padding: 7px 8px; border: 1.5px solid var(--line, #e3dccb); border-radius: 8px; font-family: var(--font-body); font-size: .9rem; width: 100%; }
+.vrow .q, .vrow .vp, .vrow .vc { text-align: center; }
+.vrow .vsub { font-weight: 700; color: var(--night, #2E4A30); white-space: nowrap; text-align: right; font-size: .86rem; }
+.vrow .del { color: var(--peach-text, #9A5228); justify-self: center; }
+.barra-total { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+.barra-total .bt-gan b { color: var(--mint-text, #3B6B43); }
+.barra-total .bt-gan small { color: var(--muted, #857a69); font-weight: 700; }
+/* KPIs de ventas por periodo */
+.ventas-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+.vkpi { background: #fff; border: 1.5px solid var(--line, #e3dccb); border-radius: 14px; padding: 13px 16px; }
+.vkpi span { display: block; font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #857a69); }
+.vkpi b { display: block; font-family: var(--font-display, serif); font-weight: 600; font-size: 1.5rem; color: var(--night, #2E4A30); margin: 3px 0 1px; }
+.vkpi em { font-style: normal; font-size: .82rem; color: var(--mint-text, #3B6B43); font-weight: 700; }
+.vkpi small { display: block; font-size: .74rem; color: var(--muted, #857a69); margin-top: 2px; }
+@media (max-width: 760px) { .ventas-kpis { grid-template-columns: 1fr; } .vhead { display: none; } .vrow { grid-template-columns: 40px 1fr 1fr; } .vrow .vbusca { grid-column: 2 / -1; } .vrow .vsub, .vrow .del { grid-column: span 1; } }
