@@ -347,7 +347,7 @@
         </div>
       </div>
       <div style="display:flex;flex-direction:column;gap:18px">
-        <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}</p>
+        <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}${p.codigo ? ' · <span style="letter-spacing:.08em">Cód. ' + esc(p.codigo) + '</span>' : ''}</p>
         <h1 class="h-display" style="font-size:clamp(32px,5vw,50px)">${esc(p.nombre)}</h1>
         <div class="price" id="p-precio" style="font-size:26px">${money(precioDe(p, varFull()))}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
         ${p.humor ? `<blockquote class="humor"><span>Nota de ${esc(MARCA)}</span>${esc(p.humor)}</blockquote>` : ''}
@@ -400,7 +400,12 @@
     const add = $('#add');
     if (add) add.addEventListener('click', () => { Cart.add(p.id, varFull(), qty); if (window.nidoCelebra) window.nidoCelebra(); toast(azar(AL_AGREGAR)); });
     const rel = $('#relacionados');
-    if (rel) rel.innerHTML = D.productos.filter((x) => x.categoria === p.categoria && x.id !== p.id).slice(0, 4).map(card).join('');
+    if (rel) {
+      const mismos = D.productos.filter((x) => x.categoria === p.categoria && x.id !== p.id);
+      const extra = mismos.length < 4 ? D.productos.filter((x) => x.seccion === p.seccion && x.categoria !== p.categoria && x.id !== p.id) : [];
+      rel.innerHTML = mismos.concat(extra).slice(0, 4).map(card).join('');
+      const rt = $('#rel-titulo'); if (rt) rt.textContent = 'Más de ' + catName(p.categoria);
+    }
   }
 
   function pago() {
@@ -412,7 +417,7 @@
     }
     const num = String(CFG.nequi || '').replace(/\D/g, '');
     const numBonito = num.replace(/(\d{3})(\d{3})(\d{4})/, '$1 $2 $3');
-    const lineas = (p.items || []).map((i) => `• ${i.cant} × ${i.nombre}${i.variante ? ' (' + i.variante + ')' : ''} — ${money(i.cant * i.precio)}`);
+    const lineas = (p.items || []).map((i) => `• ${i.cant} × ${i.codigo ? '[' + i.codigo + '] ' : ''}${i.nombre}${i.variante ? ' (' + i.variante + ')' : ''} — ${money(i.cant * i.precio)}`);
     const msg = [`¡Hola, ${MARCA}! Ya pagué mi pedido con Nequi.`, '', `Referencia: ${p.referencia}`, `Valor pagado: ${money(p.total)}`, '', ...lineas, '', `Nombre: ${p.nombre}`, `Celular: ${p.telefono}`, `Ciudad: ${p.ciudad}`, `Dirección: ${p.direccion}`, p.regalo ? `Mensaje de regalo: ${p.regalo}` : '', p.nota ? `Notas: ${p.nota}` : '', '', 'Les adjunto el comprobante.'].filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n');
     root.innerHTML = `
       <div class="pago-layout">
@@ -433,7 +438,7 @@
         </div>
         <aside class="panel brackets pago-resumen">
           <h2 class="h-section" style="font-size:19px;margin:0 0 10px">Tu pedido</h2>
-          ${(p.items || []).map((i) => `<div class="summary-row"><span>${i.cant} × ${esc(i.nombre)}${i.variante ? ' · ' + esc(i.variante) : ''}</span><span>${money(i.cant * i.precio)}</span></div>`).join('')}
+          ${(p.items || []).map((i) => `<div class="summary-row"><span>${i.cant} × ${i.codigo ? '<b>' + esc(i.codigo) + '</b> ' : ''}${esc(i.nombre)}${i.variante ? ' · ' + esc(i.variante) : ''}</span><span>${money(i.cant * i.precio)}</span></div>`).join('')}
           ${p.descuento ? `<div class="summary-row"><span>Código ${esc(p.codigo || '')}</span><span>− ${money(p.descuento)}</span></div>` : ''}
           <div class="summary-row"><span>Envío</span><span>${p.envio ? money(p.envio) : 'Gratis'}</span></div>
           <div class="summary-row total"><span>Total</span><span>${money(p.total)}</span></div>
@@ -509,7 +514,7 @@
         referencia, nombre: f.get('nombre').trim(), telefono: f.get('telefono').trim(), ciudad: f.get('ciudad').trim(), direccion: f.get('direccion').trim(),
         nota: (f.get('notas') || '').trim() || null,
         regalo: (esRegalo && esRegalo.checked ? (f.get('regalo') || '').trim() : '') || null,
-        items: t.ls.map((i) => ({ producto_id: i.p.id, nombre: i.p.nombre, variante: i.variante || '', cant: i.qty, precio: precioDe(i.p, i.variante) })),
+        items: t.ls.map((i) => ({ producto_id: i.p.id, codigo: i.p.codigo || '', nombre: i.p.nombre, variante: i.variante || '', cant: i.qty, precio: precioDe(i.p, i.variante) })),
         subtotal: t.subtotal, descuento: t.descuento, envio: t.envio, total: t.total, codigo: t.ref || null,
       };
       const b = $('button[type=submit]', form); b.disabled = true; b.textContent = 'Guardando tu pedido…';

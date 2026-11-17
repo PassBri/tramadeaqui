@@ -43,6 +43,26 @@
   {
    "id": "raices",
    "nombre": "Raíces de mi tierra"
+  },
+  {
+   "id": "esmeraldas",
+   "nombre": "Esmeraldas de Colombia"
+  },
+  {
+   "id": "flora",
+   "nombre": "Flora de Colombia"
+  },
+  {
+   "id": "fauna",
+   "nombre": "Fauna de Colombia"
+  },
+  {
+   "id": "colombia",
+   "nombre": "Colombia"
+  },
+  {
+   "id": "destinos",
+   "nombre": "Destinos de Colombia"
   }
  ],
  "categorias": [
@@ -139,8 +159,20 @@
   {
    "id": "flora",
    "nombre": "Flora",
-   "detalle": "Plantas y flores de Colombia",
+   "detalle": "Orquídeas y flora de Colombia",
    "imagen": "ff-palma-de-cera"
+  },
+  {
+   "id": "colombia",
+   "nombre": "Colombia",
+   "detalle": "Emblemas de Colombia entera",
+   "imagen": "col-colombia-dos-mares"
+  },
+  {
+   "id": "destinos",
+   "nombre": "Destinos",
+   "detalle": "Lugares y paisajes de Colombia",
+   "imagen": "dest-cano-cristales"
   },
   {
    "id": "colombia-viva",
@@ -197,7 +229,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0001"
   },
   {
    "id": "barichara",
@@ -222,7 +255,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0002"
   },
   {
    "id": "artesanias-en-fique",
@@ -247,7 +281,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0003"
   },
   {
    "id": "floridablanca-ciudad-dulce",
@@ -272,7 +307,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0004"
   },
   {
    "id": "rionegro-cacao",
@@ -297,7 +333,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0005"
   },
   {
    "id": "cabrito-santandereano",
@@ -322,7 +359,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0006"
   },
   {
    "id": "cerro-de-la-cruz-san-gil",
@@ -347,7 +385,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0007"
   },
   {
    "id": "cerro-de-la-gruta",
@@ -372,7 +411,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0008"
   },
   {
    "id": "canon-del-chicamocha",
@@ -397,7 +437,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0009"
   },
   {
    "id": "arepa-santandereana",
@@ -422,7 +463,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0010"
   },
   {
    "id": "lebrija-capital-pinera",
@@ -447,7 +489,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0011"
   },
   {
    "id": "rebelion-de-los-comuneros",
@@ -472,7 +515,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0012"
   },
   {
    "id": "el-gallineral-san-gil",
@@ -497,7 +541,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0013"
   },
   {
    "id": "panachi",
@@ -522,7 +567,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0014"
   },
   {
    "id": "hormigas-culonas",
@@ -547,7 +593,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0015"
   },
   {
    "id": "san-gil",
@@ -572,7 +619,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0016"
   },
   {
    "id": "morrorico-bucaramanga",
@@ -597,7 +645,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0017"
   },
   {
    "id": "cacao-santandereano",
@@ -622,7 +671,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0018"
   },
   {
    "id": "cascadas-de-juan-curi",
@@ -647,7 +697,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0019"
   },
   {
    "id": "cafe-de-santander",
@@ -672,7 +723,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0020"
   },
   {
    "id": "mesa-de-los-santos-mercado-campesino",
@@ -697,7 +749,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0021"
   },
   {
    "id": "cabrito-santandereano-ii",
@@ -722,7 +775,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0022"
   },
   {
    "id": "piedecuesta",
@@ -747,7 +801,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0023"
   },
   {
    "id": "catedral-de-la-santa-cruz",
@@ -772,7 +827,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0024"
   },
   {
    "id": "los-caracoles-san-gil",
@@ -797,7 +853,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0025"
   },
   {
    "id": "arepa-santandereana-ii",
@@ -822,7 +879,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0026"
   },
   {
    "id": "mute-santandereano",
@@ -847,7 +905,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0027"
   },
   {
    "id": "barichara-ii",
@@ -872,7 +931,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0028"
   },
   {
    "id": "california-santurban",
@@ -897,7 +957,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0029"
   },
   {
    "id": "el-santisimo",
@@ -922,7 +983,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0030"
   },
   {
    "id": "paramo",
@@ -947,7 +1009,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0031"
   },
   {
    "id": "parque-la-libertad-san-gil",
@@ -972,7 +1035,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0032"
   },
   {
    "id": "pozo-azul",
@@ -997,7 +1061,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0033"
   },
   {
    "id": "barichara-iii",
@@ -1022,7 +1087,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0034"
   },
   {
    "id": "la-joya-bucaramanga",
@@ -1047,7 +1113,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0035"
   },
   {
    "id": "santa-barbara-laguna-de-tutos",
@@ -1072,7 +1139,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0036"
   },
   {
    "id": "socorro",
@@ -1097,7 +1165,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0037"
   },
   {
    "id": "el-picacho",
@@ -1122,7 +1191,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0038"
   },
   {
    "id": "bucaramanga-ciudad-de-los-parques",
@@ -1147,7 +1217,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0039"
   },
   {
    "id": "chicamocha-panoramico",
@@ -1172,7 +1243,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0040"
   },
   {
    "id": "giron",
@@ -1197,7 +1269,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0041"
   },
   {
    "id": "bocadillo-veleno",
@@ -1222,7 +1295,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0042"
   },
   {
    "id": "mesa-de-los-santos-mercado-campesino-ii",
@@ -1247,7 +1321,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0043"
   },
   {
    "id": "cueva-del-indio",
@@ -1272,7 +1347,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0044"
   },
   {
    "id": "hormigas-culonas-ii",
@@ -1297,7 +1373,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0045"
   },
   {
    "id": "panachi-ii",
@@ -1322,7 +1399,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0046"
   },
   {
    "id": "cafe-madrid-bucaramanga",
@@ -1347,7 +1425,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0047"
   },
   {
    "id": "san-gil-ii",
@@ -1372,7 +1451,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0048"
   },
   {
    "id": "parque-de-ragonessi",
@@ -1397,7 +1477,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0049"
   },
   {
    "id": "barichara-iv",
@@ -1422,7 +1503,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0050"
   },
   {
    "id": "cascadas-de-juan-curi-ii",
@@ -1447,7 +1529,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0051"
   },
   {
    "id": "san-gil-aventura",
@@ -1472,7 +1555,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0052"
   },
   {
    "id": "catedral-de-la-santa-cruz-san-gil",
@@ -1497,7 +1581,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0053"
   },
   {
    "id": "san-vicente-de-chucuri-cacao",
@@ -1522,7 +1607,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0054"
   },
   {
    "id": "curiti-pozos-de-pescaderito",
@@ -1547,7 +1633,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0055"
   },
   {
    "id": "cacao-santandereano-ii",
@@ -1572,7 +1659,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0056"
   },
   {
    "id": "artesanias-de-santander",
@@ -1597,7 +1685,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0057"
   },
   {
    "id": "cueva-la-antigua",
@@ -1622,7 +1711,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0058"
   },
   {
    "id": "salto-del-mico",
@@ -1647,7 +1737,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0059"
   },
   {
    "id": "pozo-azul-san-gil",
@@ -1672,7 +1763,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0060"
   },
   {
    "id": "cerro-de-la-gruta-virgen-de-lourdes",
@@ -1697,7 +1789,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0061"
   },
   {
    "id": "cascadas-de-juan-curi-iii",
@@ -1722,7 +1815,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0062"
   },
   {
    "id": "barichara-v",
@@ -1747,7 +1841,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0063"
   },
   {
    "id": "guane",
@@ -1772,7 +1867,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0064"
   },
   {
    "id": "artesanias-en-fique-curiti",
@@ -1797,7 +1893,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0065"
   },
   {
    "id": "berlin-tona",
@@ -1822,7 +1919,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0066"
   },
   {
    "id": "cueva-de-la-vaca-curiti",
@@ -1847,7 +1945,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0067"
   },
   {
    "id": "sabores-de-santander",
@@ -1872,7 +1971,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0068"
   },
   {
    "id": "juan-curi-torrentismo",
@@ -1897,7 +1997,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0069"
   },
   {
    "id": "rebelion-de-los-comuneros-ii",
@@ -1922,7 +2023,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0070"
   },
   {
    "id": "chicamocha",
@@ -1947,7 +2049,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0071"
   },
   {
    "id": "cerro-de-la-gruta-virgen-de-lourdes-ii",
@@ -1972,7 +2075,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0072"
   },
   {
    "id": "chicamocha-ii",
@@ -1997,7 +2101,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0073"
   },
   {
    "id": "san-gil-rio-fonce",
@@ -2022,7 +2127,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0074"
   },
   {
    "id": "el-santisimo-ii",
@@ -2047,7 +2153,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0075"
   },
   {
    "id": "la-milagrosa",
@@ -2072,7 +2179,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0076"
   },
   {
    "id": "el-gallineral",
@@ -2097,7 +2205,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0077"
   },
   {
    "id": "velez-guabina-y-tiple",
@@ -2122,7 +2231,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0078"
   },
   {
    "id": "paramo-de-santurban",
@@ -2147,7 +2257,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0079"
   },
   {
    "id": "rio-fonce-san-gil",
@@ -2172,7 +2283,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0080"
   },
   {
    "id": "sabores-de-santander-cafe",
@@ -2197,7 +2309,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0081"
   },
   {
    "id": "tejido-guane-algodon",
@@ -2222,7 +2335,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0082"
   },
   {
    "id": "ceramica-guane",
@@ -2247,7 +2361,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0083"
   },
   {
    "id": "piedra-del-sol",
@@ -2272,7 +2387,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0084"
   },
   {
    "id": "manta-de-la-mesa-tejido-guane",
@@ -2297,7 +2413,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0085"
   },
   {
    "id": "hilo-de-los-santos-huso-guane",
@@ -2322,7 +2439,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0086"
   },
   {
    "id": "huellas-del-carare",
@@ -2347,7 +2465,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0087"
   },
   {
    "id": "las-gachas-guadalupe",
@@ -2372,7 +2491,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0088"
   },
   {
    "id": "pintadera-guane-los-santos",
@@ -2397,7 +2517,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0089"
   },
   {
    "id": "oiba-artesanias-en-caolin",
@@ -2422,7 +2543,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0090"
   },
   {
    "id": "puerto-wilches-ferrocarril-y-rio",
@@ -2447,7 +2569,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0091"
   },
   {
    "id": "manto-de-la-virgen-gambita",
@@ -2472,7 +2595,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0092"
   },
   {
    "id": "san-jose-de-suaita-museo-del-algodon",
@@ -2497,7 +2621,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0093"
   },
   {
    "id": "paso-de-leopardo",
@@ -2522,7 +2647,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0094"
   },
   {
    "id": "pisada-felina",
@@ -2547,7 +2673,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0095"
   },
   {
    "id": "huella-de-gol",
@@ -2572,7 +2699,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0096"
   },
   {
    "id": "dos-huellas-una-cancha",
@@ -2597,7 +2725,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0097"
   },
   {
    "id": "deja-huella-en-la-cancha",
@@ -2622,7 +2751,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0098"
   },
   {
    "id": "la-cancha-tiene-garra",
@@ -2647,7 +2777,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0099"
   },
   {
    "id": "muni-velez",
@@ -2672,7 +2803,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0100"
   },
   {
    "id": "muni-barichara",
@@ -2697,7 +2829,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0101"
   },
   {
    "id": "muni-curiti",
@@ -2722,7 +2855,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0102"
   },
   {
    "id": "muni-floridablanca",
@@ -2747,7 +2881,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0103"
   },
   {
    "id": "muni-guadalupe",
@@ -2772,7 +2907,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0104"
   },
   {
    "id": "muni-los-santos",
@@ -2797,7 +2933,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0105"
   },
   {
    "id": "muni-oiba",
@@ -2822,7 +2959,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0106"
   },
   {
    "id": "muni-san-gil",
@@ -2847,7 +2985,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0107"
   },
   {
    "id": "muni-san-vicente-de-chucuri",
@@ -2872,7 +3011,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0108"
   },
   {
    "id": "muni-socorro",
@@ -2897,7 +3037,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0109"
   },
   {
    "id": "muni-cimitarra",
@@ -2922,7 +3063,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0110"
   },
   {
    "id": "muni-aguada",
@@ -2947,7 +3089,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0111"
   },
   {
    "id": "muni-albania",
@@ -2972,7 +3115,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0112"
   },
   {
    "id": "muni-aratoca",
@@ -2997,7 +3141,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0113"
   },
   {
    "id": "muni-barbosa",
@@ -3022,7 +3167,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0114"
   },
   {
    "id": "muni-barrancabermeja",
@@ -3047,7 +3193,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0115"
   },
   {
    "id": "muni-betulia",
@@ -3072,7 +3219,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0116"
   },
   {
    "id": "muni-bolivar",
@@ -3097,7 +3245,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0117"
   },
   {
    "id": "muni-bucaramanga",
@@ -3122,7 +3271,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0118"
   },
   {
    "id": "muni-cabrera",
@@ -3147,7 +3297,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0119"
   },
   {
    "id": "muni-california",
@@ -3172,7 +3323,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0120"
   },
   {
    "id": "muni-capitanejo",
@@ -3197,7 +3349,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0121"
   },
   {
    "id": "muni-carcasi",
@@ -3222,7 +3375,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0122"
   },
   {
    "id": "muni-cepita",
@@ -3247,7 +3401,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0123"
   },
   {
    "id": "muni-cerrito",
@@ -3272,7 +3427,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0124"
   },
   {
    "id": "muni-charala",
@@ -3297,7 +3453,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0125"
   },
   {
    "id": "muni-charta",
@@ -3322,7 +3479,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0126"
   },
   {
    "id": "muni-chima",
@@ -3347,7 +3505,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0127"
   },
   {
    "id": "muni-chipata",
@@ -3372,7 +3531,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0128"
   },
   {
    "id": "muni-guavata",
@@ -3397,7 +3557,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0129"
   },
   {
    "id": "muni-concepcion",
@@ -3422,7 +3583,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0130"
   },
   {
    "id": "muni-confines",
@@ -3447,7 +3609,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0131"
   },
   {
    "id": "muni-contratacion",
@@ -3472,7 +3635,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0132"
   },
   {
    "id": "muni-coromoro",
@@ -3497,7 +3661,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0133"
   },
   {
    "id": "muni-el-carmen-de-chucuri",
@@ -3522,7 +3687,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0134"
   },
   {
    "id": "muni-el-guacamayo",
@@ -3547,7 +3713,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0135"
   },
   {
    "id": "muni-el-penon",
@@ -3572,7 +3739,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0136"
   },
   {
    "id": "muni-el-playon",
@@ -3597,7 +3765,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0137"
   },
   {
    "id": "muni-encino",
@@ -3622,7 +3791,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0138"
   },
   {
    "id": "muni-enciso",
@@ -3647,7 +3817,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0139"
   },
   {
    "id": "muni-florian",
@@ -3672,7 +3843,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0140"
   },
   {
    "id": "muni-galan",
@@ -3697,7 +3869,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0141"
   },
   {
    "id": "muni-gambita",
@@ -3722,7 +3895,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0142"
   },
   {
    "id": "muni-giron",
@@ -3747,7 +3921,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0143"
   },
   {
    "id": "muni-guaca",
@@ -3772,7 +3947,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0144"
   },
   {
    "id": "muni-guapota",
@@ -3797,7 +3973,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0145"
   },
   {
    "id": "muni-pinchote",
@@ -3822,7 +3999,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0146"
   },
   {
    "id": "muni-hato",
@@ -3847,7 +4025,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0147"
   },
   {
    "id": "muni-jesus-maria",
@@ -3872,7 +4051,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0148"
   },
   {
    "id": "muni-jordan",
@@ -3897,7 +4077,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0149"
   },
   {
    "id": "muni-la-belleza",
@@ -3922,7 +4103,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0150"
   },
   {
    "id": "muni-la-paz",
@@ -3947,7 +4129,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0151"
   },
   {
    "id": "muni-lebrija",
@@ -3972,7 +4155,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0152"
   },
   {
    "id": "muni-macaravita",
@@ -3997,7 +4181,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0153"
   },
   {
    "id": "muni-malaga",
@@ -4022,7 +4207,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0154"
   },
   {
    "id": "muni-matanza",
@@ -4047,7 +4233,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0155"
   },
   {
    "id": "muni-mogotes",
@@ -4072,7 +4259,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0156"
   },
   {
    "id": "muni-molagavita",
@@ -4097,7 +4285,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0157"
   },
   {
    "id": "muni-ocamonte",
@@ -4122,7 +4311,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0158"
   },
   {
    "id": "muni-onzaga",
@@ -4147,7 +4337,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0159"
   },
   {
    "id": "muni-palmar",
@@ -4172,7 +4363,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0160"
   },
   {
    "id": "muni-palmas-del-socorro",
@@ -4197,7 +4389,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0161"
   },
   {
    "id": "muni-paramo",
@@ -4222,7 +4415,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0162"
   },
   {
    "id": "muni-piedecuesta",
@@ -4247,7 +4441,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0163"
   },
   {
    "id": "muni-tona",
@@ -4272,7 +4467,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0164"
   },
   {
    "id": "muni-puente-nacional",
@@ -4297,7 +4493,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0165"
   },
   {
    "id": "muni-puerto-parra",
@@ -4322,7 +4519,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0166"
   },
   {
    "id": "muni-puerto-wilches",
@@ -4347,7 +4545,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0167"
   },
   {
    "id": "muni-rionegro",
@@ -4372,7 +4571,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0168"
   },
   {
    "id": "muni-sabana-de-torres",
@@ -4397,7 +4597,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0169"
   },
   {
    "id": "muni-san-andres",
@@ -4422,7 +4623,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0170"
   },
   {
    "id": "muni-san-benito",
@@ -4447,7 +4649,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0171"
   },
   {
    "id": "muni-san-joaquin",
@@ -4472,7 +4675,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0172"
   },
   {
    "id": "muni-san-jose-de-miranda",
@@ -4497,7 +4701,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0173"
   },
   {
    "id": "muni-san-miguel",
@@ -4522,7 +4727,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0174"
   },
   {
    "id": "muni-santa-barbara",
@@ -4547,7 +4753,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0175"
   },
   {
    "id": "muni-santa-helena-del-opon",
@@ -4572,7 +4779,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0176"
   },
   {
    "id": "muni-simacota",
@@ -4597,7 +4805,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0177"
   },
   {
    "id": "muni-suaita",
@@ -4622,7 +4831,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0178"
   },
   {
    "id": "muni-sucre",
@@ -4647,7 +4857,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0179"
   },
   {
    "id": "muni-surata",
@@ -4672,7 +4883,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0180"
   },
   {
    "id": "muni-landazuri",
@@ -4697,7 +4909,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0181"
   },
   {
    "id": "muni-valle-de-san-jose",
@@ -4722,7 +4935,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0182"
   },
   {
    "id": "muni-vetas",
@@ -4747,7 +4961,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0183"
   },
   {
    "id": "muni-villanueva",
@@ -4772,7 +4987,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0184"
   },
   {
    "id": "muni-zapatoca",
@@ -4797,7 +5013,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0185"
   },
   {
    "id": "muni-guepsa",
@@ -4822,7 +5039,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0186"
   },
   {
    "id": "co-silleteros",
@@ -4847,7 +5065,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0187"
   },
   {
    "id": "co-joropo-llanero",
@@ -4872,7 +5091,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0188"
   },
   {
    "id": "co-cafe-de-colombia",
@@ -4897,7 +5117,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0189"
   },
   {
    "id": "co-cumbia-colombiana",
@@ -4922,7 +5143,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0190"
   },
   {
    "id": "co-sombrero-vueltiao",
@@ -4947,7 +5169,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0191"
   },
   {
    "id": "co-cielo-de-cometas",
@@ -4972,7 +5195,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0192"
   },
   {
    "id": "co-arepas-de-colombia",
@@ -4997,7 +5221,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0193"
   },
   {
    "id": "co-parranda-vallenata",
@@ -5022,7 +5247,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0194"
   },
   {
    "id": "co-carnaval-de-barranquilla",
@@ -5047,7 +5273,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0195"
   },
   {
    "id": "co-marimba-del-pacifico",
@@ -5072,7 +5299,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0196"
   },
   {
    "id": "depto-magdalena",
@@ -5098,7 +5326,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Magdalena"
+   "departamento": "Magdalena",
+   "codigo": "T0197"
   },
   {
    "id": "depto-amazonas",
@@ -5124,7 +5353,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Amazonas"
+   "departamento": "Amazonas",
+   "codigo": "T0198"
   },
   {
    "id": "depto-antioquia",
@@ -5150,7 +5380,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Antioquia"
+   "departamento": "Antioquia",
+   "codigo": "T0199"
   },
   {
    "id": "depto-arauca",
@@ -5176,7 +5407,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Arauca"
+   "departamento": "Arauca",
+   "codigo": "T0200"
   },
   {
    "id": "depto-atlantico",
@@ -5202,7 +5434,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Atlántico"
+   "departamento": "Atlántico",
+   "codigo": "T0201"
   },
   {
    "id": "depto-bolivar",
@@ -5228,7 +5461,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Bolívar"
+   "departamento": "Bolívar",
+   "codigo": "T0202"
   },
   {
    "id": "depto-boyaca",
@@ -5254,7 +5488,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Boyacá"
+   "departamento": "Boyacá",
+   "codigo": "T0203"
   },
   {
    "id": "depto-caldas",
@@ -5280,7 +5515,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Caldas"
+   "departamento": "Caldas",
+   "codigo": "T0204"
   },
   {
    "id": "depto-caqueta",
@@ -5306,7 +5542,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Caquetá"
+   "departamento": "Caquetá",
+   "codigo": "T0205"
   },
   {
    "id": "depto-casanare",
@@ -5332,7 +5569,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Casanare"
+   "departamento": "Casanare",
+   "codigo": "T0206"
   },
   {
    "id": "depto-cauca",
@@ -5358,7 +5596,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cauca"
+   "departamento": "Cauca",
+   "codigo": "T0207"
   },
   {
    "id": "depto-cesar",
@@ -5384,7 +5623,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cesar"
+   "departamento": "Cesar",
+   "codigo": "T0208"
   },
   {
    "id": "depto-choco",
@@ -5410,7 +5650,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Chocó"
+   "departamento": "Chocó",
+   "codigo": "T0209"
   },
   {
    "id": "depto-cordoba",
@@ -5436,7 +5677,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Córdoba"
+   "departamento": "Córdoba",
+   "codigo": "T0210"
   },
   {
    "id": "depto-cundinamarca",
@@ -5462,7 +5704,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cundinamarca"
+   "departamento": "Cundinamarca",
+   "codigo": "T0211"
   },
   {
    "id": "depto-guainia",
@@ -5488,7 +5731,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Guainía"
+   "departamento": "Guainía",
+   "codigo": "T0212"
   },
   {
    "id": "depto-guaviare",
@@ -5514,7 +5758,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Guaviare"
+   "departamento": "Guaviare",
+   "codigo": "T0213"
   },
   {
    "id": "depto-huila",
@@ -5540,7 +5785,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Huila"
+   "departamento": "Huila",
+   "codigo": "T0214"
   },
   {
    "id": "depto-la-guajira",
@@ -5566,7 +5812,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "La Guajira"
+   "departamento": "La Guajira",
+   "codigo": "T0215"
   },
   {
    "id": "depto-meta",
@@ -5592,7 +5839,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Meta"
+   "departamento": "Meta",
+   "codigo": "T0216"
   },
   {
    "id": "depto-narino",
@@ -5618,7 +5866,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Nariño"
+   "departamento": "Nariño",
+   "codigo": "T0217"
   },
   {
    "id": "depto-norte-de-santander",
@@ -5644,7 +5893,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Norte de Santander"
+   "departamento": "Norte de Santander",
+   "codigo": "T0218"
   },
   {
    "id": "depto-putumayo",
@@ -5670,7 +5920,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Putumayo"
+   "departamento": "Putumayo",
+   "codigo": "T0219"
   },
   {
    "id": "depto-quindio",
@@ -5696,7 +5947,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Quindío"
+   "departamento": "Quindío",
+   "codigo": "T0220"
   },
   {
    "id": "depto-risaralda",
@@ -5722,7 +5974,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Risaralda"
+   "departamento": "Risaralda",
+   "codigo": "T0221"
   },
   {
    "id": "depto-san-andres-providencia-y-santa-catalina",
@@ -5748,7 +6001,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "San Andrés, Providencia y Santa Catalina"
+   "departamento": "San Andrés, Providencia y Santa Catalina",
+   "codigo": "T0222"
   },
   {
    "id": "depto-santander",
@@ -5774,7 +6028,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Santander"
+   "departamento": "Santander",
+   "codigo": "T0223"
   },
   {
    "id": "depto-sucre",
@@ -5800,7 +6055,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Sucre"
+   "departamento": "Sucre",
+   "codigo": "T0224"
   },
   {
    "id": "depto-tolima",
@@ -5826,7 +6082,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Tolima"
+   "departamento": "Tolima",
+   "codigo": "T0225"
   },
   {
    "id": "depto-valle-del-cauca",
@@ -5852,7 +6109,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Valle del Cauca"
+   "departamento": "Valle del Cauca",
+   "codigo": "T0226"
   },
   {
    "id": "depto-vaupes",
@@ -5878,7 +6136,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Vaupés"
+   "departamento": "Vaupés",
+   "codigo": "T0227"
   },
   {
    "id": "depto-vichada",
@@ -5904,7 +6163,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Vichada"
+   "departamento": "Vichada",
+   "codigo": "T0228"
   },
   {
    "id": "depto-danza-huila",
@@ -5930,7 +6190,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Huila"
+   "departamento": "Huila",
+   "codigo": "T0229"
   },
   {
    "id": "depto-danza-la-guajira",
@@ -5956,7 +6217,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "La Guajira"
+   "departamento": "La Guajira",
+   "codigo": "T0230"
   },
   {
    "id": "depto-danza-magdalena",
@@ -5982,7 +6244,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Magdalena"
+   "departamento": "Magdalena",
+   "codigo": "T0231"
   },
   {
    "id": "depto-danza-meta",
@@ -6008,7 +6271,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Meta"
+   "departamento": "Meta",
+   "codigo": "T0232"
   },
   {
    "id": "depto-danza-amazonas",
@@ -6034,7 +6298,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Amazonas"
+   "departamento": "Amazonas",
+   "codigo": "T0233"
   },
   {
    "id": "depto-danza-antioquia",
@@ -6060,7 +6325,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Antioquia"
+   "departamento": "Antioquia",
+   "codigo": "T0234"
   },
   {
    "id": "depto-danza-arauca",
@@ -6086,7 +6352,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Arauca"
+   "departamento": "Arauca",
+   "codigo": "T0235"
   },
   {
    "id": "depto-danza-atlantico",
@@ -6112,7 +6379,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Atlántico"
+   "departamento": "Atlántico",
+   "codigo": "T0236"
   },
   {
    "id": "depto-danza-bolivar",
@@ -6138,7 +6406,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Bolívar"
+   "departamento": "Bolívar",
+   "codigo": "T0237"
   },
   {
    "id": "depto-danza-boyaca",
@@ -6164,7 +6433,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Boyacá"
+   "departamento": "Boyacá",
+   "codigo": "T0238"
   },
   {
    "id": "depto-danza-caldas",
@@ -6190,7 +6460,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Caldas"
+   "departamento": "Caldas",
+   "codigo": "T0239"
   },
   {
    "id": "depto-danza-caqueta",
@@ -6216,7 +6487,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Caquetá"
+   "departamento": "Caquetá",
+   "codigo": "T0240"
   },
   {
    "id": "depto-danza-casanare",
@@ -6242,7 +6514,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Casanare"
+   "departamento": "Casanare",
+   "codigo": "T0241"
   },
   {
    "id": "depto-danza-cauca",
@@ -6268,7 +6541,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cauca"
+   "departamento": "Cauca",
+   "codigo": "T0242"
   },
   {
    "id": "depto-danza-cesar",
@@ -6294,7 +6568,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cesar"
+   "departamento": "Cesar",
+   "codigo": "T0243"
   },
   {
    "id": "depto-danza-choco",
@@ -6320,7 +6595,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Chocó"
+   "departamento": "Chocó",
+   "codigo": "T0244"
   },
   {
    "id": "depto-danza-cordoba",
@@ -6346,7 +6622,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Córdoba"
+   "departamento": "Córdoba",
+   "codigo": "T0245"
   },
   {
    "id": "depto-danza-cundinamarca",
@@ -6372,7 +6649,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Cundinamarca"
+   "departamento": "Cundinamarca",
+   "codigo": "T0246"
   },
   {
    "id": "depto-danza-guainia",
@@ -6398,7 +6676,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Guainía"
+   "departamento": "Guainía",
+   "codigo": "T0247"
   },
   {
    "id": "depto-danza-guaviare",
@@ -6424,7 +6703,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Guaviare"
+   "departamento": "Guaviare",
+   "codigo": "T0248"
   },
   {
    "id": "depto-danza-vichada",
@@ -6450,7 +6730,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Vichada"
+   "departamento": "Vichada",
+   "codigo": "T0249"
   },
   {
    "id": "depto-danza-narino",
@@ -6476,7 +6757,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Nariño"
+   "departamento": "Nariño",
+   "codigo": "T0250"
   },
   {
    "id": "depto-danza-norte-de-santander",
@@ -6502,7 +6784,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Norte de Santander"
+   "departamento": "Norte de Santander",
+   "codigo": "T0251"
   },
   {
    "id": "depto-danza-putumayo",
@@ -6528,7 +6811,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Putumayo"
+   "departamento": "Putumayo",
+   "codigo": "T0252"
   },
   {
    "id": "depto-danza-quindio",
@@ -6554,7 +6838,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Quindío"
+   "departamento": "Quindío",
+   "codigo": "T0253"
   },
   {
    "id": "depto-danza-risaralda",
@@ -6580,7 +6865,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Risaralda"
+   "departamento": "Risaralda",
+   "codigo": "T0254"
   },
   {
    "id": "depto-danza-san-andres-providencia-y-santa-catalina",
@@ -6606,7 +6892,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "San Andrés, Providencia y Santa Catalina"
+   "departamento": "San Andrés, Providencia y Santa Catalina",
+   "codigo": "T0255"
   },
   {
    "id": "depto-danza-santander",
@@ -6632,7 +6919,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Santander"
+   "departamento": "Santander",
+   "codigo": "T0256"
   },
   {
    "id": "depto-danza-sucre",
@@ -6658,7 +6946,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Sucre"
+   "departamento": "Sucre",
+   "codigo": "T0257"
   },
   {
    "id": "depto-danza-tolima",
@@ -6684,7 +6973,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Tolima"
+   "departamento": "Tolima",
+   "codigo": "T0258"
   },
   {
    "id": "depto-danza-valle-del-cauca",
@@ -6710,7 +7000,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Valle del Cauca"
+   "departamento": "Valle del Cauca",
+   "codigo": "T0259"
   },
   {
    "id": "depto-danza-vaupes",
@@ -6736,7 +7027,8 @@
      "Grande 40×45"
     ]
    },
-   "departamento": "Vaupés"
+   "departamento": "Vaupés",
+   "codigo": "T0260"
   },
   {
    "id": "riq-balsa-muisca",
@@ -6761,7 +7053,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0261"
   },
   {
    "id": "riq-poporo-quimbaya",
@@ -6786,7 +7079,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0262"
   },
   {
    "id": "riq-mascara-ilama",
@@ -6811,7 +7105,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0263"
   },
   {
    "id": "riq-disco-rotatorio",
@@ -6836,7 +7131,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0264"
   },
   {
    "id": "riq-danzante-tairona",
@@ -6861,7 +7157,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0265"
   },
   {
    "id": "riq-orejera-zenu",
@@ -6886,7 +7183,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0266"
   },
   {
    "id": "riq-esmeralda-trapiche",
@@ -6911,7 +7209,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0267"
   },
   {
    "id": "riq-muzo",
@@ -6936,7 +7235,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0268"
   },
   {
    "id": "riq-chivor",
@@ -6961,7 +7261,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0269"
   },
   {
    "id": "riq-coscuez",
@@ -6986,7 +7287,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0270"
   },
   {
    "id": "ff-jaguar",
@@ -7011,7 +7313,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0271"
   },
   {
    "id": "ff-oso-andino",
@@ -7036,7 +7339,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0272"
   },
   {
    "id": "ff-condor-de-los-andes",
@@ -7061,7 +7365,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0273"
   },
   {
    "id": "ff-titi-cabeciblanco",
@@ -7086,7 +7391,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0274"
   },
   {
    "id": "ff-delfin-rosado",
@@ -7111,7 +7417,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0275"
   },
   {
    "id": "ff-rana-dorada",
@@ -7136,7 +7443,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0276"
   },
   {
    "id": "ff-palma-de-cera",
@@ -7161,7 +7469,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0277"
   },
   {
    "id": "ff-orquidea-de-mayo",
@@ -7186,7 +7495,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0278"
   },
   {
    "id": "ff-frailejon",
@@ -7211,7 +7521,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0279"
   },
   {
    "id": "ff-victoria-amazonica",
@@ -7236,7 +7547,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0280"
   },
   {
    "id": "cv-colombia-viva",
@@ -7261,7 +7573,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0281"
   },
   {
    "id": "cv-ballenas-de-nuqui",
@@ -7286,7 +7599,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0282"
   },
   {
    "id": "cv-aves-de-colombia",
@@ -7311,7 +7625,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0283"
   },
   {
    "id": "cv-orquideas-de-colombia",
@@ -7336,7 +7651,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0284"
   },
   {
    "id": "cv-amazonia-colombiana",
@@ -7361,7 +7677,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0285"
   },
   {
    "id": "cv-paramos-de-colombia",
@@ -7386,7 +7703,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0286"
   },
   {
    "id": "cv-cano-cristales",
@@ -7411,7 +7729,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0287"
   },
   {
    "id": "cv-sabana-llanera",
@@ -7436,7 +7755,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0288"
   },
   {
    "id": "cv-flamencos-de-la-guajira",
@@ -7461,7 +7781,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0289"
   },
   {
    "id": "cv-arrecifes-de-providencia",
@@ -7486,7 +7807,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0290"
   },
   {
    "id": "cs-el-canto-del-pacifico",
@@ -7511,7 +7833,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0291"
   },
   {
    "id": "cs-el-jaguar-y-la-luna",
@@ -7536,7 +7859,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0292"
   },
   {
    "id": "cs-la-orquidea-que-abrio-los-andes",
@@ -7561,7 +7885,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0293"
   },
   {
    "id": "cs-el-colibri-del-tiempo",
@@ -7586,7 +7911,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0294"
   },
   {
    "id": "cs-el-vuelo-del-cocora",
@@ -7611,7 +7937,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0295"
   },
   {
    "id": "cs-la-balsa-de-las-estrellas",
@@ -7636,7 +7963,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0296"
   },
   {
    "id": "cs-el-corazon-de-boyaca",
@@ -7661,7 +7989,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0297"
   },
   {
    "id": "cs-rio-de-colores",
@@ -7686,7 +8015,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0298"
   },
   {
    "id": "cs-guacamayas-del-amanecer",
@@ -7711,7 +8041,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0299"
   },
   {
    "id": "cs-el-sueno-del-oso-andino",
@@ -7736,7 +8067,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0300"
   },
   {
    "id": "cs-el-desierto-que-baila",
@@ -7761,7 +8093,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0301"
   },
   {
    "id": "cs-el-arrecife-que-florece",
@@ -7786,7 +8119,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0302"
   },
   {
    "id": "cs-el-aroma-de-la-montana",
@@ -7811,7 +8145,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0303"
   },
   {
    "id": "cs-la-cumbia-de-las-aves",
@@ -7836,7 +8171,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0304"
   },
   {
    "id": "cs-el-rio-de-la-victoria",
@@ -7861,7 +8197,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0305"
   },
   {
    "id": "mito-fura-y-tena",
@@ -7886,7 +8223,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0306"
   },
   {
    "id": "mito-bachue",
@@ -7911,7 +8249,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0307"
   },
   {
    "id": "mito-bochica",
@@ -7936,7 +8275,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0308"
   },
   {
    "id": "mito-la-laguna-del-dorado",
@@ -7961,7 +8301,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0309"
   },
   {
    "id": "mito-la-madremonte",
@@ -7986,7 +8327,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0310"
   },
   {
    "id": "mito-el-mohan",
@@ -8011,7 +8353,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0311"
   },
   {
    "id": "mito-francisco-el-hombre",
@@ -8036,7 +8379,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0312"
   },
   {
    "id": "mito-la-candileja",
@@ -8061,7 +8405,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0313"
   },
   {
    "id": "mito-la-patasola",
@@ -8086,7 +8431,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0314"
   },
   {
    "id": "mito-el-sombreron",
@@ -8111,7 +8457,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0315"
   },
   {
    "id": "mito-la-madre-de-agua",
@@ -8136,7 +8483,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0316"
   },
   {
    "id": "mito-la-muelona",
@@ -8161,7 +8509,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0317"
   },
   {
    "id": "mito-el-fraile-sin-cabeza",
@@ -8186,7 +8535,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0318"
   },
   {
    "id": "mito-el-riviel",
@@ -8211,7 +8561,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0319"
   },
   {
    "id": "mito-la-bola-de-fuego",
@@ -8236,7 +8587,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0320"
   },
   {
    "id": "mito-el-bufeo-colorado",
@@ -8261,7 +8613,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0321"
   },
   {
    "id": "mito-la-sirena-de-hurtado",
@@ -8286,7 +8639,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0322"
   },
   {
    "id": "linea-mariposas-amarillas",
@@ -8311,7 +8665,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0323"
   },
   {
    "id": "linea-jardin-de-ausencia",
@@ -8336,7 +8691,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0324"
   },
   {
    "id": "linea-selva-que-devora",
@@ -8361,7 +8717,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0325"
   },
   {
    "id": "linea-sapo-de-paseo",
@@ -8386,7 +8743,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0326"
   },
   {
    "id": "linea-la-veta-y-la-casa",
@@ -8411,7 +8769,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0327"
   },
   {
    "id": "linea-una-vida-en-el-tablero",
@@ -8436,7 +8795,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0328"
   },
   {
    "id": "linea-morada-de-hojas",
@@ -8461,7 +8821,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0329"
   },
   {
    "id": "linea-la-vida-profunda",
@@ -8486,7 +8847,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0330"
   },
   {
    "id": "linea-tambor-de-dos-orillas",
@@ -8511,7 +8873,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0331"
   },
   {
    "id": "linea-estrellas-en-el-atrato",
@@ -8536,7 +8899,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0332"
   },
   {
    "id": "linea-el-jardin-del-recuerdo",
@@ -8561,7 +8925,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0333"
   },
   {
    "id": "linea-cartas-de-una-nina",
@@ -8586,7 +8951,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0334"
   },
   {
    "id": "linea-la-brisa-tras-la-celosia",
@@ -8611,7 +8977,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0335"
   },
   {
    "id": "linea-isla-secreta",
@@ -8636,7 +9003,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0336"
   },
   {
    "id": "linea-el-pueblo-en-silencio",
@@ -8661,7 +9029,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0337"
   },
   {
    "id": "linea-la-taza-y-la-luz",
@@ -8686,7 +9055,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0338"
   },
   {
    "id": "linea-la-marea-y-la-perra",
@@ -8711,7 +9081,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0339"
   },
   {
    "id": "linea-la-mesa-de-los-espejos",
@@ -8736,7 +9107,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0340"
   },
   {
    "id": "linea-flores-del-encierro",
@@ -8761,7 +9133,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0341"
   },
   {
    "id": "raiz-tejiendo-la-guajira",
@@ -8786,7 +9159,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0342"
   },
   {
    "id": "raiz-wayuu",
@@ -8811,7 +9185,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0343"
   },
   {
    "id": "raiz-zenu",
@@ -8836,7 +9211,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0344"
   },
   {
    "id": "raiz-embera",
@@ -8861,7 +9237,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0345"
   },
   {
    "id": "raiz-guna-dule",
@@ -8886,7 +9263,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0346"
   },
   {
    "id": "raiz-inga",
@@ -8911,7 +9289,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0347"
   },
   {
    "id": "raiz-nasa",
@@ -8936,7 +9315,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0348"
   },
   {
    "id": "raiz-misak",
@@ -8961,7 +9341,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0349"
   },
   {
    "id": "raiz-uwa",
@@ -8986,7 +9367,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0350"
   },
   {
    "id": "raiz-cantos-del-pacifico",
@@ -9011,7 +9393,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0351"
   },
   {
    "id": "raiz-marimba-de-chonta",
@@ -9036,7 +9419,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0352"
   },
   {
    "id": "raiz-piangua-y-manglar",
@@ -9061,7 +9445,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0353"
   },
   {
    "id": "raiz-chirimia-del-atrato",
@@ -9086,7 +9471,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0354"
   },
   {
    "id": "raiz-san-pacho",
@@ -9111,7 +9497,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0355"
   },
   {
    "id": "raiz-la-palabra-de-palenque",
@@ -9136,7 +9523,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0356"
   },
   {
    "id": "raiz-tambor-palenquero",
@@ -9161,7 +9549,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0357"
   },
   {
    "id": "raiz-ritmo-insular",
@@ -9186,7 +9575,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0358"
   },
   {
    "id": "raiz-la-vela-del-arrecife",
@@ -9211,7 +9601,8 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0359"
   },
   {
    "id": "raiz-rondon",
@@ -9236,7 +9627,1568 @@
      "Mediana 35×40",
      "Grande 40×45"
     ]
-   }
+   },
+   "codigo": "T0360"
+  },
+  {
+   "id": "esm-la-montana-dormida",
+   "nombre": "La Montaña Dormida",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-la-montana-dormida.jpg",
+   "descripcion": "Bolso con el diseño «La Montaña Dormida», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0361"
+  },
+  {
+   "id": "esm-muzo",
+   "nombre": "Muzo",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-muzo.jpg",
+   "descripcion": "Bolso con el diseño «Muzo», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0362"
+  },
+  {
+   "id": "esm-coscuez",
+   "nombre": "Coscuez",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-coscuez.jpg",
+   "descripcion": "Bolso con el diseño «Coscuez», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0363"
+  },
+  {
+   "id": "esm-esmeralda-trapiche",
+   "nombre": "Esmeralda Trapiche",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-esmeralda-trapiche.jpg",
+   "descripcion": "Bolso con el diseño «Esmeralda Trapiche», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0364"
+  },
+  {
+   "id": "esm-seis-galerias",
+   "nombre": "Seis Galerías",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-seis-galerias.jpg",
+   "descripcion": "Bolso con el diseño «Seis Galerías», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0365"
+  },
+  {
+   "id": "esm-la-veta-blanca",
+   "nombre": "La Veta Blanca",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-la-veta-blanca.jpg",
+   "descripcion": "Bolso con el diseño «La Veta Blanca», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0366"
+  },
+  {
+   "id": "esm-lectura-de-la-veta",
+   "nombre": "Lectura de la Veta",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-lectura-de-la-veta.jpg",
+   "descripcion": "Bolso con el diseño «Lectura de la Veta», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0367"
+  },
+  {
+   "id": "esm-salida-del-socavon",
+   "nombre": "Salida del Socavón",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-salida-del-socavon.jpg",
+   "descripcion": "Bolso con el diseño «Salida del Socavón», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0368"
+  },
+  {
+   "id": "esm-mesa-de-seleccion",
+   "nombre": "Mesa de Selección",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-mesa-de-seleccion.jpg",
+   "descripcion": "Bolso con el diseño «Mesa de Selección», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0369"
+  },
+  {
+   "id": "esm-alas-en-la-gema",
+   "nombre": "Alas en la Gema",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-alas-en-la-gema.jpg",
+   "descripcion": "Bolso con el diseño «Alas en la Gema», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0370"
+  },
+  {
+   "id": "esm-la-lupa-del-tallador",
+   "nombre": "La Lupa del Tallador",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-la-lupa-del-tallador.jpg",
+   "descripcion": "Bolso con el diseño «La Lupa del Tallador», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0371"
+  },
+  {
+   "id": "esm-gama-de-verdes-i",
+   "nombre": "Gama de Verdes I",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-i.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes I», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0372"
+  },
+  {
+   "id": "esm-gama-de-verdes-ii",
+   "nombre": "Gama de Verdes II",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-ii.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes II», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0373"
+  },
+  {
+   "id": "esm-gama-de-verdes-iii",
+   "nombre": "Gama de Verdes III",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-iii.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes III», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0374"
+  },
+  {
+   "id": "esm-gama-de-verdes-iv",
+   "nombre": "Gama de Verdes IV",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-iv.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes IV», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0375"
+  },
+  {
+   "id": "esm-gama-de-verdes-v",
+   "nombre": "Gama de Verdes V",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-v.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes V», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0376"
+  },
+  {
+   "id": "esm-gama-de-verdes-vi",
+   "nombre": "Gama de Verdes VI",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-vi.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes VI», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0377"
+  },
+  {
+   "id": "esm-gama-de-verdes-vii",
+   "nombre": "Gama de Verdes VII",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-vii.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes VII», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0378"
+  },
+  {
+   "id": "esm-gama-de-verdes-viii",
+   "nombre": "Gama de Verdes VIII",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-viii.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes VIII», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0379"
+  },
+  {
+   "id": "esm-gama-de-verdes-ix",
+   "nombre": "Gama de Verdes IX",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-gama-de-verdes-ix.jpg",
+   "descripcion": "Bolso con el diseño «Gama de Verdes IX», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0380"
+  },
+  {
+   "id": "esm-bosque-en-la-gema",
+   "nombre": "Bosque en la Gema",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-bosque-en-la-gema.jpg",
+   "descripcion": "Bolso con el diseño «Bosque en la Gema», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0381"
+  },
+  {
+   "id": "esm-sombra-de-barranco",
+   "nombre": "Sombra de Barranco",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-sombra-de-barranco.jpg",
+   "descripcion": "Bolso con el diseño «Sombra de Barranco», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0382"
+  },
+  {
+   "id": "esm-seis-paisajes",
+   "nombre": "Seis Paisajes",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-seis-paisajes.jpg",
+   "descripcion": "Bolso con el diseño «Seis Paisajes», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0383"
+  },
+  {
+   "id": "esm-la-cascada-en-la-gema",
+   "nombre": "La Cascada en la Gema",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-la-cascada-en-la-gema.jpg",
+   "descripcion": "Bolso con el diseño «La Cascada en la Gema», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0384"
+  },
+  {
+   "id": "esm-paisaje-fluvial",
+   "nombre": "Paisaje Fluvial",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-paisaje-fluvial.jpg",
+   "descripcion": "Bolso con el diseño «Paisaje Fluvial», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0385"
+  },
+  {
+   "id": "esm-esmeraldas-sobre-pizarra",
+   "nombre": "Esmeraldas sobre Pizarra",
+   "categoria": "esmeraldas",
+   "seccion": "esmeraldas",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/esm-esmeraldas-sobre-pizarra.jpg",
+   "descripcion": "Bolso con el diseño «Esmeraldas sobre Pizarra», estampado a una cara. Una obra dedicada a las esmeraldas de Colombia, sus minas y su gente. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0386"
+  },
+  {
+   "id": "col-colombia-dos-mares",
+   "nombre": "Colombia · Dos Mares",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-dos-mares.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Dos Mares», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0387"
+  },
+  {
+   "id": "col-colombia-andes",
+   "nombre": "Colombia · Andes",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-andes.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Andes», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0388"
+  },
+  {
+   "id": "col-colombia-amazonia",
+   "nombre": "Colombia · Amazonía",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-amazonia.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Amazonía», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0389"
+  },
+  {
+   "id": "col-colombia-cafe-y-esmeraldas",
+   "nombre": "Colombia · Café y Esmeraldas",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-cafe-y-esmeraldas.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Café y Esmeraldas», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0390"
+  },
+  {
+   "id": "col-colombia-memoria",
+   "nombre": "Colombia · Memoria",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-memoria.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Memoria», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0391"
+  },
+  {
+   "id": "col-colombia-cumbia-y-carnaval",
+   "nombre": "Colombia · Cumbia y Carnaval",
+   "categoria": "colombia",
+   "seccion": "colombia",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/col-colombia-cumbia-y-carnaval.jpg",
+   "descripcion": "Bolso con el diseño «Colombia · Cumbia y Carnaval», estampado a una cara. Un emblema de Colombia entera. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0392"
+  },
+  {
+   "id": "fauna-mariposas-de-fura",
+   "nombre": "Mariposas de Fura",
+   "categoria": "fauna",
+   "seccion": "fauna",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/fauna-mariposas-de-fura.jpg",
+   "descripcion": "Bolso con el diseño «Mariposas de Fura», estampado a una cara. Un animal emblemático de Colombia en doble exposición con su paisaje. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0393"
+  },
+  {
+   "id": "fauna-nuqui",
+   "nombre": "Nuquí",
+   "categoria": "fauna",
+   "seccion": "fauna",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/fauna-nuqui.jpg",
+   "descripcion": "Bolso con el diseño «Nuquí», estampado a una cara. Un animal emblemático de Colombia en doble exposición con su paisaje. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0394"
+  },
+  {
+   "id": "fauna-amazonas",
+   "nombre": "Amazonas",
+   "categoria": "fauna",
+   "seccion": "fauna",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/fauna-amazonas.jpg",
+   "descripcion": "Bolso con el diseño «Amazonas», estampado a una cara. Un animal emblemático de Colombia en doble exposición con su paisaje. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0395"
+  },
+  {
+   "id": "fauna-cocora",
+   "nombre": "Cocora",
+   "categoria": "fauna",
+   "seccion": "fauna",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/fauna-cocora.jpg",
+   "descripcion": "Bolso con el diseño «Cocora», estampado a una cara. Un animal emblemático de Colombia en doble exposición con su paisaje. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0396"
+  },
+  {
+   "id": "fauna-oso-de-anteojos",
+   "nombre": "Oso de Anteojos",
+   "categoria": "fauna",
+   "seccion": "fauna",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/fauna-oso-de-anteojos.jpg",
+   "descripcion": "Bolso con el diseño «Oso de Anteojos», estampado a una cara. Un animal emblemático de Colombia en doble exposición con su paisaje. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0397"
+  },
+  {
+   "id": "flora-cattleya-trianae",
+   "nombre": "Cattleya Trianae",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-cattleya-trianae.jpg",
+   "descripcion": "Bolso con el diseño «Cattleya Trianae», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0398"
+  },
+  {
+   "id": "flora-cattleya-warscewiczii",
+   "nombre": "Cattleya Warscewiczii",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-cattleya-warscewiczii.jpg",
+   "descripcion": "Bolso con el diseño «Cattleya Warscewiczii», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0399"
+  },
+  {
+   "id": "flora-cattleya-dowiana-aurea",
+   "nombre": "Cattleya Dowiana Aurea",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-cattleya-dowiana-aurea.jpg",
+   "descripcion": "Bolso con el diseño «Cattleya Dowiana Aurea», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0400"
+  },
+  {
+   "id": "flora-cattleya-quadricolor",
+   "nombre": "Cattleya Quadricolor",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-cattleya-quadricolor.jpg",
+   "descripcion": "Bolso con el diseño «Cattleya Quadricolor», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0401"
+  },
+  {
+   "id": "flora-miltoniopsis-vexillaria",
+   "nombre": "Miltoniopsis Vexillaria",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-miltoniopsis-vexillaria.jpg",
+   "descripcion": "Bolso con el diseño «Miltoniopsis Vexillaria», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0402"
+  },
+  {
+   "id": "flora-frailejon-de-santurban",
+   "nombre": "Frailejón de Santurbán",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-frailejon-de-santurban.jpg",
+   "descripcion": "Bolso con el diseño «Frailejón de Santurbán», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0403"
+  },
+  {
+   "id": "flora-oncidium-alexandrae",
+   "nombre": "Oncidium Alexandrae",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-oncidium-alexandrae.jpg",
+   "descripcion": "Bolso con el diseño «Oncidium Alexandrae», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0404"
+  },
+  {
+   "id": "flora-dracula-bella",
+   "nombre": "Drácula Bella",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-dracula-bella.jpg",
+   "descripcion": "Bolso con el diseño «Drácula Bella», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0405"
+  },
+  {
+   "id": "flora-masdevallia-coccinea",
+   "nombre": "Masdevallia Coccinea",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-masdevallia-coccinea.jpg",
+   "descripcion": "Bolso con el diseño «Masdevallia Coccinea», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0406"
+  },
+  {
+   "id": "flora-phragmipedium-schlimii",
+   "nombre": "Phragmipedium Schlimii",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-phragmipedium-schlimii.jpg",
+   "descripcion": "Bolso con el diseño «Phragmipedium Schlimii», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0407"
+  },
+  {
+   "id": "flora-anguloa-clowesii",
+   "nombre": "Anguloa Clowesii",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-anguloa-clowesii.jpg",
+   "descripcion": "Bolso con el diseño «Anguloa Clowesii», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0408"
+  },
+  {
+   "id": "flora-orquidea-y-colibri",
+   "nombre": "Orquídea y Colibrí",
+   "categoria": "flora",
+   "seccion": "flora",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/flora-orquidea-y-colibri.jpg",
+   "descripcion": "Bolso con el diseño «Orquídea y Colibrí», estampado a una cara. Una orquídea y flor emblemática de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0409"
+  },
+  {
+   "id": "dest-cano-cristales",
+   "nombre": "Caño Cristales",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-cano-cristales.jpg",
+   "descripcion": "Bolso con el diseño «Caño Cristales», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0410"
+  },
+  {
+   "id": "dest-la-guajira",
+   "nombre": "La Guajira",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-la-guajira.jpg",
+   "descripcion": "Bolso con el diseño «La Guajira», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0411"
+  },
+  {
+   "id": "dest-san-andres",
+   "nombre": "San Andrés",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-san-andres.jpg",
+   "descripcion": "Bolso con el diseño «San Andrés», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0412"
+  },
+  {
+   "id": "dest-choco",
+   "nombre": "Chocó",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-choco.jpg",
+   "descripcion": "Bolso con el diseño «Chocó», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0413"
+  },
+  {
+   "id": "dest-cienaga-grande",
+   "nombre": "Ciénaga Grande",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-cienaga-grande.jpg",
+   "descripcion": "Bolso con el diseño «Ciénaga Grande», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0414"
+  },
+  {
+   "id": "dest-eje-cafetero",
+   "nombre": "Eje Cafetero",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-eje-cafetero.jpg",
+   "descripcion": "Bolso con el diseño «Eje Cafetero», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0415"
+  },
+  {
+   "id": "dest-velez",
+   "nombre": "Vélez",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-velez.jpg",
+   "descripcion": "Bolso con el diseño «Vélez», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0416"
+  },
+  {
+   "id": "dest-barichara",
+   "nombre": "Barichara",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-barichara.jpg",
+   "descripcion": "Bolso con el diseño «Barichara», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0417"
+  },
+  {
+   "id": "dest-canon-del-chicamocha",
+   "nombre": "Cañón del Chicamocha",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-canon-del-chicamocha.jpg",
+   "descripcion": "Bolso con el diseño «Cañón del Chicamocha», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0418"
+  },
+  {
+   "id": "dest-cartagena",
+   "nombre": "Cartagena",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-cartagena.jpg",
+   "descripcion": "Bolso con el diseño «Cartagena», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0419"
+  },
+  {
+   "id": "dest-llanos-orientales",
+   "nombre": "Llanos Orientales",
+   "categoria": "destinos",
+   "seccion": "destinos",
+   "precio": 50000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/dest-llanos-orientales.jpg",
+   "descripcion": "Bolso con el diseño «Llanos Orientales», estampado a una cara. Un destino inolvidable de Colombia. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0420"
   }
  ]
 }
