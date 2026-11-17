@@ -902,7 +902,8 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .hero-duo .bolso img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; opacity: 0; transition: opacity .8s ease; }
 .hero-duo .bolso img.activo { opacity: 1; }
 @media (max-width: 760px){
-  .hero-duo { display: none; }   /* en celular el hero va solo con texto; los bolsos cambiantes quedan en computador */
+  .hero-duo { display: flex; justify-content: center; margin: 4px 0 8px; }
+  .hero-duo .bolso { flex: 0 0 auto; width: min(76vw, 300px); max-width: none; }   /* ancho explícito: evita que se aplane en celular */
 }
 
 /* Flechas laterales del hilo */
