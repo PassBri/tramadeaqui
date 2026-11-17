@@ -158,7 +158,7 @@
       list.sort((a, b) => st.vista === 'lista' ? (a.codigo || '').localeCompare(b.codigo || '', 'es') : a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
       if (!list.length) { $('#grid-wrap').innerHTML = `<p class="vacio">No hay productos con ese filtro.</p>`; }
       else if (st.vista === 'lista') {
-        $('#grid-wrap').innerHTML = `<table class="tabla-prod"><thead><tr><th></th><th>Código</th><th>Producto</th><th>Sección · Categoría</th><th>Precio</th><th></th></tr></thead><tbody>${list.map(rowHTML).join('')}</tbody></table>`;
+        $('#grid-wrap').innerHTML = `<table class="tabla-prod"><thead><tr><th></th><th>Código</th><th>Producto</th><th>Sección · Categoría</th><th>Precio</th><th>Existencias</th><th></th></tr></thead><tbody>${list.map(rowHTML).join('')}</tbody></table>`;
       } else {
         $('#grid-wrap').innerHTML = `<div class="grid-prod">${list.map(cardHTML).join('')}</div>`;
       }
@@ -183,13 +183,14 @@
     $('#f-sec').onchange = (e) => { st.sec = e.target.value; st.cat = 'todo'; pintarCats(); dibujar(); };
     fCat.onchange = (e) => { st.cat = e.target.value; dibujar(); };
     $('#f-q').oninput = (e) => { st.q = e.target.value; dibujar(); };
-    $('#grid-wrap').addEventListener('click', (e) => { if (e.target.closest('.precio-inline')) return; const c = e.target.closest('[data-id]'); if (c) editar(c.dataset.id); });
+    $('#grid-wrap').addEventListener('click', (e) => { if (e.target.closest('.campo-inline')) return; const c = e.target.closest('[data-id]'); if (c) editar(c.dataset.id); });
     $('#grid-wrap').addEventListener('change', (e) => {
-      const inp = e.target.closest('.precio-inline'); if (!inp) return;
-      const id = inp.dataset.precio; const v = Math.max(0, Math.round(Number(inp.value) || 0));
-      EDITS[id] = Object.assign({}, EDITS[id], { precio: v }); guardarEdits();
+      const inp = e.target.closest('.campo-inline'); if (!inp) return;
+      const id = inp.dataset.id, campo = inp.dataset.campo;
+      const v = Math.max(0, Math.round(Number(inp.value) || 0));
+      EDITS[id] = Object.assign({}, EDITS[id], { [campo]: v }); guardarEdits();
       inp.classList.add('guardado'); setTimeout(() => inp.classList.remove('guardado'), 900);
-      aviso('Precio guardado · usa «Exportar productos.json» (Ajustes) para publicarlo en la tienda', 'ok');
+      aviso((campo === 'stock' ? 'Existencias' : 'Precio') + ' guardado · usa «Exportar productos.json» (Ajustes) para publicarlo en la tienda', 'ok');
     });
     const setVista = () => { $('#v-grid').classList.toggle('activo', st.vista === 'grid'); $('#v-lista').classList.toggle('activo', st.vista === 'lista'); };
     $('#v-grid').onclick = () => { st.vista = 'grid'; setVista(); dibujar(); };
@@ -218,7 +219,8 @@
       + `<td class="t-cod"><b>${esc(p.codigo || '')}</b></td>`
       + `<td class="t-nom">${esc(p.nombre)}</td>`
       + `<td class="t-meta">${esc(secNombre(p.seccion))} · ${esc(catNombre(p.categoria))}</td>`
-      + `<td class="t-precio"><span class="peso">$</span><input class="precio-inline" type="number" min="0" step="500" value="${Number(p.precio) || 0}" data-precio="${esc(p.id)}" aria-label="Precio de ${esc(p.nombre)}"></td>`
+      + `<td class="t-precio"><span class="peso">$</span><input class="precio-inline campo-inline" type="number" min="0" step="500" value="${Number(p.precio) || 0}" data-id="${esc(p.id)}" data-campo="precio" aria-label="Precio de ${esc(p.nombre)}"></td>`
+      + `<td class="t-stock"><input class="stock-inline campo-inline" type="number" min="0" step="1" value="${Number(p.stock) || 0}" data-id="${esc(p.id)}" data-campo="stock" aria-label="Existencias de ${esc(p.nombre)}"></td>`
       + `<td class="t-edit"><span class="editar">Editar →</span></td></tr>`;
   }
 
