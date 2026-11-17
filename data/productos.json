@@ -12515,6 +12515,162 @@
    "codigo": "T0476"
   },
   {
+   "id": "art-el-canon-entre-las-manos",
+   "nombre": "El cañón entre las manos",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 12,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-el-canon-entre-las-manos.jpg",
+   "descripcion": "En esta ilustración de Trama de Aquí, dos manos despliegan el Chicamocha como un tejido de magentas y naranjas. Un homenaje a Jorge Mantilla Caballero, quien encontró inspiración en los colores vivos del cañón. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0523"
+  },
+  {
+   "id": "art-homenaje-a-oscar-rodriguez-naranjo",
+   "nombre": "Homenaje a Óscar Rodríguez Naranjo",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 15,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-oscar-rodriguez-naranjo.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Óscar Rodríguez Naranjo», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0518"
+  },
+  {
+   "id": "art-homenaje-a-antonio-grass",
+   "nombre": "Homenaje a Antonio Grass",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 18,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-antonio-grass.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Antonio Grass», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0519"
+  },
+  {
+   "id": "art-homenaje-a-ramirez-villamizar",
+   "nombre": "Homenaje a Ramírez Villamizar",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 20,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-ramirez-villamizar.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Ramírez Villamizar», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0520"
+  },
+  {
+   "id": "art-homenaje-a-beatriz-daza",
+   "nombre": "Homenaje a Beatriz Daza",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 24,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-beatriz-daza.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Beatriz Daza», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0521"
+  },
+  {
+   "id": "art-homenaje-a-salvador-moreno",
+   "nombre": "Homenaje a Salvador Moreno",
+   "categoria": "homenaje-artistas",
+   "seccion": "homenaje-artistas",
+   "precio": 55000,
+   "stock": 9,
+   "destacado": false,
+   "nuevo": true,
+   "imagen": "assets/img/productos/art-homenaje-a-salvador-moreno.jpg",
+   "descripcion": "Bolso con el diseño «Homenaje a Salvador Moreno», estampado a una cara. Un diseño original inspirado en el estilo de un gran maestro del arte colombiano, en homenaje a su obra. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "atributos": {
+    "Calidad": "Resistente · lavable",
+    "Medidas": "38 × 42 cm",
+    "Asas": "Reforzadas · 65 cm",
+    "Estampado": "A una cara"
+   },
+   "variantes": {
+    "nombre": "Tamaño",
+    "opciones": [
+     "Mediana 35×40",
+     "Grande 40×45"
+    ]
+   },
+   "codigo": "T0522"
+  },
+  {
    "id": "col-maleta-viva",
    "nombre": "Maleta Viva",
    "categoria": "de-aqui-para-el-mundo",
