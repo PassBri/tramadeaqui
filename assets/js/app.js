@@ -89,7 +89,7 @@
       <div class="wrap">
         <div class="foot-brand-col">
           <span class="foot-brand"><img class="brand-icon" src="assets/img/marca/mark-light.png" alt="" width="46" height="24"><span class="brand-name">${esc(MARCA)}</span></span>
-          <p class="foot-desc">${esc(CFG.lema || '')}. Bolsos de algodón con los pueblos, paisajes, raíces y cultura de Colombia. Envíos a todo el país.</p>
+          <p class="foot-desc">${esc(CFG.lema || '')}. Bolsos con los pueblos, paisajes, raíces y cultura de Colombia. Envíos a todo el país.</p>
         </div>
         <nav class="foot-cols" aria-label="Pie de página">
           <div class="foot-col">
@@ -343,7 +343,7 @@
         <div class="miniaturas" id="miniaturas">
           <button type="button" class="mini activa" data-face="frente"><img src="${foto(p)}" ${SIN_FOTO} alt="Frente"><span>Frente</span></button>
           <button type="button" class="mini" data-face="reverso"><img id="mini-rev-img" src="assets/img/reverso/sin-texto.jpg" alt="Reverso"><span>Reverso</span></button>
-          <button type="button" class="mini" data-face="lona"><img src="assets/img/reverso/lona.jpg" alt="Algodón" loading="lazy"><span>Algodón</span></button>
+          <button type="button" class="mini" data-face="lona"><img src="assets/img/reverso/lona.jpg" alt="Detalle de la tela" loading="lazy"><span>Detalle</span></button>
         </div>
       </div>
       <div style="display:flex;flex-direction:column;gap:18px">
@@ -379,7 +379,7 @@
     const backSrc = { 'Sin texto': 'assets/img/reverso/sin-texto.jpg', 'Minimal': 'assets/img/reverso/minimal.jpg', 'Historia completa': 'assets/img/reverso/historia.jpg' };
     function mostrarCara(f) {
       if (vimg) vimg.src = (f === 'reverso') ? backSrc[reverso] : (f === 'lona') ? 'assets/img/reverso/lona.jpg' : frontSrc;
-      if (vcap) { if (f === 'frente') { vcap.hidden = true; } else { vcap.textContent = (f === 'reverso') ? ('Reverso · ' + reverso) : 'El algodón, de cerca'; vcap.hidden = false; } }
+      if (vcap) { if (f === 'frente') { vcap.hidden = true; } else { vcap.textContent = (f === 'reverso') ? ('Reverso · ' + reverso) : 'La textura, de cerca'; vcap.hidden = false; } }
       $$('.mini', root).forEach((m) => m.classList.toggle('activa', m.dataset.face === f));
     }
     function verReverso() { if (miniRevImg) miniRevImg.src = backSrc[reverso]; mostrarCara('reverso'); }
