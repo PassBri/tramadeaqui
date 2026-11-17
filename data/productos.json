@@ -9193,7 +9193,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-morada-de-hojas.jpg",
-   "descripcion": "Bolso con el diseño «Morada de hojas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Morada al sur (poema)» de Aurelio Arturo. Bolso con el diseño «Morada de hojas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9207,7 +9207,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0329"
+   "codigo": "T0329",
+   "libro": "Morada al sur (poema)",
+   "autor": "Aurelio Arturo",
+   "linea": "Aurelio Arturo"
   },
   {
    "id": "linea-la-vida-profunda",
@@ -9248,7 +9251,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-tambor-de-dos-orillas.jpg",
-   "descripcion": "Bolso con el diseño «Tambor de dos orillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Tambores en la noche» de Jorge Artel. Bolso con el diseño «Tambor de dos orillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9262,7 +9265,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0331"
+   "codigo": "T0331",
+   "libro": "Tambores en la noche",
+   "autor": "Jorge Artel",
+   "linea": "Jorge Artel"
   },
   {
    "id": "linea-estrellas-en-el-atrato",
@@ -9274,7 +9280,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-estrellas-en-el-atrato.jpg",
-   "descripcion": "Bolso con el diseño «Estrellas en el Atrato», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Las estrellas son negras» de Arnoldo Palacios. Bolso con el diseño «Estrellas en el Atrato», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9288,7 +9294,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0332"
+   "codigo": "T0332",
+   "libro": "Las estrellas son negras",
+   "autor": "Arnoldo Palacios",
+   "linea": "Arnoldo Palacios"
   },
   {
    "id": "linea-el-jardin-del-recuerdo",
@@ -9352,7 +9361,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-brisa-tras-la-celosia.jpg",
-   "descripcion": "Bolso con el diseño «La brisa tras la celosía», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «María» de Jorge Isaacs. Bolso con el diseño «La brisa tras la celosía», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9366,7 +9375,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0335"
+   "codigo": "T0335",
+   "libro": "María",
+   "autor": "Jorge Isaacs",
+   "linea": "Jorge Isaacs"
   },
   {
    "id": "linea-isla-secreta",
@@ -9456,7 +9468,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-marea-y-la-perra.jpg",
-   "descripcion": "Bolso con el diseño «La marea y la perra», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «La Perra» de Pilar Quintana. Bolso con el diseño «La marea y la perra», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9470,7 +9482,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0339"
+   "codigo": "T0339",
+   "libro": "La Perra",
+   "autor": "Pilar Quintana",
+   "linea": "Pilar Quintana"
   },
   {
    "id": "linea-la-mesa-de-los-espejos",
@@ -9482,7 +9497,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-mesa-de-los-espejos.jpg",
-   "descripcion": "Bolso con el diseño «La mesa de los espejos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Cien años de soledad» de Gabriel García Márquez. Bolso con el diseño «La mesa de los espejos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9496,7 +9511,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0340"
+   "codigo": "T0340",
+   "libro": "Cien años de soledad",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-flores-del-encierro",
@@ -9508,7 +9526,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-flores-del-encierro.jpg",
-   "descripcion": "Bolso con el diseño «Flores del encierro», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Del amor y otros demonios» de Gabriel García Márquez. Bolso con el diseño «Flores del encierro», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9522,7 +9540,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0341"
+   "codigo": "T0341",
+   "libro": "Del amor y otros demonios",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-cien-anos-de-soledad",
