@@ -120,6 +120,13 @@
         <div class="kpi"><b>${dest}</b><span>Destacados</span></div>
         <div class="kpi"><b>${edit}</b><span>Cambios sin exportar</span></div>
       </div>
+      <div class="panel brackets" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin:0 0 20px;padding:18px 20px">
+        <div style="min-width:220px;flex:1">
+          <b style="font-family:var(--font-display);color:var(--night);font-size:18px">Catálogo maestro (PDF)</b>
+          <p class="note" style="margin:4px 0 0">${ps.length} diseños con código, nombre, categoría y precio. Documento interno.</p>
+        </div>
+        <a class="btn btn-primary" href="docs/trama-catalogo-9x4k7m.pdf" download="Catalogo_Trama_de_Aqui.pdf" rel="noopener">⇣ Descargar catálogo</a>
+      </div>
       <h3 style="font-family:var(--font-display);color:var(--night);margin:0 0 12px">Productos por sección</h3>
       <div class="lista-sec">
         ${porSec.map(({ s, n }) => `<div class="row"><div><b>${esc(s.nombre)}</b></div><span class="n">${n}</span></div>`).join('')}
