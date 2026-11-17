@@ -939,3 +939,5 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .mini:hover { border-color: var(--mint); }
 .mini.activa { border-color: var(--mint); box-shadow: 0 0 0 3px var(--mint-soft); }
 .mini.activa span { color: var(--night); }
+.obra-lit { margin: 2px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1.02rem; color: var(--mint-text); }
+.obra-lit em { font-style: normal; font-weight: 500; color: var(--night); }

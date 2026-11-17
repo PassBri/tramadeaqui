@@ -9028,7 +9028,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-mariposas-amarillas.jpg",
-   "descripcion": "Bolso con el diseño «Mariposas amarillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Cien años de soledad» de Gabriel García Márquez. Bolso con el diseño «Mariposas amarillas», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9042,7 +9042,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0323"
+   "codigo": "T0323",
+   "libro": "Cien años de soledad",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-jardin-de-ausencia",
@@ -9080,7 +9083,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-selva-que-devora.jpg",
-   "descripcion": "Bolso con el diseño «Selva que devora», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «La vorágine» de José Eustasio Rivera. Bolso con el diseño «Selva que devora», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9094,7 +9097,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0325"
+   "codigo": "T0325",
+   "libro": "La vorágine",
+   "autor": "José Eustasio Rivera",
+   "linea": "José Eustasio Rivera"
   },
   {
    "id": "linea-sapo-de-paseo",
@@ -9106,7 +9112,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-sapo-de-paseo.jpg",
-   "descripcion": "Bolso con el diseño «Sapo de paseo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «El renacuajo paseador» de Rafael Pombo. Bolso con el diseño «Sapo de paseo», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9120,7 +9126,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0326"
+   "codigo": "T0326",
+   "libro": "El renacuajo paseador",
+   "autor": "Rafael Pombo",
+   "linea": "Rafael Pombo"
   },
   {
    "id": "linea-la-veta-y-la-casa",
@@ -9210,7 +9219,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-la-vida-profunda.jpg",
-   "descripcion": "Bolso con el diseño «La vida profunda», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «La vida profunda (poema)» de Porfirio Barba Jacob. Bolso con el diseño «La vida profunda», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9224,7 +9233,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0330"
+   "codigo": "T0330",
+   "libro": "La vida profunda (poema)",
+   "autor": "Porfirio Barba Jacob",
+   "linea": "Porfirio Barba Jacob"
   },
   {
    "id": "linea-tambor-de-dos-orillas",
@@ -9522,7 +9534,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-cien-anos-de-soledad.jpg",
-   "descripcion": "Bolso con el diseño «Cien Años de Soledad», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Cien años de soledad» de Gabriel García Márquez. Bolso con el diseño «Cien Años de Soledad», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9536,7 +9548,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0457"
+   "codigo": "T0457",
+   "libro": "Cien años de soledad",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-el-amor-en-los-tiempos-del-colera",
@@ -9548,7 +9563,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-amor-en-los-tiempos-del-colera.jpg",
-   "descripcion": "Bolso con el diseño «El Amor en los Tiempos del Cólera», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «El amor en los tiempos del cólera» de Gabriel García Márquez. Bolso con el diseño «El Amor en los Tiempos del Cólera», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9562,7 +9577,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0458"
+   "codigo": "T0458",
+   "libro": "El amor en los tiempos del cólera",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-el-coronel-no-tiene-quien-le-escriba",
@@ -9574,7 +9592,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-coronel-no-tiene-quien-le-escriba.jpg",
-   "descripcion": "Bolso con el diseño «El Coronel no Tiene Quien le Escriba», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «El coronel no tiene quien le escriba» de Gabriel García Márquez. Bolso con el diseño «El Coronel no Tiene Quien le Escriba», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9588,7 +9606,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0459"
+   "codigo": "T0459",
+   "libro": "El coronel no tiene quien le escriba",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-el-otono-del-patriarca",
@@ -9600,7 +9621,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-otono-del-patriarca.jpg",
-   "descripcion": "Bolso con el diseño «El Otoño del Patriarca», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «El otoño del patriarca» de Gabriel García Márquez. Bolso con el diseño «El Otoño del Patriarca», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9614,7 +9635,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0460"
+   "codigo": "T0460",
+   "libro": "El otoño del patriarca",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-un-senor-muy-viejo-con-unas-alas-enormes",
@@ -9626,7 +9650,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-un-senor-muy-viejo-con-unas-alas-enormes.jpg",
-   "descripcion": "Bolso con el diseño «Un Señor Muy Viejo con Unas Alas Enormes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Un señor muy viejo con unas alas enormes» de Gabriel García Márquez. Bolso con el diseño «Un Señor Muy Viejo con Unas Alas Enormes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9640,7 +9664,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0461"
+   "codigo": "T0461",
+   "libro": "Un señor muy viejo con unas alas enormes",
+   "autor": "Gabriel García Márquez",
+   "linea": "Gabriel García Márquez"
   },
   {
    "id": "linea-el-olvido-que-seremos",
@@ -9652,7 +9679,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-el-olvido-que-seremos.jpg",
-   "descripcion": "Bolso con el diseño «El Olvido que Seremos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «El olvido que seremos» de Héctor Abad Faciolince. Bolso con el diseño «El Olvido que Seremos», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9666,7 +9693,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0462"
+   "codigo": "T0462",
+   "libro": "El olvido que seremos",
+   "autor": "Héctor Abad Faciolince",
+   "linea": "Héctor Abad Faciolince"
   },
   {
    "id": "linea-rosario-tijeras",
@@ -9678,7 +9708,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-rosario-tijeras.jpg",
-   "descripcion": "Bolso con el diseño «Rosario Tijeras», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Rosario Tijeras» de Jorge Franco. Bolso con el diseño «Rosario Tijeras», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9692,7 +9722,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0463"
+   "codigo": "T0463",
+   "libro": "Rosario Tijeras",
+   "autor": "Jorge Franco",
+   "linea": "Jorge Franco"
   },
   {
    "id": "linea-perder-es-cuestion-de-metodo",
@@ -9704,7 +9737,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-perder-es-cuestion-de-metodo.jpg",
-   "descripcion": "Bolso con el diseño «Perder es Cuestión de Método», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Perder es cuestión de método» de Santiago Gamboa. Bolso con el diseño «Perder es Cuestión de Método», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9718,7 +9751,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0464"
+   "codigo": "T0464",
+   "libro": "Perder es cuestión de método",
+   "autor": "Santiago Gamboa",
+   "linea": "Santiago Gamboa"
   },
   {
    "id": "linea-delirio",
@@ -9730,7 +9766,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-delirio.jpg",
-   "descripcion": "Bolso con el diseño «Delirio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Delirio» de Laura Restrepo. Bolso con el diseño «Delirio», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9744,7 +9780,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0465"
+   "codigo": "T0465",
+   "libro": "Delirio",
+   "autor": "Laura Restrepo",
+   "linea": "Laura Restrepo"
   },
   {
    "id": "linea-opio-en-las-nubes",
@@ -9756,7 +9795,7 @@
    "destacado": false,
    "nuevo": true,
    "imagen": "assets/img/productos/linea-opio-en-las-nubes.jpg",
-   "descripcion": "Bolso con el diseño «Opio en las Nubes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
+   "descripcion": "Inspirado en «Opio en las nubes» de Rafael Chaparro Madiedo. Bolso con el diseño «Opio en las Nubes», estampado a una cara. Una escena inspirada en la literatura colombiana. Resistente, lavable y con asas reforzadas — ideal para el día a día o para regalar.",
    "atributos": {
     "Calidad": "Resistente · lavable",
     "Medidas": "38 × 42 cm",
@@ -9770,7 +9809,10 @@
      "Grande 40×45"
     ]
    },
-   "codigo": "T0466"
+   "codigo": "T0466",
+   "libro": "Opio en las nubes",
+   "autor": "Rafael Chaparro Madiedo",
+   "linea": "Rafael Chaparro Madiedo"
   },
   {
    "id": "raiz-tejiendo-la-guajira",

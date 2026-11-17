@@ -370,6 +370,7 @@
       <div style="display:flex;flex-direction:column;gap:18px">
         <p class="eyebrow"><a href="tienda.html?cat=${p.categoria}" style="color:inherit">${esc(catName(p.categoria))}</a>${p.linea ? ' · ' + esc(p.linea) : ''}${p.codigo ? ' · <span style="letter-spacing:.08em">Cód. ' + esc(p.codigo) + '</span>' : ''}</p>
         <h1 class="h-display" style="font-size:clamp(32px,5vw,50px)">${esc(p.nombre)}</h1>
+        ${p.libro ? `<p class="obra-lit">Inspirado en <em>«${esc(p.libro)}»</em>${p.autor ? ' · ' + esc(p.autor) : ''}</p>` : ''}
         <div class="price" id="p-precio" style="font-size:26px">${money(precioDe(p, varFull()))}${p.precioAntes ? `<s style="font-size:15px">${money(p.precioAntes)}</s>` : ''}</div>
         ${p.humor ? `<blockquote class="humor"><span>Nota de ${esc(MARCA)}</span>${esc(p.humor)}</blockquote>` : ''}
         <p style="margin:0;color:var(--text-2)">${esc(p.descripcion)}</p>
