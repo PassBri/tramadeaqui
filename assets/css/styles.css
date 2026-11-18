@@ -941,3 +941,10 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .mini.activa span { color: var(--night); }
 .obra-lit { margin: 2px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1.02rem; color: var(--mint-text); }
 .obra-lit em { font-style: normal; font-weight: 500; color: var(--night); }
+
+/* Zoom del bolso al pasar el mouse (solo con cursor; en táctil no aplica) */
+@media (hover: hover) and (pointer: fine) {
+  .card .media img { transition: transform .28s cubic-bezier(.2,.7,.2,1), filter .28s ease; transform-origin: center center; }
+  .card:hover { z-index: 60; }
+  .card:hover .media img { transform: scale(2.1); filter: drop-shadow(0 24px 36px rgba(40,34,26,.4)); }
+}
