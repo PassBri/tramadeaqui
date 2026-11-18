@@ -953,7 +953,13 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .home-hero.portada { padding: 10px 0 4px; }
 .portada-wrap { position: relative; max-width: 1180px; margin: 0 auto; text-align: center; }
 .portada-img { display: block; width: 100%; height: auto; border-radius: 18px; }
-.portada-cta { display: inline-block; margin: 16px auto 0; }
+.portada-duo { margin: 14px auto 0; }
+.portada-duo .bolso { width: min(58vw, 220px); box-shadow: 0 18px 40px rgba(60,40,20,.22); }
+.portada-cta { display: inline-block; margin: 18px auto 0; }
 @media (min-width: 760px) {
-  .portada-cta { position: absolute; left: 70%; top: 52%; transform: translate(-50%, -50%); margin: 0; }
+  /* El bolso que rota se posa sobre el área libre (derecha) de la imagen */
+  .portada-duo { position: absolute; left: 68%; top: 46%; transform: translate(-50%, -50%); width: 22%; max-width: 250px; margin: 0; }
+  .portada-duo .bolso { width: 100%; }
+  /* Botón reubicado: centrado debajo de la imagen, sin chocar con el bolso */
+  .portada-cta { margin: 20px auto 0; }
 }
