@@ -179,6 +179,12 @@
    "imagen": "latido-santandereano"
   },
   {
+   "id": "paramo-santurban",
+   "nombre": "Páramo de Santurbán",
+   "detalle": "El páramo de Santurbán: lagunas, frailejones y niebla",
+   "imagen": "laguna-azul-de-santurban"
+  },
+  {
    "id": "municipios",
    "nombre": "Municipios",
    "detalle": "Los pueblos de Santander",
@@ -3341,7 +3347,7 @@
   {
    "id": "amanecer-en-santurban",
    "nombre": "Amanecer en Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 15,
@@ -3367,7 +3373,7 @@
   {
    "id": "bosque-sumergido-de-frailejones",
    "nombre": "Bosque Sumergido de Frailejones",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 18,
@@ -3393,7 +3399,7 @@
   {
    "id": "colibri-en-santurban",
    "nombre": "Colibrí en Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 20,
@@ -3419,7 +3425,7 @@
   {
    "id": "espejo-de-amanecer",
    "nombre": "Espejo de Amanecer",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 24,
@@ -3445,7 +3451,7 @@
   {
    "id": "laguna-azul-de-santurban",
    "nombre": "Laguna Azul de Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 9,
@@ -3471,7 +3477,7 @@
   {
    "id": "lagunas-gemelas-de-santurban",
    "nombre": "Lagunas Gemelas de Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 12,
@@ -3497,7 +3503,7 @@
   {
    "id": "lluvia-en-el-paramo",
    "nombre": "Lluvia en el Páramo",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 15,
@@ -3523,7 +3529,7 @@
   {
    "id": "luna-sobre-santurban",
    "nombre": "Luna sobre Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 18,
@@ -3549,7 +3555,7 @@
   {
    "id": "luz-dorada-sobre-santurban",
    "nombre": "Luz Dorada sobre Santurbán",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 20,
@@ -3575,7 +3581,7 @@
   {
    "id": "niebla-sobre-la-laguna",
    "nombre": "Niebla sobre la Laguna",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 24,
@@ -3679,7 +3685,7 @@
   {
    "id": "santurban-en-una-gota",
    "nombre": "Santurbán en una Gota",
-   "categoria": "naturaleza",
+   "categoria": "paramo-santurban",
    "seccion": "santander",
    "precio": 45000,
    "stock": 18,
