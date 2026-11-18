@@ -958,7 +958,7 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
 .portada-cta { display: inline-block; margin: 18px auto 0; }
 @media (min-width: 760px) {
   /* El bolso que rota se posa sobre el área libre (derecha), apoyado en la repisa */
-  .portada-duo { position: absolute; left: 69%; top: auto; bottom: 16%; transform: translateX(-50%); width: 27%; max-width: 310px; margin: 0; }
+  .portada-duo { position: absolute; left: 69%; top: auto; bottom: 25%; transform: translateX(-50%); width: 27%; max-width: 310px; margin: 0; }
   .portada-duo .bolso { width: 100%; }
   /* Botón reubicado: centrado debajo de la imagen, sin chocar con el bolso */
   .portada-cta { margin: 20px auto 0; }
