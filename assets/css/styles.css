@@ -947,8 +947,9 @@ body::before, body::after { display: none !important; } /* fuera aurora e ícono
   .card .media img { transition: transform .28s cubic-bezier(.2,.7,.2,1), filter .28s ease; transform-origin: center center; }
   .card:hover { z-index: 60; }
   .card:hover .media img { transform: scale(1.5); filter: drop-shadow(0 20px 30px rgba(40,34,26,.34)); }
-  /* Al ampliar, el bolso se sale del recuadro (no se recorta dentro de la tarjeta) */
-  .card:hover .media, .grid .card:hover .media { overflow: visible; }
+  /* Al ampliar, el bolso se sale del recuadro (no se recorta dentro de la tarjeta)
+     y queda por encima del título/precio, no debajo */
+  .card:hover .media, .grid .card:hover .media { overflow: visible; position: relative; z-index: 3; }
 }
 
 /* ---- Portada con imagen (home hero banner) ---- */
