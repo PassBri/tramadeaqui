@@ -1,0 +1,53 @@
+name: Regenerar catálogo PDF
+
+# Cada vez que cambian los productos (aunque sea uno), GitHub regenera el
+# catálogo maestro (PC + celular) y vuelve a subir los PDF a docs/.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/productos.json'
+      - 'data/codigos.json'
+      - 'assets/img/productos/**'
+  workflow_dispatch:
+
+concurrency:
+  group: catalogo-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar fuentes y dependencias
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core fonts-dejavu-extra
+          python -m pip install --upgrade pip
+          pip install reportlab pillow
+
+      - name: Generar PDFs (PC + celular)
+        run: |
+          python tools/gen_catalogo.py
+          python tools/gen_catalogo.py movil
+
+      - name: Subir PDFs si cambiaron
+        run: |
+          git config user.name "trama-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/trama-catalogo-9x4k7m.pdf docs/trama-catalogo-movil-9x4k7m.pdf
+          if git diff --cached --quiet; then
+            echo "El PDF no cambió; nada que subir."
+          else
+            git commit -m "Catálogo: regenera PDF automáticamente [skip ci]"
+            git push origin HEAD:main
+          fi
